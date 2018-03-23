@@ -26,24 +26,45 @@ public class Sim {
         KillerWhalesThread kwthr = new KillerWhalesThread("Killer Whales Thread") {
             @Override public void run() {
                 System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
+                Engine kwengine = new Engine();
+                Event e = new KillerWhalesHunt();
+
+                kwengine.eventList.add(e);
+                while (!kwengine.eventList.isEmpty()) {
+                    kwengine.eventHandler(mp, kw, sw, mm);
+                    //kwengine.schedule(e);
+                }
             }
         };
         // EXAMPLE HERE
-        MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
+        SpermWhalesThread swthr = new SpermWhalesThread("Sperm Whales Thread") {
             @Override public void run() {
                 System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
+                Engine swengine = new Engine();
 
-                // Food resource consume
-                mp.consumeFood(mm);
+                Event e = new SpermWhalesEat();
+
+                swengine.eventList.add(e);
+                while (!swengine.eventList.isEmpty()) {
+                    swengine.eventHandler(mp, kw, sw, mm);
+                    //kwengine.schedule(e);
+                }
 
             }
         };
 
-        SpermWhalesThread swthr = new SpermWhalesThread("Sperm Whales Thread") {
+        MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
             @Override public void run() {
                 System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
-                mp.consumeFood(sw);
+                Engine mmengine = new Engine();
+                // Food resource consume
 
+                Event e = new MarineMammalsEat();
+                mmengine.eventList.add(e);
+                while (!mmengine.eventList.isEmpty()) {
+                    mmengine.eventHandler(mp, kw, sw, mm);
+                    //kwengine.schedule(e);
+                }
             }
         };
 

@@ -14,4 +14,14 @@ public class SpermWhales extends Mammals {
         reprorate = r;
         deathrate = d;
     }
+
+    public void eat(MainProc mp) {
+        mp.foodResl.lock();
+        try {
+            mp.foodRes = mp.foodRes - number*0.03;
+            System.out.println(name + ": Consumes food: " + number*0.03 + ". Remain:" + mp.foodRes);
+        } finally {
+            mp.foodResl.unlock();
+        }
+    }
 }
