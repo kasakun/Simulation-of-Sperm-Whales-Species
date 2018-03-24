@@ -17,7 +17,7 @@ public class Event {
 
 
 // Killer Whales
-class KillerWhalesHunt extends Event{
+class KillerWhalesHunt extends Event {
     KillerWhalesHunt(double time) {
         name = "Killer Whales Hunt";
         timestamp = time;
@@ -29,9 +29,20 @@ class KillerWhalesHunt extends Event{
     }
 }
 
+class KillerWhalesDeath extends Event {
+    KillerWhalesDeath(double time) {
+        name = "Killer Whales Accidental Death";
+        timestamp = time;
+    }
+
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        kw.accDeath();
+    }
+}
 
 // Sperm Whales
-class SpermWhalesEat extends Event{
+class SpermWhalesEat extends Event {
     SpermWhalesEat(double time) {
         name = "Sperm Whales Eat";
         timestamp = time;
@@ -44,7 +55,7 @@ class SpermWhalesEat extends Event{
 
 
 // Marine Mammals
-class MarineMammalsEat extends Event{
+class MarineMammalsEat extends Event {
     MarineMammalsEat(double time) {
         name = "Marine Mammals Eat";
         timestamp = time;
