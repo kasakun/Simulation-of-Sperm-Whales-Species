@@ -42,4 +42,14 @@ public class KillerWhales extends Mammals {
 
     }
 
+    public void accDeath() {
+        numberl.lock();
+        try {
+            --number;
+            System.out.println("Killer Whales: Accidental death. Remain killer whales:" + number);
+        } finally {
+            numberl.unlock();
+        }
+    }
+
 }

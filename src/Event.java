@@ -18,8 +18,9 @@ public class Event {
 
 // Killer Whales
 class KillerWhalesHunt extends Event{
-    KillerWhalesHunt() {
+    KillerWhalesHunt(double time) {
         name = "Killer Whales Hunt";
+        timestamp = time;
     }
     @Override
     public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
@@ -31,8 +32,9 @@ class KillerWhalesHunt extends Event{
 
 // Sperm Whales
 class SpermWhalesEat extends Event{
-    SpermWhalesEat() {
+    SpermWhalesEat(double time) {
         name = "Sperm Whales Eat";
+        timestamp = time;
     }
     @Override
     public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
@@ -43,8 +45,9 @@ class SpermWhalesEat extends Event{
 
 // Marine Mammals
 class MarineMammalsEat extends Event{
-    MarineMammalsEat() {
+    MarineMammalsEat(double time) {
         name = "Marine Mammals Eat";
+        timestamp = time;
     }
     @Override
     public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {

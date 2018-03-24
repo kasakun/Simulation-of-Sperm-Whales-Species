@@ -27,9 +27,10 @@ public class Sim {
             @Override public void run() {
                 System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
                 Engine kwengine = new Engine();
-                Event e = new KillerWhalesHunt();
+                Event hunt = new KillerWhalesHunt(0.0);
 
-                kwengine.eventList.add(e);
+                // Season begin
+                kwengine.eventList.add(hunt);
                 while (!kwengine.eventList.isEmpty()) {
                     kwengine.eventHandler(mp, kw, sw, mm);
                     //kwengine.schedule(e);
@@ -42,7 +43,7 @@ public class Sim {
                 System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
                 Engine swengine = new Engine();
 
-                Event e = new SpermWhalesEat();
+                Event e = new SpermWhalesEat(0.0);
 
                 swengine.eventList.add(e);
                 while (!swengine.eventList.isEmpty()) {
@@ -59,7 +60,7 @@ public class Sim {
                 Engine mmengine = new Engine();
                 // Food resource consume
 
-                Event e = new MarineMammalsEat();
+                Event e = new MarineMammalsEat(0.0);
                 mmengine.eventList.add(e);
                 while (!mmengine.eventList.isEmpty()) {
                     mmengine.eventHandler(mp, kw, sw, mm);
