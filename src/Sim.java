@@ -55,7 +55,7 @@ public class Sim {
 
         MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
             @Override public void run() {
-                System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
+                System.out.println("Thread" + threadName + ", ID: " + Thread.currentThread().getId() + " starts.");
                 Engine mmengine = new Engine();
                 // Food resource consume
 
