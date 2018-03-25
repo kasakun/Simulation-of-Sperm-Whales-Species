@@ -22,6 +22,7 @@ public class KillerWhales extends Mammals {
             sw.numberl.lock();
             try {
                 --sw.number;
+                ++food;
                 System.out.println("Killer Whales: Kills sperm whales. Remain sperm whales: " + sw.number);
             } finally {
                 sw.numberl.unlock();
@@ -34,6 +35,7 @@ public class KillerWhales extends Mammals {
             mm.numberl.lock();
             try {
                 --mm.number;
+                ++food;
                 System.out.println("Killer Whales: Kills  marine mammals. Remain marine mammals:" + mm.number);
             } finally {
                 mm.numberl.unlock();

@@ -9,6 +9,7 @@ public class Mammals {
     String name;      // type of the animal
     int number;       // number of the species
     int demand;       // demand of the food
+    int food;         // actually food
     double reprorate; // reproduce rate
     double deathrate; // death rate
 

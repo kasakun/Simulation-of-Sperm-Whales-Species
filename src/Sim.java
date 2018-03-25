@@ -11,7 +11,7 @@ public class Sim {
 
         // Initialize
         MainProc mp = new MainProc(0, 85, 100, 1000);
-        KillerWhales kw = new KillerWhales(5000, 200, 0.3, 0.2);
+        KillerWhales kw = new KillerWhales(5000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.1);
 
@@ -41,7 +41,8 @@ public class Sim {
         KillerWhalesThread kwthr = new KillerWhalesThread("Killer Whales Thread") {
             @Override public void run() {
                 //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
-                int count = 0;
+                int count = 0;  // evemt up limit
+                int huntcount =0;
                 double now = 0.0;
 
                 Engine kwengine = new Engine();
@@ -70,6 +71,33 @@ public class Sim {
                     }
 
                 }
+                /* Season calculate */
+                kw.numberl.lock();
+
+                try {
+                    int temp = kw.number;
+                    kw.number = kw.number  +  (int) (temp*kw.reprorate);
+                    kw.number = kw.number - (int) (temp*kw.deathrate);
+                    System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.deathrate) +
+                            " reproduces. " + "Remain killer whales:" + kw.number);
+
+                } finally {
+                    kw.numberl.unlock();
+                }
+
+                // Calculate death for hunger
+                kw.numberl.lock();
+
+                try {
+                    if (kw.food < kw.demand) {
+                        kw.number -= (int)((kw.demand - kw.food)*2.5);
+                        System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
+                    }
+                } finally {
+                    kw.numberl.unlock();
+                }
+
+                /* Season calculate */
 
                 // Season ends
             }
