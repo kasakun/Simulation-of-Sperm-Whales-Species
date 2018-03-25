@@ -5,11 +5,17 @@
  */
 
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Sim {
+    public static int barrier;
     public static void main(String[] args) {
 
         // Initialize
+        barrier = 0;
+        Lock barrierl = new ReentrantLock();
+
         MainProc mp = new MainProc(0, 85, 100, 1000);
         KillerWhales kw = new KillerWhales(5000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
@@ -35,6 +41,15 @@ public class Sim {
         MainProcThread mpthr = new MainProcThread("Main Process Thread") {
             @Override public void run() {
                 //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
+                // Barrier
+                barrierl.lock();
+                try {
+                    ++barrier;
+                } finally {
+                    barrierl.unlock();
+                }
+                while (barrier != 4)
+                    System.out.println("Main Process: is waiting.");
             }
         };
 
@@ -71,6 +86,16 @@ public class Sim {
                     }
 
                 }
+                // Barrier
+                barrierl.lock();
+                try {
+                    ++barrier;
+                } finally {
+                    barrierl.unlock();
+                }
+                while (barrier != 4)
+                    System.out.println("Killer Whales is waiting.");
+
                 /* Season calculate */
                 kw.numberl.lock();
 
@@ -116,6 +141,16 @@ public class Sim {
                     //kwengine.schedule(e);
                 }
 
+                // Barrier
+                barrierl.lock();
+                try {
+                    ++barrier;
+                } finally {
+                    barrierl.unlock();
+                }
+                while (barrier != 4)
+                   System.out.println("Sperm Whales: is waiting.");
+
             }
         };
 
@@ -131,13 +166,24 @@ public class Sim {
                     mmengine.eventHandler(mp, kw, sw, mm);
                     //kwengine.schedule(e);
                 }
+
+                // Barrier
+                barrierl.lock();
+                try {
+                    ++barrier;
+                } finally {
+                    barrierl.unlock();
+                }
+                while (barrier != 4)
+                    System.out.println("Marine Mammals: is waiting.");
             }
         };
 
         mpthr.start();
         kwthr.start();
-        mmthr.start();
         swthr.start();
+        mmthr.start();
+
 
 
     }
