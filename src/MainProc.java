@@ -1,5 +1,6 @@
 /*
  * Created by Zeyu Chen 03/10/2018
+ * Main process for simulation
  *
  * Chengxi Yao
  */
