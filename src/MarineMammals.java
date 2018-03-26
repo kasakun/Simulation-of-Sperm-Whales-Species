@@ -6,11 +6,6 @@
  */
 
 public class MarineMammals extends Mammals {
-    private String name;
-    private int number;
-    private int demand;
-    private double reprorate;
-    private double deathrate;
 
     MarineMammals(int num, int dem, double r, double d) {
         name = "Marine Mammals";
@@ -30,4 +25,3 @@ public class MarineMammals extends Mammals {
         }
     }
 }
-
