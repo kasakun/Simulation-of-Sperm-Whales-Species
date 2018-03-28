@@ -70,17 +70,19 @@ public class Sim {
                     double temp = now;
 
                     kwengine.eventHandler(mp, kw, sw, mm);
-
+                    // Use prob to determine whether to schedule
                     if (Math.random() > 0.1 && count < 500) {
                         now = Math.random()*1 +  temp;
                         Event huntTemp = new KillerWhalesHunt(now);
+                        // schedule next event
                         kwengine.eventList.add(huntTemp);
                         ++count;
                     }
-
+                    // Use prob to determine whether to schedule
                     if (Math.random() > 0.5 && count < 500) {
                         now = Math.random()*10 +  temp;
                         Event deathTemp = new KillerWhalesDeath(now);
+                        // schedule next event
                         kwengine.eventList.add(deathTemp);
                         ++count;
                     }
