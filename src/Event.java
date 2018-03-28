@@ -76,3 +76,15 @@ class MarineMammalsEat extends Event {
         mm.eat(mp);
     }
 }
+
+class MarineMammalsDeath extends Event {
+    MarineMammalsDeath(double time) {
+        name = "Marine Mammals Accidental Death";
+        timestamp = time;
+    }
+
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        mm.accDeath();
+    }
+}

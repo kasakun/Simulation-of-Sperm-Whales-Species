@@ -24,4 +24,14 @@ public class MarineMammals extends Mammals {
             mp.foodResl.unlock();
         }
     }
+
+    public void accDeath() {
+        numberl.lock();
+        try {
+            --number;
+            System.out.println("Marine Mammals: Accidental death. Remain Marine Mammals:" + number);
+        } finally {
+            numberl.unlock();
+        }
+    }
 }

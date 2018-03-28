@@ -10,13 +10,15 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Sim {
     public static int barrier;
+    public static int barrier_counter;
     public static void main(String[] args) {
 
         // Initialize
         barrier = 0;
+        barrier_counter = 0;
         Lock barrierl = new ReentrantLock();
 
-        MainProc mp = new MainProc(0, 85, 100, 1000);
+        MainProc mp = new MainProc(0, 85, 100, 100000000);
         KillerWhales kw = new KillerWhales(5000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.1);
@@ -49,7 +51,8 @@ public class Sim {
                     barrierl.unlock();
                 }
                 while (barrier != 4)
-                    System.out.println("Main Process: is waiting.");
+                    //System.out.println("Main Process: is waiting.");
+                    ++barrier_counter;
             }
         };
 
@@ -71,7 +74,7 @@ public class Sim {
 
                     kwengine.eventHandler(mp, kw, sw, mm);
                     // Use prob to determine whether to schedule
-                    if (Math.random() > 0.1 && count < 500) {
+                    if (Math.random() > 0.1 && count < 50) {
                         now = Math.random()*1 +  temp;
                         Event huntTemp = new KillerWhalesHunt(now);
                         // schedule next event
@@ -79,7 +82,7 @@ public class Sim {
                         ++count;
                     }
                     // Use prob to determine whether to schedule
-                    if (Math.random() > 0.5 && count < 500) {
+                    if (Math.random() > 0.5 && count < 50) {
                         now = Math.random()*10 +  temp;
                         Event deathTemp = new KillerWhalesDeath(now);
                         // schedule next event
@@ -96,8 +99,8 @@ public class Sim {
                     barrierl.unlock();
                 }
                 while (barrier != 4)
-                    System.out.println("Killer Whales is waiting.");
-
+                   // System.out.println("Killer Whales is waiting.");
+                    ++barrier_counter;
                 /* Season calculate */
                 kw.numberl.lock();
 
@@ -145,14 +148,14 @@ public class Sim {
                     double temp =now;
                     swengine.eventHandler(mp, kw, sw, mm);
 
-                    if (Math.random() > 0.8 && count < 500) {
+                    if (Math.random() > 0.8 && count < 50) {
                         now = Math.random()*40 + temp;
                         Event deathTemp = new SpermWhalesDeath(now);
                         swengine.eventList.add(deathTemp);
                         ++count;
                     }
 
-                    if (Math.random() > 0.5 && count <500) {
+                    if (Math.random() > 0.5 && count <50) {
                         now = Math.random()*0.5 + temp;
                         Event eat = new SpermWhalesEat(now);
                         swengine.eventList.add(eat);
@@ -170,7 +173,8 @@ public class Sim {
                     barrierl.unlock();
                 }
                 while (barrier != 4)
-                    System.out.println("Sperm Whales: is waiting.");
+                    //System.out.println("Sperm Whales: is waiting.");
+                    ++barrier_counter;
 
                 sw.numberl.lock();
 
@@ -203,6 +207,8 @@ public class Sim {
         MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
             @Override public void run() {
                 //System.out.println("Thread" + threadName + ", ID: " + Thread.currentThread().getId() + " starts.");
+                int count = 0;
+                double now = 0.0;
                 Engine mmengine = new Engine();
                 // Food resource consume
 
@@ -210,8 +216,34 @@ public class Sim {
                 mmengine.eventList.add(e);
                 while (!mmengine.eventList.isEmpty()) {
                     mmengine.eventHandler(mp, kw, sw, mm);
-                    //kwengine.schedule(e);
+                    //mmengine.schedule(e);
                 }
+
+                // Season begin
+                mmengine.eventList.add(e);
+                ++count;
+                while (!mmengine.eventList.isEmpty()) {
+                    double temp = now;
+
+                    mmengine.eventHandler(mp, kw, sw, mm);
+
+                    if (Math.random() > 0.1 && count < 50) {
+                        now = Math.random()*1 + temp;
+                        Event eatTemp = new MarineMammalsEat(now);
+                        mmengine.eventList.add(eatTemp);
+                        ++count;
+                    }
+
+                    if (Math.random() > 0.5 && count < 50) {
+                        now = Math.random()*10 +  temp;
+                        Event deathTemp = new MarineMammalsDeath(now);
+                        mmengine.eventList.add(deathTemp);
+                        ++count;
+                    }
+
+                }
+
+
 
                 // Barrier
                 barrierl.lock();
@@ -221,7 +253,38 @@ public class Sim {
                     barrierl.unlock();
                 }
                 while (barrier != 4)
-                    System.out.println("Marine Mammals: is waiting.");
+                    //System.out.println("Marine Mammals: is waiting.");
+                    ++barrier_counter;
+
+                /* Season calculate */
+                mm.numberl.lock();
+
+                try {
+                    int temp = mm.number;
+                    mm.number = mm.number  +  (int) (temp*mm.reprorate);
+                    mm.number = mm.number - (int) (temp*mm.deathrate);
+                    System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.deathrate) +
+                            " reproduces. " + "Remain Marine Mammals:" + mm.number);
+
+                } finally {
+                    mm.numberl.unlock();
+                }
+
+                // Calculate death for hunger
+                mm.numberl.lock();
+
+                try {
+                    if (mm.food < mm.demand) {
+                        mm.number -= (int)((mm.demand - mm.food)*5.0);
+                        System.out.println(mm.name + ": " + (int)((mm.demand - mm.food)*5.0) + " dies for hunger.");
+                    }
+                } finally {
+                    mm.numberl.unlock();
+                }
+
+                /* Season calculate */
+
+                // Season ends
             }
         };
 
