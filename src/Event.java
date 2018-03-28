@@ -42,6 +42,17 @@ class KillerWhalesDeath extends Event {
 }
 
 // Sperm Whales
+class SpermWhalesDeath extends Event {
+    SpermWhalesDeath(double time){
+        name = "Sperm Whales Accidental Death";
+        timestamp = time;
+    }
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        sw.accDeath();
+    }
+}
+
 class SpermWhalesEat extends Event {
     SpermWhalesEat(double time) {
         name = "Sperm Whales Eat";

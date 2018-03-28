@@ -15,6 +15,17 @@ public class SpermWhales extends Mammals {
         deathrate = d;
     }
 
+    public void accDeath(){
+        numberl.lock();
+        try{
+            --number;
+            System.out.println("Sperm whales: Accidental death. Remain sperm whales:" + number);
+        }
+        finally{
+            numberl.unlock();
+        }
+    }
+
     public void eat(MainProc mp) {
         mp.foodResl.lock();
         try {

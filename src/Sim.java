@@ -132,14 +132,33 @@ public class Sim {
         // EXAMPLE HERE
         SpermWhalesThread swthr = new SpermWhalesThread("Sperm Whales Thread") {
             @Override public void run() {
+                int count =0;//the number of event
+                double now = 0.0;
+
                 //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
                 Engine swengine = new Engine();
-
                 Event e = new SpermWhalesEat(0.0);
 
                 swengine.eventList.add(e);
+                ++count;
                 while (!swengine.eventList.isEmpty()) {
+                    double temp =now;
                     swengine.eventHandler(mp, kw, sw, mm);
+
+                    if (Math.random() > 0.8 && count < 500) {
+                        now = Math.random()*40 + temp;
+                        Event deathTemp = new SpermWhalesDeath(now);
+                        swengine.eventList.add(deathTemp);
+                        ++count;
+                    }
+
+                    if (Math.random() > 0.5 && count <500) {
+                        now = Math.random()*0.5 + temp;
+                        Event eat = new SpermWhalesEat(now);
+                        swengine.eventList.add(eat);
+                        ++count;
+                    }
+
                     //kwengine.schedule(e);
                 }
 
@@ -151,7 +170,32 @@ public class Sim {
                     barrierl.unlock();
                 }
                 while (barrier != 4)
-                   System.out.println("Sperm Whales: is waiting.");
+                    System.out.println("Sperm Whales: is waiting.");
+
+                sw.numberl.lock();
+
+                try {
+                    int temp = sw.number;
+                    sw.number = sw.number  +  (int) (temp*sw.reprorate);
+                    sw.number = sw.number - (int) (temp*sw.deathrate);
+                    System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.deathrate) +
+                            " reproduces. " + "Remain killer whales:" + sw.number);
+
+                } finally {
+                    sw.numberl.unlock();
+                }
+
+                // Calculate death for hunger
+                sw.numberl.lock();
+
+                try {
+                    if (sw.food < sw.demand) {
+                        sw.number -= (int)((sw.demand - sw.food)*2.5);
+                        System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5) + " dies for hunger.");
+                    }
+                } finally {
+                    sw.numberl.unlock();
+                }
 
             }
         };
