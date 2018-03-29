@@ -44,6 +44,48 @@ public class Sim {
         MainProcThread mpthr = new MainProcThread("Main Process Thread") {
             @Override public void run() {
                 //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
+                double now = 0.0;
+                int eventcount = 0;
+
+                Engine mpengine = new Engine();
+                Event season = new seasonChange(now);
+                mpengine.eventList.add(season);
+
+                while (!mpengine.eventList.isEmpty()) {
+                    double temp = now;
+                    for (int i = 0; i < eventcount; i++) {
+                        mpengine.eventHandler(mp, kw, sw, mm);
+                    }
+
+                    eventcount = 0;
+                    now = temp + 90;
+                    Event season1 = new seasonChange(temp + 90);
+                    Event food = new foodGrow(temp + 90);
+                    mpengine.eventList.add(season1);
+                    eventcount++;
+                    mpengine.eventList.add(food);
+                    eventcount++;
+
+                    if (Math.random() > 0.01) {
+                        Event disaster = new naturalDisaster(temp + 90);
+                        mpengine.eventList.add(disaster);
+                        eventcount++;
+                    }
+
+                    if (temp % 360 == 0) {
+                        Event humanHunt = new humanHunt(temp + 90);
+                        mpengine.eventList.add(humanHunt);
+                        eventcount++;
+                    }
+
+                    if (Math.random() > 0.5) {
+                        Event humanFish = new humanFish(temp + 90);
+                        mpengine.eventList.add(humanFish);
+                        eventcount++;
+                    }
+
+                }
+
                 // Barrier
                 barrierl.lock();
                 try {
@@ -51,9 +93,6 @@ public class Sim {
                 } finally {
                     barrierl.unlock();
                 }
-//                while (barrier != 4)
-//                    //System.out.println("Main Process: is waiting.");
-//                    ++barrier_counter;
                 while(true) {
                     if (barrier == 4)
                         break;
@@ -62,7 +101,8 @@ public class Sim {
                     } catch (InterruptedException ex) {
                         Thread.currentThread().interrupt();
                     }
-                }
+                };
+
             }
         };
 

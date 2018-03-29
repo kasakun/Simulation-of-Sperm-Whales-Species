@@ -14,7 +14,72 @@ public class Event {
 
 
 // Main Process
+class humanHunt extends Event {
+    humanHunt(double time) {
+        name = "Human Hunt";
+        timestamp = time;
+    }
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        mp.huntWhale(sw);
+    }
+}
 
+
+class humanFish extends Event {
+    humanFish(double time) {
+        name = "Human Fish";
+        timestamp = time;
+    }
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        mp.fish();
+    }
+}
+
+
+class naturalDisaster extends Event {
+    naturalDisaster(double time) {
+        name = "Natural Disaster";
+        timestamp = time;
+    }
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        mp.naturalDisaster();
+    }
+}
+
+
+class foodGrow extends Event {
+    foodGrow(double time) {
+        name = "Food Grow";
+        timestamp = time;
+    }
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        mp.foodGrow();
+    }
+}
+
+
+class seasonChange extends Event {
+    seasonChange(double time) {
+        name = "season Change";
+        timestamp = time;
+    }
+    @Override
+    public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
+        if (timestamp % 360 < 90) {
+            mp.winterToSpring();
+        } else if (timestamp % 360 < 180) {
+            mp.springToSummer();
+        } else if (timestamp % 360 < 270) {
+            mp.summerToFall();
+        } else {
+            mp.fallToWinter();
+        }
+    }
+}
 
 // Killer Whales
 class KillerWhalesHunt extends Event {
