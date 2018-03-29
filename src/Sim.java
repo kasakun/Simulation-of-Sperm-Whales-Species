@@ -66,39 +66,40 @@ public class Sim {
 
                     // Season begins
                     /**************************************** Season Begins *******************************************/
-//                  while (!mpengine.eventList.isEmpty()) {
-//                    double temp = seasonStart;
-//                    for (int i = 0; i < eventcount; i++) {   // Why run all event in the list?
-//                        mpengine.eventHandler(mp, kw, sw, mm);
-//                    }
-//
-//                    eventcount = 0;
-//                    Event season1 = new seasonChange(temp + 90);
-//                    Event food = new foodGrow(temp + 90);
-//                    mpengine.eventList.add(season1);
-//                    ++eventcount;
-//                    mpengine.eventList.add(food);
-//                    ++eventcount;
-//
-//                    if (Math.random() > 0.01) {
-//                        Event disaster = new naturalDisaster(temp + 90);
-//                        mpengine.eventList.add(disaster);
-//                        eventcount++;
-//                    }
-//
-//                    if (temp % 360 == 0) {
-//                        Event humanHunt = new humanHunt(temp + 90);
-//                        mpengine.eventList.add(humanHunt);
-//                        ++eventcount;
-//                    }
-//
-//                    if (Math.random() > 0.5) {
-//                        Event humanFish = new humanFish(temp + 90);
-//                        mpengine.eventList.add(humanFish);
-//                        ++eventcount;
-//                    }
-//
-//                }
+                 while (!mpengine.eventList.isEmpty()) {
+                   double temp = seasonStart;
+                   for (int i = 0; i < eventcount; i++) {   // Why run all event in the list?
+                       mpengine.eventHandler(mp, kw, sw, mm);
+                   }
+
+                   eventcount = 0;
+                   Event season1 = new seasonChange(temp + 90);
+                   Event food = new foodGrow(temp + 90);
+                   mpengine.eventList.add(season1);
+                   ++eventcount;
+                   mpengine.eventList.add(food);
+                   ++eventcount;
+
+                   if (Math.random() > 0.01) {
+                       Event disaster = new naturalDisaster(temp + 90);
+                       mpengine.eventList.add(disaster);
+                       eventcount++;
+                   }
+
+                   if (temp % 360 == 0) {
+                       Event humanHunt = new humanHunt(temp + 90);
+                       mpengine.eventList.add(humanHunt);
+                       ++eventcount;
+                   }
+
+                   if (Math.random() > 0.5) {
+                       Event humanFish = new humanFish(temp + 90);
+                       mpengine.eventList.add(humanFish);
+                       ++eventcount;
+                   }
+                   now = temp + 90;
+
+               }
 
                     /**************************************** Season Ends *********************************************/
                     try{
