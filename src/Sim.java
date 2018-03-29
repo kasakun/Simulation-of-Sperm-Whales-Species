@@ -5,6 +5,7 @@
  */
 
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -50,9 +51,18 @@ public class Sim {
                 } finally {
                     barrierl.unlock();
                 }
-                while (barrier != 4)
-                    //System.out.println("Main Process: is waiting.");
-                    ++barrier_counter;
+//                while (barrier != 4)
+//                    //System.out.println("Main Process: is waiting.");
+//                    ++barrier_counter;
+                while(true) {
+                    if (barrier == 4)
+                        break;
+                    try {
+                        TimeUnit.SECONDS.sleep(1);
+                    } catch (InterruptedException ex) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
             }
         };
 
@@ -98,9 +108,16 @@ public class Sim {
                 } finally {
                     barrierl.unlock();
                 }
-                while (barrier != 4)
-                   // System.out.println("Killer Whales is waiting.");
-                    ++barrier_counter;
+
+                while(true) {
+                    if (barrier == 4)
+                        break;
+                    try {
+                        TimeUnit.SECONDS.sleep(1);
+                    } catch (InterruptedException ex) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
                 /* Season calculate */
                 kw.numberl.lock();
 
@@ -172,9 +189,16 @@ public class Sim {
                 } finally {
                     barrierl.unlock();
                 }
-                while (barrier != 4)
-                    //System.out.println("Sperm Whales: is waiting.");
-                    ++barrier_counter;
+
+                while(true) {
+                    if (barrier == 4)
+                        break;
+                    try {
+                        TimeUnit.SECONDS.sleep(1);
+                    } catch (InterruptedException ex) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
 
                 sw.numberl.lock();
 
@@ -252,9 +276,17 @@ public class Sim {
                 } finally {
                     barrierl.unlock();
                 }
-                while (barrier != 4)
-                    //System.out.println("Marine Mammals: is waiting.");
-                    ++barrier_counter;
+
+
+                while(true) {
+                    if (barrier == 4)
+                        break;
+                    try {
+                        TimeUnit.SECONDS.sleep(1);
+                    } catch (InterruptedException ex) {
+                        Thread.currentThread().interrupt();
+                    }
+                }
 
                 /* Season calculate */
                 mm.numberl.lock();
