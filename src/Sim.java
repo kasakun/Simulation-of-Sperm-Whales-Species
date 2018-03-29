@@ -5,23 +5,28 @@
  */
 
 
+import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 @SuppressWarnings("Duplicates") // No more duplicated warning OK?
 public class Sim {
-    public static int barrier;
+    static CyclicBarrier startBarrier = new CyclicBarrier(4);
+    static CyclicBarrier endBarrier = new CyclicBarrier(4);
+
+
     public static double timeLimit = 3600;
 
     public static void main(String[] args) {
 
         // Initialize
-        barrier = 0;
-        Lock barrierl = new ReentrantLock();
+        Lock startBarrierl = new ReentrantLock();
+        Lock endBarrierl = new ReentrantLock();
 
         MainProc mp = new MainProc(0, 85, 100, 100000000);
-        KillerWhales kw = new KillerWhales(5000, 200, 0.15, 0.2);
+        KillerWhales kw = new KillerWhales(50000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.1);
 
@@ -52,6 +57,16 @@ public class Sim {
                     Engine mpengine = new Engine();
                     Event season = new seasonChange(now);
                     mpengine.eventList.add(season);
+
+                    // Start Barrier
+                    try{
+                        startBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
+                    }
+
+                    System.out.println(threadName + "Season: " + timeHelper/90 + "begins");
+
 
                     // Season begins
                     /**************************************** Season Begins *******************************************/
@@ -90,33 +105,12 @@ public class Sim {
 //                }
 
                     /**************************************** Season Ends *********************************************/
-                    // Barrier
-                    barrierl.lock();
-                    try {
-                        ++barrier;
-                    } finally {
-                        barrierl.unlock();
+                    try{
+                        endBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
                     }
-
-                    while(true) {
-                        if (barrier == 4)
-                            break;
-                        try {
-                            TimeUnit.SECONDS.sleep(1);
-                        } catch (InterruptedException ex) {
-                            Thread.currentThread().interrupt();
-                        }
-                    }
-
                     /*************************************** Season Checkout ******************************************/
-                    // Reset Barrier
-                    barrierl.lock();
-                    try {
-                        barrier = 0;
-                    } finally {
-                        barrierl.unlock();
-                    }
-
                     timeHelper += 90;
                     System.out.println(threadName + "NOW:" + timeHelper);
                     /*************************************** Season Complete ******************************************/
@@ -136,7 +130,13 @@ public class Sim {
                     Event hunt = new KillerWhalesHunt(now);
                     kwengine.eventList.add(hunt);
 
-                    // Season begins
+                    try{
+                        startBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
+                    }
+
+                    System.out.println(threadName + "Season: " + timeHelper/90 + "begins");
                     /**************************************** Season Begins *******************************************/
                     while (!kwengine.eventList.isEmpty()) {
                         double temp = now;
@@ -160,24 +160,11 @@ public class Sim {
                     }
 
                     /**************************************** Season Ends *********************************************/
-                    // Barrier
-                    barrierl.lock();
-                    try {
-                        ++barrier;
-                    } finally {
-                        barrierl.unlock();
+                    try{
+                        endBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
                     }
-
-                    while(true) {
-                        if (barrier == 4)
-                            break;
-                        try {
-                            TimeUnit.SECONDS.sleep(1);
-                        } catch (InterruptedException ex) {
-                            Thread.currentThread().interrupt();
-                        }
-                    }
-
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
                     kw.numberl.lock();
@@ -223,6 +210,12 @@ public class Sim {
                     Event e = new SpermWhalesEat(0.0);
                     swengine.eventList.add(e);
 
+                    try{
+                        startBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
+                    }
+
                     /**************************************** Season Begins *******************************************/
                     while (!swengine.eventList.isEmpty()) {
                         double temp =now;
@@ -242,24 +235,12 @@ public class Sim {
                     }
 
                     /**************************************** Season Ends *********************************************/
-                    // Barrier
-                    barrierl.lock();
-                    try {
-                        ++barrier;
-                    } finally {
-                        barrierl.unlock();
+                    try{
+                        endBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
                     }
-
-                    while(true) {
-                        if (barrier == 4)
-                            break;
-                        try {
-                            TimeUnit.SECONDS.sleep(1);
-                        } catch (InterruptedException ex) {
-                            Thread.currentThread().interrupt();
-                        }
-                    }
-
+                    System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
                     sw.numberl.lock();
@@ -284,11 +265,8 @@ public class Sim {
                     } finally {
                         sw.numberl.unlock();
                     }
-
-
-
+                    
                     timeHelper += 90;
-                    System.out.println(threadName + "NOW:" + timeHelper);
                     /*************************************** Season Complete ******************************************/
                 }
 
@@ -305,6 +283,14 @@ public class Sim {
 
                     Event e = new MarineMammalsEat(0.0);
                     mmengine.eventList.add(e);
+
+                    try{
+                        startBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
+                    }
+
+                    System.out.println(threadName + "Season: " + timeHelper/90 + "begins");
                     /**************************************** Season Begins *******************************************/
                     while (!mmengine.eventList.isEmpty()) {
                         double temp = now;
@@ -324,28 +310,13 @@ public class Sim {
                         }
 
                     }
-
-
                     /**************************************** Season Ends *********************************************/
-                    // Barrier
-                    barrierl.lock();
-                    try {
-                        ++barrier;
-                    } finally {
-                        barrierl.unlock();
+                    try{
+                        endBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
                     }
-
-                    while(true) {
-                        System.out.println(threadName + "NOW:" + barrier);
-                        if (barrier == 4)
-                            break;
-                        try {
-                            TimeUnit.SECONDS.sleep(1);
-                        } catch (InterruptedException ex) {
-                            Thread.currentThread().interrupt();
-                        }
-                    }
-
+                    System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
                     mm.numberl.lock();
@@ -353,8 +324,8 @@ public class Sim {
                         int temp = mm.number;
                         mm.number = mm.number  +  (int) (temp*mm.reprorate);
                         mm.number = mm.number - (int) (temp*mm.deathrate);
-                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.deathrate) +
-                                " reproduces. " + "Remain Marine Mammals:" + mm.number);
+                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.deathrate)
+                                + " reproduces. " + "Remain Marine Mammals:" + mm.number);
 
                     } finally {
                         mm.numberl.unlock();
@@ -371,10 +342,7 @@ public class Sim {
                         mm.numberl.unlock();
                     }
 
-
-
                     timeHelper += 90;
-                    System.out.println(threadName + "NOW:" + timeHelper);
                     /*************************************** Season Complete ******************************************/
                 }
             }
@@ -384,6 +352,8 @@ public class Sim {
         kwthr.start();
         swthr.start();
         mmthr.start();
+
+        System.out.println("Simulation ends");
 
     }
 }
