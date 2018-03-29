@@ -13,17 +13,13 @@ import java.util.concurrent.locks.ReentrantLock;
 
 @SuppressWarnings("Duplicates") // No more duplicated warning OK?
 public class Sim {
-    static CyclicBarrier startBarrier = new CyclicBarrier(4);
-    static CyclicBarrier endBarrier = new CyclicBarrier(4);
+    private static CyclicBarrier startBarrier = new CyclicBarrier(4);
+    private static CyclicBarrier endBarrier = new CyclicBarrier(4);
 
 
     public static double timeLimit = 3600;
 
     public static void main(String[] args) {
-
-        // Initialize
-        Lock startBarrierl = new ReentrantLock();
-        Lock endBarrierl = new ReentrantLock();
 
         MainProc mp = new MainProc(0, 85, 100, 100000000);
         KillerWhales kw = new KillerWhales(50000, 200, 0.15, 0.2);
@@ -112,7 +108,6 @@ public class Sim {
                     }
                     /*************************************** Season Checkout ******************************************/
                     timeHelper += 90;
-                    System.out.println(threadName + "NOW:" + timeHelper);
                     /*************************************** Season Complete ******************************************/
                 }
             }
@@ -192,7 +187,6 @@ public class Sim {
 
 
                     timeHelper += 90;
-                    System.out.println(threadName + "NOW:" + timeHelper);
                     /*************************************** Season Complete ******************************************/
                 }
 

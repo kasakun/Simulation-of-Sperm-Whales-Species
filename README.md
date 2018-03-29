@@ -26,7 +26,19 @@ functions in your process works.
 
 The event engine class is complete.
 
-## Problem Sa far
+## Simulaition
 
-How to handle relation between food unit and hunt
+The whole Simulation Logic is changed.
+
+10 years long simulation. 
+
+You can change the time by `timeLimit`
+
+## Problem So far
+
+1. Remain sperm whales and marine mammals are negeative. @Matthew @weihua
+2. No food resource info output. @Yao
+3. Need output file @Yao
+
+## Have a nice day!
 
