@@ -25,6 +25,18 @@ public class Sim {
         KillerWhales kw = new KillerWhales(50000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.1);
+        
+        FileOutputStream mainProcLog = new FileOutputStream("mainProcLog.txt");
+        PrintStream mainProcPrint = new PrintStream(mainProcLog);
+        FileOutputStream killerWhaleLog = new FileOutputStream("killerWhaleLog.txt");
+        PrintStream killerWhalePrint = new PrintStream(killerWhaleLog);
+        FileOutputStream spermWhaleLog = new FileOutputStream("spermWhaleLog.txt");
+        PrintStream spermWhalePrint = new PrintStream(spermWhaleLog);
+        FileOutputStream marineMammalLog = new FileOutputStream("marineMammalLog.txt");
+        PrintStream marineMammalPrint = new PrintStream(marineMammalLog);
+
+        //example
+        mainProcPrint.println("main process starts running at timestamp: 0");   
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Human Fish Rate: "
@@ -347,6 +359,11 @@ public class Sim {
         kwthr.start();
         swthr.start();
         mmthr.start();
+        
+        mainProcPrint.close();
+        killerWhalePrint.close();
+        spermWhalePrint.close();
+        marineMammalPrint.close();
 
         System.out.println("Simulation ends");
 
