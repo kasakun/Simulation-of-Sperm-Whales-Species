@@ -5,6 +5,10 @@
  */
 
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -19,24 +23,12 @@ public class Sim {
 
     public static double timeLimit = 3600;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
 
         MainProc mp = new MainProc(0, 85, 100, 100000000);
         KillerWhales kw = new KillerWhales(50000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.1);
-        
-        FileOutputStream mainProcLog = new FileOutputStream("mainProcLog.txt");
-        PrintStream mainProcPrint = new PrintStream(mainProcLog);
-        FileOutputStream killerWhaleLog = new FileOutputStream("killerWhaleLog.txt");
-        PrintStream killerWhalePrint = new PrintStream(killerWhaleLog);
-        FileOutputStream spermWhaleLog = new FileOutputStream("spermWhaleLog.txt");
-        PrintStream spermWhalePrint = new PrintStream(spermWhaleLog);
-        FileOutputStream marineMammalLog = new FileOutputStream("marineMammalLog.txt");
-        PrintStream marineMammalPrint = new PrintStream(marineMammalLog);
-
-        //example
-        mainProcPrint.println("main process starts running at timestamp: 0");   
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Human Fish Rate: "
@@ -59,6 +51,15 @@ public class Sim {
             @Override public void run() {
                 //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
                 double timeHelper = 0.0;
+
+                FileOutputStream mainProcLog = null;
+                try {
+                    mainProcLog = new FileOutputStream("mainProcLog.txt");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+                PrintStream mainProcPrint = new PrintStream(mainProcLog);
+
                 while(timeHelper < timeLimit) {
                     double now = 0.0;
 
@@ -74,44 +75,37 @@ public class Sim {
                     }
 
                     System.out.println(threadName + "Season: " + timeHelper/90 + "begins");
-
-
+                    mainProcPrint.println(threadName + "Season: " + timeHelper/90 + "begins");
                     // Season begins
                     /**************************************** Season Begins *******************************************/
-                 while (!mpengine.eventList.isEmpty()) {
-                   double temp = seasonStart;
-                   for (int i = 0; i < eventcount; i++) {   // Why run all event in the list?
-                       mpengine.eventHandler(mp, kw, sw, mm);
-                   }
+                    while (!mpengine.eventList.isEmpty() && now < mpengine.eventList.peek().timestamp) {
+                        double temp = now;
+                        // Why run all event in the list?
+                        mpengine.eventHandler(mp, kw, sw, mm);
 
-                   eventcount = 0;
-                   Event season1 = new seasonChange(temp + 90);
-                   Event food = new foodGrow(temp + 90);
-                   mpengine.eventList.add(season1);
-                   ++eventcount;
-                   mpengine.eventList.add(food);
-                   ++eventcount;
 
-                   if (Math.random() > 0.01) {
-                       Event disaster = new naturalDisaster(temp + 90);
-                       mpengine.eventList.add(disaster);
-                       eventcount++;
-                   }
+                        Event season1 = new seasonChange(temp + 90);
+                        Event food = new foodGrow(temp + 90);
+                        mpengine.eventList.add(season1);
+                        mpengine.eventList.add(food);
 
-                   if (temp % 360 == 0) {
-                       Event humanHunt = new humanHunt(temp + 90);
-                       mpengine.eventList.add(humanHunt);
-                       ++eventcount;
-                   }
 
-                   if (Math.random() > 0.5) {
-                       Event humanFish = new humanFish(temp + 90);
-                       mpengine.eventList.add(humanFish);
-                       ++eventcount;
-                   }
-                   now = temp + 90;
+                        if (Math.random() > 0.01) {
+                           Event disaster = new naturalDisaster(temp + 90);
+                           mpengine.eventList.add(disaster);
+                        }
 
-               }
+                        if (temp % 360 == 0) {
+                           Event humanHunt = new humanHunt(temp + 90);
+                           mpengine.eventList.add(humanHunt);
+                        }
+
+                        if (Math.random() > 0.5) {
+                           Event humanFish = new humanFish(temp + 90);
+                           mpengine.eventList.add(humanFish);
+                        }
+                        now = temp + 90;
+                    }
 
                     /**************************************** Season Ends *********************************************/
                     try{
@@ -119,10 +113,14 @@ public class Sim {
                     } catch (Exception ex) {
                         Thread.currentThread().interrupt();
                     }
+                    System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
+                    mainProcPrint.println(threadName + "Season: " + timeHelper/90 + "ends");
                     /*************************************** Season Checkout ******************************************/
                     timeHelper += 90;
                     /*************************************** Season Complete ******************************************/
                 }
+                // Close file
+                mainProcPrint.close();
             }
 
         };
@@ -131,6 +129,15 @@ public class Sim {
             @Override public void run() {
                 // Killer Whales
                 double timeHelper = 0.0;
+
+                FileOutputStream killerWhaleLog = null;
+                try {
+                    killerWhaleLog = new FileOutputStream("killerWhaleLog.txt");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+                PrintStream killerWhalePrint = new PrintStream(killerWhaleLog);
+
                 while(timeHelper < timeLimit) {
                     double now = 0.0;
 
@@ -145,6 +152,7 @@ public class Sim {
                     }
 
                     System.out.println(threadName + "Season: " + timeHelper/90 + "begins");
+                    killerWhalePrint.println(threadName + "Season: " + timeHelper/90 + "begins");
                     /**************************************** Season Begins *******************************************/
                     while (!kwengine.eventList.isEmpty()) {
                         double temp = now;
@@ -183,6 +191,9 @@ public class Sim {
                         System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.deathrate)
                                 + " reproduces. " + "Remain killer whales:" + kw.number);
 
+                        killerWhalePrint.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " +
+                                (int)(temp*kw.deathrate) + " reproduces. " + "Remain killer whales:" + kw.number);
+
                     } finally {
                         kw.numberl.unlock();
                     }
@@ -193,6 +204,9 @@ public class Sim {
                         if (kw.food < kw.demand) {
                             kw.number -= (int)((kw.demand - kw.food)*2.5);
                             System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
+
+                            killerWhalePrint.println(kw.name + ": "
+                                    + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
                         }
                     } finally {
                         kw.numberl.unlock();
@@ -202,7 +216,7 @@ public class Sim {
                     timeHelper += 90;
                     /*************************************** Season Complete ******************************************/
                 }
-
+                killerWhalePrint.close();
             }
         };
         // EXAMPLE HERE
@@ -210,6 +224,15 @@ public class Sim {
             @Override public void run() {
                 // Sperm Whales
                 double timeHelper = 0.0;
+
+                FileOutputStream spermWhaleLog = null;
+                try {
+                    spermWhaleLog = new FileOutputStream("spermWhaleLog.txt");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+                PrintStream spermWhalePrint = new PrintStream(spermWhaleLog);
+
                 while(timeHelper < timeLimit) {
                     double now = 0.0; // now is in the season scope
 
@@ -258,6 +281,9 @@ public class Sim {
                         System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.deathrate)
                                 + " reproduces. " + "Remain killer whales:" + sw.number);
 
+                        spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, "
+                                + (int)(temp*sw.deathrate) + " reproduces. " + "Remain killer whales:" + sw.number);
+
                     } finally {
                         sw.numberl.unlock();
                     }
@@ -268,6 +294,9 @@ public class Sim {
                         if (sw.food < sw.demand) {
                             sw.number -= (int)((sw.demand - sw.food)*2.5);
                             System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5) + " dies for hunger.");
+
+                            spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5)
+                                    + " dies for hunger.");
                         }
                     } finally {
                         sw.numberl.unlock();
@@ -276,13 +305,22 @@ public class Sim {
                     timeHelper += 90;
                     /*************************************** Season Complete ******************************************/
                 }
-
+                spermWhalePrint.close();
             }
         };
 
         MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
             @Override public void run() {
                 double timeHelper = 0.0;
+
+                FileOutputStream marineMammalLog = null;
+                try {
+                    marineMammalLog = new FileOutputStream("marineMammalLog.txt");
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+                PrintStream marineMammalPrint = new PrintStream(marineMammalLog);
+
                 while(timeHelper < timeLimit) {
                     double now = 0.0;
                     Engine mmengine = new Engine();
@@ -298,6 +336,7 @@ public class Sim {
                     }
 
                     System.out.println(threadName + "Season: " + timeHelper/90 + "begins");
+                    marineMammalPrint.println(threadName + "Season: " + timeHelper/90 + "begins");
                     /**************************************** Season Begins *******************************************/
                     while (!mmengine.eventList.isEmpty()) {
                         double temp = now;
@@ -324,6 +363,7 @@ public class Sim {
                         Thread.currentThread().interrupt();
                     }
                     System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
+                    marineMammalPrint.println(threadName + "Season: " + timeHelper/90 + "ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
                     mm.numberl.lock();
@@ -352,6 +392,7 @@ public class Sim {
                     timeHelper += 90;
                     /*************************************** Season Complete ******************************************/
                 }
+                marineMammalPrint.close();
             }
         };
 
@@ -360,10 +401,10 @@ public class Sim {
         swthr.start();
         mmthr.start();
         
-        mainProcPrint.close();
-        killerWhalePrint.close();
-        spermWhalePrint.close();
-        marineMammalPrint.close();
+
+
+
+
 
         System.out.println("Simulation ends");
 
