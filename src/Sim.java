@@ -9,14 +9,15 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+@SuppressWarnings("Duplicates") // No more duplicated warning OK?
 public class Sim {
     public static int barrier;
-    public static int barrier_counter;
+    public static double timeLimit = 3600;
+
     public static void main(String[] args) {
 
         // Initialize
         barrier = 0;
-        barrier_counter = 0;
         Lock barrierl = new ReentrantLock();
 
         MainProc mp = new MainProc(0, 85, 100, 100000000);
@@ -44,225 +45,251 @@ public class Sim {
         MainProcThread mpthr = new MainProcThread("Main Process Thread") {
             @Override public void run() {
                 //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
-                double now = 0.0;
-                int eventcount = 0;
+                double timeHelper = 0.0;
+                while(timeHelper < timeLimit) {
+                    double now = 0.0;
 
-                Engine mpengine = new Engine();
-                Event season = new seasonChange(now);
-                mpengine.eventList.add(season);
+                    Engine mpengine = new Engine();
+                    Event season = new seasonChange(now);
+                    mpengine.eventList.add(season);
 
-                while (!mpengine.eventList.isEmpty()) {
-                    double temp = now;
-                    for (int i = 0; i < eventcount; i++) {
-                        mpengine.eventHandler(mp, kw, sw, mm);
-                    }
+                    // Season begins
+                    /**************************************** Season Begins *******************************************/
+//                  while (!mpengine.eventList.isEmpty()) {
+//                    double temp = seasonStart;
+//                    for (int i = 0; i < eventcount; i++) {   // Why run all event in the list?
+//                        mpengine.eventHandler(mp, kw, sw, mm);
+//                    }
+//
+//                    eventcount = 0;
+//                    Event season1 = new seasonChange(temp + 90);
+//                    Event food = new foodGrow(temp + 90);
+//                    mpengine.eventList.add(season1);
+//                    ++eventcount;
+//                    mpengine.eventList.add(food);
+//                    ++eventcount;
+//
+//                    if (Math.random() > 0.01) {
+//                        Event disaster = new naturalDisaster(temp + 90);
+//                        mpengine.eventList.add(disaster);
+//                        eventcount++;
+//                    }
+//
+//                    if (temp % 360 == 0) {
+//                        Event humanHunt = new humanHunt(temp + 90);
+//                        mpengine.eventList.add(humanHunt);
+//                        ++eventcount;
+//                    }
+//
+//                    if (Math.random() > 0.5) {
+//                        Event humanFish = new humanFish(temp + 90);
+//                        mpengine.eventList.add(humanFish);
+//                        ++eventcount;
+//                    }
+//
+//                }
 
-                    eventcount = 0;
-                    now = temp + 90;
-                    Event season1 = new seasonChange(temp + 90);
-                    Event food = new foodGrow(temp + 90);
-                    mpengine.eventList.add(season1);
-                    eventcount++;
-                    mpengine.eventList.add(food);
-                    eventcount++;
-
-                    if (Math.random() > 0.01) {
-                        Event disaster = new naturalDisaster(temp + 90);
-                        mpengine.eventList.add(disaster);
-                        eventcount++;
-                    }
-
-                    if (temp % 360 == 0) {
-                        Event humanHunt = new humanHunt(temp + 90);
-                        mpengine.eventList.add(humanHunt);
-                        eventcount++;
-                    }
-
-                    if (Math.random() > 0.5) {
-                        Event humanFish = new humanFish(temp + 90);
-                        mpengine.eventList.add(humanFish);
-                        eventcount++;
-                    }
-
-                }
-
-                // Barrier
-                barrierl.lock();
-                try {
-                    ++barrier;
-                } finally {
-                    barrierl.unlock();
-                }
-                while(true) {
-                    if (barrier == 4)
-                        break;
+                    /**************************************** Season Ends *********************************************/
+                    // Barrier
+                    barrierl.lock();
                     try {
-                        TimeUnit.SECONDS.sleep(1);
-                    } catch (InterruptedException ex) {
-                        Thread.currentThread().interrupt();
+                        ++barrier;
+                    } finally {
+                        barrierl.unlock();
                     }
-                };
 
+                    while(true) {
+                        if (barrier == 4)
+                            break;
+                        try {
+                            TimeUnit.SECONDS.sleep(1);
+                        } catch (InterruptedException ex) {
+                            Thread.currentThread().interrupt();
+                        }
+                    }
+
+                    /*************************************** Season Checkout ******************************************/
+                    // Reset Barrier
+                    barrierl.lock();
+                    try {
+                        barrier = 0;
+                    } finally {
+                        barrierl.unlock();
+                    }
+
+                    timeHelper += 90;
+                    System.out.println(threadName + "NOW:" + timeHelper);
+                    /*************************************** Season Complete ******************************************/
+                }
             }
+
         };
 
         KillerWhalesThread kwthr = new KillerWhalesThread("Killer Whales Thread") {
             @Override public void run() {
-                //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
-                int count = 0;  // evemt up limit
-                int huntcount =0;
-                double now = 0.0;
+                // Killer Whales
+                double timeHelper = 0.0;
+                while(timeHelper < timeLimit) {
+                    double now = 0.0;
 
-                Engine kwengine = new Engine();
-                Event hunt = new KillerWhalesHunt(now);
+                    Engine kwengine = new Engine();
+                    Event hunt = new KillerWhalesHunt(now);
+                    kwengine.eventList.add(hunt);
 
-                // Season begin
-                kwengine.eventList.add(hunt);
-                ++count;
-                while (!kwengine.eventList.isEmpty()) {
-                    double temp = now;
+                    // Season begins
+                    /**************************************** Season Begins *******************************************/
+                    while (!kwengine.eventList.isEmpty()) {
+                        double temp = now;
 
-                    kwengine.eventHandler(mp, kw, sw, mm);
-                    // Use prob to determine whether to schedule
-                    if (Math.random() > 0.1 && count < 50) {
-                        now = Math.random()*1 +  temp;
-                        Event huntTemp = new KillerWhalesHunt(now);
-                        // schedule next event
-                        kwengine.eventList.add(huntTemp);
-                        ++count;
+                        kwengine.eventHandler(mp, kw, sw, mm);
+                        // Use prob to determine whether to schedule
+                        if (Math.random() > 0.1 && now < 30) {
+                            now = Math.random()*1 +  temp;
+                            Event huntTemp = new KillerWhalesHunt(now);
+                            // schedule next event
+                            kwengine.eventList.add(huntTemp);
+                        }
+                        // Use prob to determine whether to schedule
+                        if (Math.random() > 0.5 && now < 30) {
+                            now = Math.random()*10 +  temp;
+                            Event deathTemp = new KillerWhalesDeath(now);
+                            // schedule next event
+                            kwengine.eventList.add(deathTemp);
+                        }
+
                     }
-                    // Use prob to determine whether to schedule
-                    if (Math.random() > 0.5 && count < 50) {
-                        now = Math.random()*10 +  temp;
-                        Event deathTemp = new KillerWhalesDeath(now);
-                        // schedule next event
-                        kwengine.eventList.add(deathTemp);
-                        ++count;
-                    }
 
-                }
-                // Barrier
-                barrierl.lock();
-                try {
-                    ++barrier;
-                } finally {
-                    barrierl.unlock();
-                }
-
-                while(true) {
-                    if (barrier == 4)
-                        break;
+                    /**************************************** Season Ends *********************************************/
+                    // Barrier
+                    barrierl.lock();
                     try {
-                        TimeUnit.SECONDS.sleep(1);
-                    } catch (InterruptedException ex) {
-                        Thread.currentThread().interrupt();
+                        ++barrier;
+                    } finally {
+                        barrierl.unlock();
                     }
-                }
-                /* Season calculate */
-                kw.numberl.lock();
 
-                try {
-                    int temp = kw.number;
-                    kw.number = kw.number  +  (int) (temp*kw.reprorate);
-                    kw.number = kw.number - (int) (temp*kw.deathrate);
-                    System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.deathrate) +
-                            " reproduces. " + "Remain killer whales:" + kw.number);
-
-                } finally {
-                    kw.numberl.unlock();
-                }
-
-                // Calculate death for hunger
-                kw.numberl.lock();
-
-                try {
-                    if (kw.food < kw.demand) {
-                        kw.number -= (int)((kw.demand - kw.food)*2.5);
-                        System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
+                    while(true) {
+                        if (barrier == 4)
+                            break;
+                        try {
+                            TimeUnit.SECONDS.sleep(1);
+                        } catch (InterruptedException ex) {
+                            Thread.currentThread().interrupt();
+                        }
                     }
-                } finally {
-                    kw.numberl.unlock();
+
+                    /*************************************** Season Checkout ******************************************/
+                    // Calculate natural death and reproduce
+                    kw.numberl.lock();
+                    try {
+                        int temp = kw.number;
+                        kw.number = kw.number  +  (int) (temp*kw.reprorate);
+                        kw.number = kw.number - (int) (temp*kw.deathrate);
+                        System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.deathrate)
+                                + " reproduces. " + "Remain killer whales:" + kw.number);
+
+                    } finally {
+                        kw.numberl.unlock();
+                    }
+
+                    // Calculate death for hunger
+                    kw.numberl.lock();
+                    try {
+                        if (kw.food < kw.demand) {
+                            kw.number -= (int)((kw.demand - kw.food)*2.5);
+                            System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
+                        }
+                    } finally {
+                        kw.numberl.unlock();
+                    }
+
+
+                    timeHelper += 90;
+                    System.out.println(threadName + "NOW:" + timeHelper);
+                    /*************************************** Season Complete ******************************************/
                 }
 
-                /* Season calculate */
-
-                // Season ends
             }
         };
         // EXAMPLE HERE
         SpermWhalesThread swthr = new SpermWhalesThread("Sperm Whales Thread") {
             @Override public void run() {
-                int count =0;//the number of event
-                double now = 0.0;
+                // Sperm Whales
+                double timeHelper = 0.0;
+                while(timeHelper < timeLimit) {
+                    double now = 0.0; // now is in the season scope
 
-                //System.out.println("Thread:" + threadName + " ID: " + Thread.currentThread().getId() + " starts.");
-                Engine swengine = new Engine();
-                Event e = new SpermWhalesEat(0.0);
+                    Engine swengine = new Engine();
+                    Event e = new SpermWhalesEat(0.0);
+                    swengine.eventList.add(e);
 
-                swengine.eventList.add(e);
-                ++count;
-                while (!swengine.eventList.isEmpty()) {
-                    double temp =now;
-                    swengine.eventHandler(mp, kw, sw, mm);
+                    /**************************************** Season Begins *******************************************/
+                    while (!swengine.eventList.isEmpty()) {
+                        double temp =now;
+                        swengine.eventHandler(mp, kw, sw, mm);
 
-                    if (Math.random() > 0.8 && count < 50) {
-                        now = Math.random()*40 + temp;
-                        Event deathTemp = new SpermWhalesDeath(now);
-                        swengine.eventList.add(deathTemp);
-                        ++count;
+                        if (Math.random() > 0.5 && now < 90) {
+                            now = Math.random()*0.5 + temp;
+                            Event deathTemp = new SpermWhalesDeath(now);
+                            swengine.eventList.add(deathTemp);
+                        }
+
+                        if (Math.random() > 0.1 && now < 90) {
+                            now = Math.random()*0.5 + temp;
+                            Event eat = new SpermWhalesEat(now);
+                            swengine.eventList.add(eat);
+                        }
                     }
 
-                    if (Math.random() > 0.5 && count <50) {
-                        now = Math.random()*0.5 + temp;
-                        Event eat = new SpermWhalesEat(now);
-                        swengine.eventList.add(eat);
-                        ++count;
-                    }
-
-                    //kwengine.schedule(e);
-                }
-
-                // Barrier
-                barrierl.lock();
-                try {
-                    ++barrier;
-                } finally {
-                    barrierl.unlock();
-                }
-
-                while(true) {
-                    if (barrier == 4)
-                        break;
+                    /**************************************** Season Ends *********************************************/
+                    // Barrier
+                    barrierl.lock();
                     try {
-                        TimeUnit.SECONDS.sleep(1);
-                    } catch (InterruptedException ex) {
-                        Thread.currentThread().interrupt();
+                        ++barrier;
+                    } finally {
+                        barrierl.unlock();
                     }
-                }
 
-                sw.numberl.lock();
-
-                try {
-                    int temp = sw.number;
-                    sw.number = sw.number  +  (int) (temp*sw.reprorate);
-                    sw.number = sw.number - (int) (temp*sw.deathrate);
-                    System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.deathrate) +
-                            " reproduces. " + "Remain killer whales:" + sw.number);
-
-                } finally {
-                    sw.numberl.unlock();
-                }
-
-                // Calculate death for hunger
-                sw.numberl.lock();
-
-                try {
-                    if (sw.food < sw.demand) {
-                        sw.number -= (int)((sw.demand - sw.food)*2.5);
-                        System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5) + " dies for hunger.");
+                    while(true) {
+                        if (barrier == 4)
+                            break;
+                        try {
+                            TimeUnit.SECONDS.sleep(1);
+                        } catch (InterruptedException ex) {
+                            Thread.currentThread().interrupt();
+                        }
                     }
-                } finally {
-                    sw.numberl.unlock();
+
+                    /*************************************** Season Checkout ******************************************/
+                    // Calculate natural death and reproduce
+                    sw.numberl.lock();
+                    try {
+                        int temp = sw.number;
+                        sw.number = sw.number  +  (int) (temp*sw.reprorate);
+                        sw.number = sw.number - (int) (temp*sw.deathrate);
+                        System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.deathrate)
+                                + " reproduces. " + "Remain killer whales:" + sw.number);
+
+                    } finally {
+                        sw.numberl.unlock();
+                    }
+
+                    // Calculate death for hunger
+                    sw.numberl.lock();
+                    try {
+                        if (sw.food < sw.demand) {
+                            sw.number -= (int)((sw.demand - sw.food)*2.5);
+                            System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5) + " dies for hunger.");
+                        }
+                    } finally {
+                        sw.numberl.unlock();
+                    }
+
+
+
+                    timeHelper += 90;
+                    System.out.println(threadName + "NOW:" + timeHelper);
+                    /*************************************** Season Complete ******************************************/
                 }
 
             }
@@ -270,93 +297,86 @@ public class Sim {
 
         MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
             @Override public void run() {
-                //System.out.println("Thread" + threadName + ", ID: " + Thread.currentThread().getId() + " starts.");
-                int count = 0;
-                double now = 0.0;
-                Engine mmengine = new Engine();
-                // Food resource consume
+                double timeHelper = 0.0;
+                while(timeHelper < timeLimit) {
+                    double now = 0.0;
+                    Engine mmengine = new Engine();
+                    // Food resource consume
 
-                Event e = new MarineMammalsEat(0.0);
-                mmengine.eventList.add(e);
-                while (!mmengine.eventList.isEmpty()) {
-                    mmengine.eventHandler(mp, kw, sw, mm);
-                    //mmengine.schedule(e);
-                }
+                    Event e = new MarineMammalsEat(0.0);
+                    mmengine.eventList.add(e);
+                    /**************************************** Season Begins *******************************************/
+                    while (!mmengine.eventList.isEmpty()) {
+                        double temp = now;
 
-                // Season begin
-                mmengine.eventList.add(e);
-                ++count;
-                while (!mmengine.eventList.isEmpty()) {
-                    double temp = now;
+                        mmengine.eventHandler(mp, kw, sw, mm);
 
-                    mmengine.eventHandler(mp, kw, sw, mm);
+                        if (Math.random() > 0.1 && now < 90) {
+                            now = Math.random()*0.5 + temp;
+                            Event eatTemp = new MarineMammalsEat(now);
+                            mmengine.eventList.add(eatTemp);
+                        }
 
-                    if (Math.random() > 0.1 && count < 50) {
-                        now = Math.random()*1 + temp;
-                        Event eatTemp = new MarineMammalsEat(now);
-                        mmengine.eventList.add(eatTemp);
-                        ++count;
+                        if (Math.random() > 0.5 && now < 90) {
+                            now = Math.random()*0.5 +  temp;
+                            Event deathTemp = new MarineMammalsDeath(now);
+                            mmengine.eventList.add(deathTemp);
+                        }
+
                     }
 
-                    if (Math.random() > 0.5 && count < 50) {
-                        now = Math.random()*10 +  temp;
-                        Event deathTemp = new MarineMammalsDeath(now);
-                        mmengine.eventList.add(deathTemp);
-                        ++count;
-                    }
 
-                }
-
-
-
-                // Barrier
-                barrierl.lock();
-                try {
-                    ++barrier;
-                } finally {
-                    barrierl.unlock();
-                }
-
-
-                while(true) {
-                    if (barrier == 4)
-                        break;
+                    /**************************************** Season Ends *********************************************/
+                    // Barrier
+                    barrierl.lock();
                     try {
-                        TimeUnit.SECONDS.sleep(1);
-                    } catch (InterruptedException ex) {
-                        Thread.currentThread().interrupt();
+                        ++barrier;
+                    } finally {
+                        barrierl.unlock();
                     }
-                }
 
-                /* Season calculate */
-                mm.numberl.lock();
-
-                try {
-                    int temp = mm.number;
-                    mm.number = mm.number  +  (int) (temp*mm.reprorate);
-                    mm.number = mm.number - (int) (temp*mm.deathrate);
-                    System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.deathrate) +
-                            " reproduces. " + "Remain Marine Mammals:" + mm.number);
-
-                } finally {
-                    mm.numberl.unlock();
-                }
-
-                // Calculate death for hunger
-                mm.numberl.lock();
-
-                try {
-                    if (mm.food < mm.demand) {
-                        mm.number -= (int)((mm.demand - mm.food)*5.0);
-                        System.out.println(mm.name + ": " + (int)((mm.demand - mm.food)*5.0) + " dies for hunger.");
+                    while(true) {
+                        System.out.println(threadName + "NOW:" + barrier);
+                        if (barrier == 4)
+                            break;
+                        try {
+                            TimeUnit.SECONDS.sleep(1);
+                        } catch (InterruptedException ex) {
+                            Thread.currentThread().interrupt();
+                        }
                     }
-                } finally {
-                    mm.numberl.unlock();
+
+                    /*************************************** Season Checkout ******************************************/
+                    // Calculate natural death and reproduce
+                    mm.numberl.lock();
+                    try {
+                        int temp = mm.number;
+                        mm.number = mm.number  +  (int) (temp*mm.reprorate);
+                        mm.number = mm.number - (int) (temp*mm.deathrate);
+                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.deathrate) +
+                                " reproduces. " + "Remain Marine Mammals:" + mm.number);
+
+                    } finally {
+                        mm.numberl.unlock();
+                    }
+
+                    // Calculate death for hunger
+                    mm.numberl.lock();
+                    try {
+                        if (mm.food < mm.demand) {
+                            mm.number -= (int)((mm.demand - mm.food)*5.0);
+                            System.out.println(mm.name + ": " + (int)((mm.demand - mm.food)*5.0) + " dies for hunger.");
+                        }
+                    } finally {
+                        mm.numberl.unlock();
+                    }
+
+
+
+                    timeHelper += 90;
+                    System.out.println(threadName + "NOW:" + timeHelper);
+                    /*************************************** Season Complete ******************************************/
                 }
-
-                /* Season calculate */
-
-                // Season ends
             }
         };
 
@@ -364,8 +384,6 @@ public class Sim {
         kwthr.start();
         swthr.start();
         mmthr.start();
-
-
 
     }
 }
