@@ -78,7 +78,7 @@ public class Sim {
                     mainProcPrint.println(threadName + "Season: " + timeHelper/90 + "begins");
                     // Season begins
                     /**************************************** Season Begins *******************************************/
-                    while (!mpengine.eventList.isEmpty() && now < mpengine.eventList.peek().timestamp) {
+                    while (!mpengine.eventList.isEmpty() && now <= mpengine.eventList.peek().timestamp) {
                         double temp = now;
                         // Why run all event in the list?
                         mpengine.eventHandler(mp, kw, sw, mm);
@@ -88,21 +88,26 @@ public class Sim {
                         Event food = new foodGrow(temp + 90);
                         mpengine.eventList.add(season1);
                         mpengine.eventList.add(food);
+                        mainProcPrint.println(threadName + ": Food grow at " + temp);
 
 
                         if (Math.random() > 0.01) {
                            Event disaster = new naturalDisaster(temp + 90);
                            mpengine.eventList.add(disaster);
+	                       mainProcPrint.println(threadName + ": Natural disaster at " + temp);
+
                         }
 
                         if (temp % 360 == 0) {
                            Event humanHunt = new humanHunt(temp + 90);
                            mpengine.eventList.add(humanHunt);
+	                       mainProcPrint.println(threadName + ": Human hunt event at " + temp);
                         }
 
                         if (Math.random() > 0.5) {
                            Event humanFish = new humanFish(temp + 90);
                            mpengine.eventList.add(humanFish);
+	                       mainProcPrint.println(threadName + ": Human fish event at " + temp);
                         }
                         now = temp + 90;
                     }
