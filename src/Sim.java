@@ -28,7 +28,7 @@ public class Sim {
         MainProc mp = new MainProc(0, 85, 100, 100000000);
         KillerWhales kw = new KillerWhales(50000, 200, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
-        MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.1);
+        MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.3);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Human Fish Rate: "
@@ -175,14 +175,14 @@ public class Sim {
 
                         kwengine.eventHandler(mp, kw, sw, mm);
                         // Use prob to determine whether to schedule
-                        if (Math.random() > 0.2 && now < 30) {
+                        if (Math.random() > 0.2 && now < 90) {
                             now = Math.random()*0.5 +  temp;
                             Event huntTemp = new KillerWhalesHunt(now);
                             // schedule next event
                             kwengine.eventList.add(huntTemp);
                         }
                         // Use prob to determine whether to schedule
-                        if (Math.random() > 0.5 && now < 30) {
+                        if (Math.random() > 0.5 && now < 90) {
                             now = Math.random()*0.5 +  temp;
                             Event deathTemp = new KillerWhalesDeath(now);
                             // schedule next event

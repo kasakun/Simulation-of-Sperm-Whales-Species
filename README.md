@@ -36,9 +36,8 @@ You can change the time by `timeLimit`
 
 ## Problem So far
 
-1. Remain sperm whales and marine mammals are negeative. @Matthew @weihua
-2. No food resource info output. @Yao
-3. Need output file @Yao
+1. Food resource not growing. @Yao
+2. Hunt rate should be related to the number of species. @ Zeyu Chen
 
 ## Have a nice day!
 

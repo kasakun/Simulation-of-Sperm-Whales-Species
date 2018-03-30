@@ -1,162 +1,160 @@
 Killer Whales ThreadSeason: 0 begins
 Killer Whales ThreadSeason: 0 ends
-Killer Whales: 9987 dies, 9987 reproduces. Remain killer whales:47439
-Killer Whales: 230 dies for hunger.
+Killer Whales: 9959 dies, 9959 reproduces. Remain killer whales:47306
 ====================================================================================================
 Killer Whales ThreadSeason: 1 begins
 Killer Whales ThreadSeason: 1 ends
-Killer Whales: 9441 dies, 9441 reproduces. Remain killer whales:44849
-Killer Whales: 225 dies for hunger.
+Killer Whales: 9418 dies, 9418 reproduces. Remain killer whales:44737
 ====================================================================================================
 Killer Whales ThreadSeason: 2 begins
 Killer Whales ThreadSeason: 2 ends
-Killer Whales: 8914 dies, 8914 reproduces. Remain killer whales:42344
+Killer Whales: 8909 dies, 8909 reproduces. Remain killer whales:42320
 ====================================================================================================
 Killer Whales ThreadSeason: 3 begins
 Killer Whales ThreadSeason: 3 ends
-Killer Whales: 8468 dies, 8468 reproduces. Remain killer whales:40227
+Killer Whales: 8422 dies, 8422 reproduces. Remain killer whales:40009
 ====================================================================================================
 Killer Whales ThreadSeason: 4 begins
 Killer Whales ThreadSeason: 4 ends
-Killer Whales: 8045 dies, 8045 reproduces. Remain killer whales:38216
+Killer Whales: 7964 dies, 7964 reproduces. Remain killer whales:37831
 ====================================================================================================
 Killer Whales ThreadSeason: 5 begins
 Killer Whales ThreadSeason: 5 ends
-Killer Whales: 7632 dies, 7632 reproduces. Remain killer whales:36254
+Killer Whales: 7525 dies, 7525 reproduces. Remain killer whales:35744
 ====================================================================================================
 Killer Whales ThreadSeason: 6 begins
 Killer Whales ThreadSeason: 6 ends
-Killer Whales: 7249 dies, 7249 reproduces. Remain killer whales:34437
+Killer Whales: 7110 dies, 7110 reproduces. Remain killer whales:33777
 ====================================================================================================
 Killer Whales ThreadSeason: 7 begins
 Killer Whales ThreadSeason: 7 ends
-Killer Whales: 6874 dies, 6874 reproduces. Remain killer whales:32652
+Killer Whales: 6712 dies, 6712 reproduces. Remain killer whales:31884
 ====================================================================================================
 Killer Whales ThreadSeason: 8 begins
 Killer Whales ThreadSeason: 8 ends
-Killer Whales: 6516 dies, 6516 reproduces. Remain killer whales:30951
+Killer Whales: 6376 dies, 6376 reproduces. Remain killer whales:30289
 ====================================================================================================
 Killer Whales ThreadSeason: 9 begins
 Killer Whales ThreadSeason: 9 ends
-Killer Whales: 6189 dies, 6189 reproduces. Remain killer whales:29397
+Killer Whales: 6015 dies, 6015 reproduces. Remain killer whales:28575
 ====================================================================================================
 Killer Whales ThreadSeason: 10 begins
 Killer Whales ThreadSeason: 10 ends
-Killer Whales: 5866 dies, 5866 reproduces. Remain killer whales:27863
+Killer Whales: 5675 dies, 5675 reproduces. Remain killer whales:26956
 ====================================================================================================
 Killer Whales ThreadSeason: 11 begins
 Killer Whales ThreadSeason: 11 ends
-Killer Whales: 5558 dies, 5558 reproduces. Remain killer whales:26401
+Killer Whales: 5391 dies, 5391 reproduces. Remain killer whales:25608
 ====================================================================================================
 Killer Whales ThreadSeason: 12 begins
 Killer Whales ThreadSeason: 12 ends
-Killer Whales: 5280 dies, 5280 reproduces. Remain killer whales:25081
+Killer Whales: 5080 dies, 5080 reproduces. Remain killer whales:24130
 ====================================================================================================
 Killer Whales ThreadSeason: 13 begins
 Killer Whales ThreadSeason: 13 ends
-Killer Whales: 5015 dies, 5015 reproduces. Remain killer whales:23825
+Killer Whales: 4789 dies, 4789 reproduces. Remain killer whales:22747
 ====================================================================================================
 Killer Whales ThreadSeason: 14 begins
 Killer Whales ThreadSeason: 14 ends
-Killer Whales: 4764 dies, 4764 reproduces. Remain killer whales:22632
+Killer Whales: 4510 dies, 4510 reproduces. Remain killer whales:21422
 ====================================================================================================
 Killer Whales ThreadSeason: 15 begins
 Killer Whales ThreadSeason: 15 ends
-Killer Whales: 4513 dies, 4513 reproduces. Remain killer whales:21441
+Killer Whales: 4246 dies, 4246 reproduces. Remain killer whales:20170
 ====================================================================================================
 Killer Whales ThreadSeason: 16 begins
 Killer Whales ThreadSeason: 16 ends
-Killer Whales: 4275 dies, 4275 reproduces. Remain killer whales:20307
+Killer Whales: 3995 dies, 3995 reproduces. Remain killer whales:18980
 ====================================================================================================
 Killer Whales ThreadSeason: 17 begins
 Killer Whales ThreadSeason: 17 ends
-Killer Whales: 4047 dies, 4047 reproduces. Remain killer whales:19225
+Killer Whales: 3758 dies, 3758 reproduces. Remain killer whales:17855
 ====================================================================================================
 Killer Whales ThreadSeason: 18 begins
 Killer Whales ThreadSeason: 18 ends
-Killer Whales: 3831 dies, 3831 reproduces. Remain killer whales:18201
+Killer Whales: 3570 dies, 3570 reproduces. Remain killer whales:16959
 ====================================================================================================
 Killer Whales ThreadSeason: 19 begins
 Killer Whales ThreadSeason: 19 ends
-Killer Whales: 3627 dies, 3627 reproduces. Remain killer whales:17228
+Killer Whales: 3353 dies, 3353 reproduces. Remain killer whales:15929
 ====================================================================================================
 Killer Whales ThreadSeason: 20 begins
 Killer Whales ThreadSeason: 20 ends
-Killer Whales: 3445 dies, 3445 reproduces. Remain killer whales:16367
+Killer Whales: 3146 dies, 3146 reproduces. Remain killer whales:14948
 ====================================================================================================
 Killer Whales ThreadSeason: 21 begins
 Killer Whales ThreadSeason: 21 ends
-Killer Whales: 3259 dies, 3259 reproduces. Remain killer whales:15480
+Killer Whales: 2946 dies, 2946 reproduces. Remain killer whales:13998
 ====================================================================================================
 Killer Whales ThreadSeason: 22 begins
 Killer Whales ThreadSeason: 22 ends
-Killer Whales: 3083 dies, 3083 reproduces. Remain killer whales:14646
+Killer Whales: 2761 dies, 2761 reproduces. Remain killer whales:13117
 ====================================================================================================
 Killer Whales ThreadSeason: 23 begins
 Killer Whales ThreadSeason: 23 ends
-Killer Whales: 2915 dies, 2915 reproduces. Remain killer whales:13847
+Killer Whales: 2581 dies, 2581 reproduces. Remain killer whales:12262
 ====================================================================================================
 Killer Whales ThreadSeason: 24 begins
 Killer Whales ThreadSeason: 24 ends
-Killer Whales: 2769 dies, 2769 reproduces. Remain killer whales:13155
+Killer Whales: 2415 dies, 2415 reproduces. Remain killer whales:11475
 ====================================================================================================
 Killer Whales ThreadSeason: 25 begins
 Killer Whales ThreadSeason: 25 ends
-Killer Whales: 2614 dies, 2614 reproduces. Remain killer whales:12416
+Killer Whales: 2251 dies, 2251 reproduces. Remain killer whales:10696
 ====================================================================================================
 Killer Whales ThreadSeason: 26 begins
 Killer Whales ThreadSeason: 26 ends
-Killer Whales: 2470 dies, 2470 reproduces. Remain killer whales:11734
+Killer Whales: 2102 dies, 2102 reproduces. Remain killer whales:9987
 ====================================================================================================
 Killer Whales ThreadSeason: 27 begins
 Killer Whales ThreadSeason: 27 ends
-Killer Whales: 2335 dies, 2335 reproduces. Remain killer whales:11094
+Killer Whales: 1957 dies, 1957 reproduces. Remain killer whales:9299
 ====================================================================================================
 Killer Whales ThreadSeason: 28 begins
 Killer Whales ThreadSeason: 28 ends
-Killer Whales: 2203 dies, 2203 reproduces. Remain killer whales:10465
+Killer Whales: 1859 dies, 1859 reproduces. Remain killer whales:8832
 ====================================================================================================
 Killer Whales ThreadSeason: 29 begins
 Killer Whales ThreadSeason: 29 ends
-Killer Whales: 2079 dies, 2079 reproduces. Remain killer whales:9877
+Killer Whales: 1766 dies, 1766 reproduces. Remain killer whales:8390
 ====================================================================================================
 Killer Whales ThreadSeason: 30 begins
 Killer Whales ThreadSeason: 30 ends
-Killer Whales: 1975 dies, 1975 reproduces. Remain killer whales:9383
+Killer Whales: 1638 dies, 1638 reproduces. Remain killer whales:7785
 ====================================================================================================
 Killer Whales ThreadSeason: 31 begins
 Killer Whales ThreadSeason: 31 ends
-Killer Whales: 1862 dies, 1862 reproduces. Remain killer whales:8847
+Killer Whales: 1556 dies, 1556 reproduces. Remain killer whales:7395
 ====================================================================================================
 Killer Whales ThreadSeason: 32 begins
 Killer Whales ThreadSeason: 32 ends
-Killer Whales: 1754 dies, 1754 reproduces. Remain killer whales:8336
+Killer Whales: 1434 dies, 1434 reproduces. Remain killer whales:6816
 ====================================================================================================
 Killer Whales ThreadSeason: 33 begins
 Killer Whales ThreadSeason: 33 ends
-Killer Whales: 1667 dies, 1667 reproduces. Remain killer whales:7919
+Killer Whales: 1363 dies, 1363 reproduces. Remain killer whales:6475
 ====================================================================================================
 Killer Whales ThreadSeason: 34 begins
 Killer Whales ThreadSeason: 34 ends
-Killer Whales: 1573 dies, 1573 reproduces. Remain killer whales:7471
+Killer Whales: 1253 dies, 1253 reproduces. Remain killer whales:5951
 ====================================================================================================
 Killer Whales ThreadSeason: 35 begins
 Killer Whales ThreadSeason: 35 ends
-Killer Whales: 1481 dies, 1481 reproduces. Remain killer whales:7037
+Killer Whales: 1148 dies, 1148 reproduces. Remain killer whales:5454
 ====================================================================================================
 Killer Whales ThreadSeason: 36 begins
 Killer Whales ThreadSeason: 36 ends
-Killer Whales: 1396 dies, 1396 reproduces. Remain killer whales:6632
+Killer Whales: 1090 dies, 1090 reproduces. Remain killer whales:5182
 ====================================================================================================
 Killer Whales ThreadSeason: 37 begins
 Killer Whales ThreadSeason: 37 ends
-Killer Whales: 1313 dies, 1313 reproduces. Remain killer whales:6241
+Killer Whales: 1036 dies, 1036 reproduces. Remain killer whales:4923
 ====================================================================================================
 Killer Whales ThreadSeason: 38 begins
 Killer Whales ThreadSeason: 38 ends
-Killer Whales: 1248 dies, 1248 reproduces. Remain killer whales:5928
+Killer Whales: 945 dies, 945 reproduces. Remain killer whales:4489
 ====================================================================================================
 Killer Whales ThreadSeason: 39 begins
 Killer Whales ThreadSeason: 39 ends
-Killer Whales: 1169 dies, 1169 reproduces. Remain killer whales:5556
+Killer Whales: 860 dies, 860 reproduces. Remain killer whales:4085
 ====================================================================================================
