@@ -1,80 +1,400 @@
-Main Process ThreadSeason: 0.0begins
-Main Process ThreadSeason: 0.0ends
-Main Process ThreadSeason: 1.0begins
-Main Process ThreadSeason: 1.0ends
-Main Process ThreadSeason: 2.0begins
-Main Process ThreadSeason: 2.0ends
-Main Process ThreadSeason: 3.0begins
-Main Process ThreadSeason: 3.0ends
-Main Process ThreadSeason: 4.0begins
-Main Process ThreadSeason: 4.0ends
-Main Process ThreadSeason: 5.0begins
-Main Process ThreadSeason: 5.0ends
-Main Process ThreadSeason: 6.0begins
-Main Process ThreadSeason: 6.0ends
-Main Process ThreadSeason: 7.0begins
-Main Process ThreadSeason: 7.0ends
-Main Process ThreadSeason: 8.0begins
-Main Process ThreadSeason: 8.0ends
-Main Process ThreadSeason: 9.0begins
-Main Process ThreadSeason: 9.0ends
-Main Process ThreadSeason: 10.0begins
-Main Process ThreadSeason: 10.0ends
-Main Process ThreadSeason: 11.0begins
-Main Process ThreadSeason: 11.0ends
-Main Process ThreadSeason: 12.0begins
-Main Process ThreadSeason: 12.0ends
-Main Process ThreadSeason: 13.0begins
-Main Process ThreadSeason: 13.0ends
-Main Process ThreadSeason: 14.0begins
-Main Process ThreadSeason: 14.0ends
-Main Process ThreadSeason: 15.0begins
-Main Process ThreadSeason: 15.0ends
-Main Process ThreadSeason: 16.0begins
-Main Process ThreadSeason: 16.0ends
-Main Process ThreadSeason: 17.0begins
-Main Process ThreadSeason: 17.0ends
-Main Process ThreadSeason: 18.0begins
-Main Process ThreadSeason: 18.0ends
-Main Process ThreadSeason: 19.0begins
-Main Process ThreadSeason: 19.0ends
-Main Process ThreadSeason: 20.0begins
-Main Process ThreadSeason: 20.0ends
-Main Process ThreadSeason: 21.0begins
-Main Process ThreadSeason: 21.0ends
-Main Process ThreadSeason: 22.0begins
-Main Process ThreadSeason: 22.0ends
-Main Process ThreadSeason: 23.0begins
-Main Process ThreadSeason: 23.0ends
-Main Process ThreadSeason: 24.0begins
-Main Process ThreadSeason: 24.0ends
-Main Process ThreadSeason: 25.0begins
-Main Process ThreadSeason: 25.0ends
-Main Process ThreadSeason: 26.0begins
-Main Process ThreadSeason: 26.0ends
-Main Process ThreadSeason: 27.0begins
-Main Process ThreadSeason: 27.0ends
-Main Process ThreadSeason: 28.0begins
-Main Process ThreadSeason: 28.0ends
-Main Process ThreadSeason: 29.0begins
-Main Process ThreadSeason: 29.0ends
-Main Process ThreadSeason: 30.0begins
-Main Process ThreadSeason: 30.0ends
-Main Process ThreadSeason: 31.0begins
-Main Process ThreadSeason: 31.0ends
-Main Process ThreadSeason: 32.0begins
-Main Process ThreadSeason: 32.0ends
-Main Process ThreadSeason: 33.0begins
-Main Process ThreadSeason: 33.0ends
-Main Process ThreadSeason: 34.0begins
-Main Process ThreadSeason: 34.0ends
-Main Process ThreadSeason: 35.0begins
-Main Process ThreadSeason: 35.0ends
-Main Process ThreadSeason: 36.0begins
-Main Process ThreadSeason: 36.0ends
-Main Process ThreadSeason: 37.0begins
-Main Process ThreadSeason: 37.0ends
-Main Process ThreadSeason: 38.0begins
-Main Process ThreadSeason: 38.0ends
-Main Process ThreadSeason: 39.0begins
-Main Process ThreadSeason: 39.0ends
+Main Process ThreadSeason: 0 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 0 ends
+Main Process: Food Unit: 9.988930200999998E7
+====================================================================================================
+Main Process ThreadSeason: 1 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 1 ends
+Main Process: Food Unit: 9.921798017000027E7
+====================================================================================================
+Main Process ThreadSeason: 2 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 2 ends
+Main Process: Food Unit: 9.83478996600003E7
+====================================================================================================
+Main Process ThreadSeason: 3 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 3 ends
+Main Process: Food Unit: 9.741088800000034E7
+====================================================================================================
+Main Process ThreadSeason: 4 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 4 ends
+Main Process: Food Unit: 9.608199245000042E7
+====================================================================================================
+Main Process ThreadSeason: 5 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 5 ends
+Main Process: Food Unit: 9.44529654800003E7
+====================================================================================================
+Main Process ThreadSeason: 6 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 6 ends
+Main Process: Food Unit: 9.432436514000039E7
+====================================================================================================
+Main Process ThreadSeason: 7 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 7 ends
+Main Process: Food Unit: 9.15699472300001E7
+====================================================================================================
+Main Process ThreadSeason: 8 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 8 ends
+Main Process: Food Unit: 8.817500695000027E7
+====================================================================================================
+Main Process ThreadSeason: 9 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 9 ends
+Main Process: Food Unit: 8.391011698000027E7
+====================================================================================================
+Main Process ThreadSeason: 10 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 10 ends
+Main Process: Food Unit: 7.863773225000031E7
+====================================================================================================
+Main Process ThreadSeason: 11 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 11 ends
+Main Process: Food Unit: 7.178102481000032E7
+====================================================================================================
+Main Process ThreadSeason: 12 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 12 ends
+Main Process: Food Unit: 6.299334379000018E7
+====================================================================================================
+Main Process ThreadSeason: 13 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 13 ends
+Main Process: Food Unit: 5.139189717000022E7
+====================================================================================================
+Main Process ThreadSeason: 14 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 14 ends
+Main Process: Food Unit: 3.66478806100002E7
+====================================================================================================
+Main Process ThreadSeason: 15 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 15 ends
+Main Process: Food Unit: 1.6644387890000232E7
+====================================================================================================
+Main Process ThreadSeason: 16 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 16 ends
+Main Process: Food Unit: -7657376.169999765
+====================================================================================================
+Main Process ThreadSeason: 17 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 17 ends
+Main Process: Food Unit: -4.362600755999978E7
+====================================================================================================
+Main Process ThreadSeason: 18 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 18 ends
+Main Process: Food Unit: -8.716251417999992E7
+====================================================================================================
+Main Process ThreadSeason: 19 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 19 ends
+Main Process: Food Unit: -1.4253332345999995E8
+====================================================================================================
+Main Process ThreadSeason: 20 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 20 ends
+Main Process: Food Unit: -1.4365276743999976E8
+====================================================================================================
+Main Process ThreadSeason: 21 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 21 ends
+Main Process: Food Unit: -2.3730383392999917E8
+====================================================================================================
+Main Process ThreadSeason: 22 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 22 ends
+Main Process: Food Unit: -2.379785138999995E8
+====================================================================================================
+Main Process ThreadSeason: 23 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 23 ends
+Main Process: Food Unit: -3.9697480438999903E8
+====================================================================================================
+Main Process ThreadSeason: 24 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 24 ends
+Main Process: Food Unit: -6.114413592799983E8
+====================================================================================================
+Main Process ThreadSeason: 25 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 25 ends
+Main Process: Food Unit: -6.122331978199983E8
+====================================================================================================
+Main Process ThreadSeason: 26 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 26 ends
+Main Process: Food Unit: -9.867352377299979E8
+====================================================================================================
+Main Process ThreadSeason: 27 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 27 ends
+Main Process: Food Unit: -1.4708252678799977E9
+====================================================================================================
+Main Process ThreadSeason: 28 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 28 ends
+Main Process: Food Unit: -2.0722859440900006E9
+====================================================================================================
+Main Process ThreadSeason: 29 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 29 ends
+Main Process: Food Unit: -2.863051809679999E9
+====================================================================================================
+Main Process ThreadSeason: 30 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 30 ends
+Main Process: Food Unit: -3.8903364488899984E9
+====================================================================================================
+Main Process ThreadSeason: 31 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 31 ends
+Main Process: Food Unit: -5.146510001589992E9
+====================================================================================================
+Main Process ThreadSeason: 32 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 32 ends
+Main Process: Food Unit: -6.85848278107E9
+====================================================================================================
+Main Process ThreadSeason: 33 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 33 ends
+Main Process: Food Unit: -8.910289096609997E9
+====================================================================================================
+Main Process ThreadSeason: 34 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 34 ends
+Main Process: Food Unit: -1.1819868689930004E10
+====================================================================================================
+Main Process ThreadSeason: 35 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 35 ends
+Main Process: Food Unit: -1.5373915111820017E10
+====================================================================================================
+Main Process ThreadSeason: 36 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 36 ends
+Main Process: Food Unit: -2.0318785562670002E10
+====================================================================================================
+Main Process ThreadSeason: 37 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process ThreadSeason: 37 ends
+Main Process: Food Unit: -2.658170415419994E10
+====================================================================================================
+Main Process ThreadSeason: 38 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 38 ends
+Main Process: Food Unit: -3.431747278237996E10
+====================================================================================================
+Main Process ThreadSeason: 39 begins
+Main Process Thread: Food grow at 0.0
+Main Process Thread: Natural disaster at 0.0
+Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process Thread: Food grow at 90.0
+Main Process Thread: Natural disaster at 90.0
+Main Process Thread: Human fish event at 90.0
+Main Process ThreadSeason: 39 ends
+Main Process: Food Unit: -4.459088507845992E10
+====================================================================================================

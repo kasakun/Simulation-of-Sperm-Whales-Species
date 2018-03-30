@@ -9,21 +9,21 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 // import java.io.*;
 
-enum curTpye {
+enum curType {
     warmCurrents("warm currents", 1.2), coldWaterCurrents("cold currents", 0.85);
     private final String name;
     private final double rate;
-    private curTpye(String name, double rate) {
+    private curType(String name, double rate) {
         this.name = name;
         this.rate = rate;
     }
 
     public static String getName(int id) {
-        return (id == 0) ? curTpye.warmCurrents.name : curTpye.coldWaterCurrents.name;
+        return (id == 0) ? curType.warmCurrents.name : curType.coldWaterCurrents.name;
     }
 
     public static double getRate(int id) {
-        return (id == 0) ? curTpye.warmCurrents.rate : curTpye.coldWaterCurrents.rate;
+        return (id == 0) ? curType.warmCurrents.rate : curType.coldWaterCurrents.rate;
     }
 }
 
@@ -101,7 +101,7 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.foodRes = this.foodRes * 1.05 * (this.oceanTemp/85) * curTpye.getRate(oceanCur);
+        this.foodRes = this.foodRes * 1.4 * (this.oceanTemp/85) * curType.getRate(oceanCur);
         System.out.println("Main Proc: Food resource grow, current food resource:" + this.foodRes);
     }
 
@@ -135,7 +135,7 @@ public class MainProc {
 
     public String toString() {
         return "Current condition: \n" +
-                "ocean currents: " + curTpye.getName(this.oceanCur) + "\n" +
+                "ocean currents: " + curType.getName(this.oceanCur) + "\n" +
                 "ocean temperature: " + this.oceanTemp + "\n" +
                 "food resource: " + this.foodRes;
     }

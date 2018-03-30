@@ -19,7 +19,7 @@ public class SpermWhales extends Mammals {
         numberl.lock();
         try{
             --number;
-            System.out.println("Sperm whales: Accidental death. Remain sperm whales:" + number);
+            System.out.println("Sperm Whales: Accidental death. Remain sperm whales:" + number);
         }
         finally{
             numberl.unlock();
