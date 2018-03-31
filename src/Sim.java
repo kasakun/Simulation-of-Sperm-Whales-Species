@@ -26,9 +26,9 @@ public class Sim {
     public static void main(String[] args) throws FileNotFoundException {
 
         MainProc mp = new MainProc(0, 85, 100000000);
-        KillerWhales kw = new KillerWhales(50000, 20, 0.15, 0.2);
-        SpermWhales sw = new SpermWhales(10000, 100000, 0.02, 0.01);
-        MarineMammals mm = new MarineMammals(20000, 100000, 0.04, 0.03);
+        KillerWhales kw = new KillerWhales(50000, 20, 0.015, 0.02);
+        SpermWhales sw = new SpermWhales(10000, 100000, 0.015, 0.01);
+        MarineMammals mm = new MarineMammals(0, 0, 0, 0);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
@@ -262,6 +262,7 @@ public class Sim {
                     double now = 0.0; // now is in the season scope
 
                     Engine swengine = new Engine();
+                    int counter = 1;
                     Event e = new SpermWhalesEat(0.0);
                     swengine.eventList.add(e);
 
@@ -286,8 +287,9 @@ public class Sim {
                         }
 
                         if (Math.random() > 0.1 && now < 90) {
-                            now = Math.random()*0.5 + temp;
+                            now = Math.random()*2 + temp;
                             Event eat = new SpermWhalesEat(now);
+                            counter++;
                             swengine.eventList.add(eat);
                         }
                     }
@@ -300,6 +302,8 @@ public class Sim {
                     }
                     System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
+                    spermWhalePrint.println(threadName + "eat counter: " + counter + " ends");
+
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
