@@ -214,11 +214,11 @@ public class Sim {
                         int temp = kw.number;
                         kw.number = kw.number  +  (int) (temp*kw.reprorate);
                         kw.number = kw.number - (int) (temp*kw.deathrate);
-                        System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.deathrate)
+                        System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.reprorate)
                                 + " reproduces. " + "Remain killer whales:" + kw.number);
 
                         killerWhalePrint.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " +
-                                (int)(temp*kw.deathrate) + " reproduces. " + "Remain killer whales:" + kw.number);
+                                (int)(temp*kw.reprorate) + " reproduces. " + "Remain killer whales:" + kw.number);
 
                     } finally {
                         kw.numberl.unlock();
@@ -308,11 +308,11 @@ public class Sim {
                         int temp = sw.number;
                         sw.number = sw.number  +  (int) (temp*sw.reprorate);
                         sw.number = sw.number - (int) (temp*sw.deathrate);
-                        System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.deathrate)
+                        System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.reprorate)
                                 + " reproduces. " + "Remain killer whales:" + sw.number);
 
                         spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, "
-                                + (int)(temp*sw.deathrate) + " reproduces. " + "Remain killer whales:" + sw.number);
+                                + (int)(temp*sw.reprorate) + " reproduces. " + "Remain killer whales:" + sw.number);
 
                     } finally {
                         sw.numberl.unlock();
@@ -402,10 +402,10 @@ public class Sim {
                         int temp = mm.number;
                         mm.number = mm.number  +  (int) (temp*mm.reprorate);
                         mm.number = mm.number - (int) (temp*mm.deathrate);
-                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.deathrate)
+                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.reprorate)
                                 + " reproduces. " + "Remain Marine Mammals:" + mm.number);
                         marineMammalPrint.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, "
-                                + (int)(temp*mm.deathrate) + " reproduces. " + "Remain Marine Mammals:" + mm.number);
+                                + (int)(temp*mm.reprorate) + " reproduces. " + "Remain Marine Mammals:" + mm.number);
 
                     } finally {
                         mm.numberl.unlock();

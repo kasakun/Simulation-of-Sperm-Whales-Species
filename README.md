@@ -39,7 +39,7 @@ You can change the time by `timeLimit`
 1. How to determine the demand when calculate a species death for hunger @all 
 2. The competition between sperm whales and marine mammals are not presented. Main proc should distribute the total food
 resource for these two speices. @Yao
-3. The fishery only influence the exact number of the food resoucre, not actually influence the number of species. @Yao
+3. The fishery only influence the exact number of the food resource, not actually influence the number of species. @Yao
  
 4. Hunt rate should be related to the number of species. @ Zeyu Chen
 
