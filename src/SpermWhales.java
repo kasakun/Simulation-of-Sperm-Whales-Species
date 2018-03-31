@@ -27,13 +27,13 @@ public class SpermWhales extends Mammals {
     }
 
     public void eat(MainProc mp) {
-        if(food<=0)
+        if(mp.foodRes<=0)
             return;
         mp.foodResl.lock();
         try {
-            mp.foodRes = mp.foodRes - number*0.03;
-            System.out.println(name + ": Consumes food: " + number*0.03 + ". Remain:" + mp.foodRes);
-            food+=number*0.03;
+            mp.foodRes = mp.foodRes - number;
+            System.out.println(name + ": Consumes food: " + number + ". Remain:" + mp.foodRes);
+            food+=number;
 
         } finally {
             mp.foodResl.unlock();

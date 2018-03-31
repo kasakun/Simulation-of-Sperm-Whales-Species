@@ -25,10 +25,10 @@ public class Sim {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        MainProc mp = new MainProc(0, 85, 10000000);
+        MainProc mp = new MainProc(0, 85, 100000000);
         KillerWhales kw = new KillerWhales(50000, 20, 0.15, 0.2);
-        SpermWhales sw = new SpermWhales(10000, 30, 0.2, 0.1);
-        MarineMammals mm = new MarineMammals(20000, 40, 0.4, 0.3);
+        SpermWhales sw = new SpermWhales(10000, 100000, 0.02, 0.01);
+        MarineMammals mm = new MarineMammals(20000, 100000, 0.04, 0.03);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
@@ -153,7 +153,6 @@ public class Sim {
             @Override public void run() {
                 // Killer Whales
                 double timeHelper = 0.0;
-
                 FileOutputStream killerWhaleLog = null;
                 try {
                     killerWhaleLog = new FileOutputStream("killerWhaleLog.txt");
@@ -180,7 +179,6 @@ public class Sim {
                     /**************************************** Season Begins *******************************************/
                     while (!kwengine.eventList.isEmpty()) {
                         double temp = now;
-
                         kwengine.eventHandler(mp, kw, sw, mm);
                         // Use prob to determine whether to schedule
                         if (Math.random() > 0.2 && now < 90) {
@@ -228,11 +226,11 @@ public class Sim {
                     kw.numberl.lock();
                     try {
                         if (kw.food < kw.demand) {
-                            kw.number -= (int)((kw.demand - kw.food)*2.5);
-                            System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
+                            kw.number -= (int)((kw.demand - kw.food)*0.01);
+                            System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.01) + " dies for hunger.");
 
                             killerWhalePrint.println(kw.name + ": "
-                                    + (int)((kw.demand - kw.food)*2.5) + " dies for hunger.");
+                                    + (int)((kw.demand - kw.food)*0.01) + " dies for hunger.");
                         }
                     } finally {
                         kw.numberl.unlock();
@@ -276,6 +274,7 @@ public class Sim {
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     sw.food=0.0;
+                    sw.demand=sw.number*90;
                     while (!swengine.eventList.isEmpty()) {
                         double temp =now;
                         swengine.eventHandler(mp, kw, sw, mm);
@@ -311,6 +310,7 @@ public class Sim {
                         sw.number = sw.number - (int) (temp*sw.deathrate);
                         System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.reprorate)
                                 + " reproduces. " + "Remain sperm whales:" + sw.number);
+                        //spermWhalePrint.println(sw.food);
 
                         spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, "
                                 + (int)(temp*sw.reprorate) + " reproduces. " + "Remain sperm whales:" + sw.number);
@@ -323,11 +323,11 @@ public class Sim {
                     sw.numberl.lock();
                     try {
                         if (sw.food < sw.demand) {
-                            sw.number -= (int)((sw.demand - sw.food)*2.5);
+                            sw.number -= (int)((sw.demand - sw.food)*0.01);
                             spermWhalePrint.println(sw.food);
-                            System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5) + " dies for hunger.");
+                            System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
 
-                            spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5)
+                            spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01)
                                     + " dies for hunger.");
                         }
                     } finally {
@@ -371,6 +371,8 @@ public class Sim {
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     marineMammalPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
+                    mm.food = 0.0;
+                    mm.demand = mm.number*90;
                     while (!mmengine.eventList.isEmpty()) {
                         double temp = now;
 
@@ -417,10 +419,10 @@ public class Sim {
                     mm.numberl.lock();
                     try {
                         if (mm.food < mm.demand) {
-                            mm.number -= (int) ((mm.demand - mm.food) * 2.5);
-                            System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 2.5) + " dies for hunger.");
+                            mm.number -= (int) ((mm.demand - mm.food) * 0.01);
+                            System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
                             marineMammalPrint.println(mm.name + ": "
-                                    + (int) ((mm.demand - mm.food) * 2.5) + " dies for hunger.");
+                                    + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
                         }
                     } finally {
                         mm.numberl.unlock();

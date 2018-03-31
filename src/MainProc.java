@@ -61,7 +61,7 @@ public class MainProc {
     // }
 
     private void updateFood() {
-        this.foodRes = this.totalFood / 10;
+       this.foodRes = 100000;//this.totalFood / 10;
     }
 
     public void huntWhale(SpermWhales sw) {

@@ -16,10 +16,13 @@ public class MarineMammals extends Mammals {
     }
 
     public void eat(MainProc mp) {
+        if(mp.foodRes<=0)
+            return;
         mp.foodResl.lock();
         try {
-            mp.foodRes = mp.foodRes - number*0.07;
-            System.out.println(name + ": Consumes food: " + number*0.07 + ". Remain:" + mp.foodRes);
+            mp.foodRes = mp.foodRes - number;
+            System.out.println(name + ": Consumes food: " + number + ". Remain:" + mp.foodRes);
+            food+=number;
         } finally {
             mp.foodResl.unlock();
         }

@@ -6,8 +6,19 @@
       <change beforePath="$PROJECT_DIR$/killerWhaleLog.txt" afterPath="$PROJECT_DIR$/killerWhaleLog.txt" />
       <change beforePath="$PROJECT_DIR$/mainProcLog.txt" afterPath="$PROJECT_DIR$/mainProcLog.txt" />
       <change beforePath="$PROJECT_DIR$/marineMammalLog.txt" afterPath="$PROJECT_DIR$/marineMammalLog.txt" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/KillerWhalesThread.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/KillerWhalesThread.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MainProc.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MainProc.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MainProcThread.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MainProcThread.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MarineMammalThread.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MarineMammalThread.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MarineMammals.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/MarineMammals.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/Sim$3.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/Sim$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/Sim$4.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/Sim$4.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/Sim.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/Sim.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/SpermWhales.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/SpermWhales.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/SpermWhalesThread.class" afterPath="$PROJECT_DIR$/out/production/Simulation-of-Sperm-Whales-Species/SpermWhalesThread.class" />
       <change beforePath="$PROJECT_DIR$/spermWhaleLog.txt" afterPath="$PROJECT_DIR$/spermWhaleLog.txt" />
-      <change beforePath="$PROJECT_DIR$/src/Mammals.java" afterPath="$PROJECT_DIR$/src/Mammals.java" />
+      <change beforePath="$PROJECT_DIR$/src/MainProc.java" afterPath="$PROJECT_DIR$/src/MainProc.java" />
+      <change beforePath="$PROJECT_DIR$/src/MarineMammals.java" afterPath="$PROJECT_DIR$/src/MarineMammals.java" />
       <change beforePath="$PROJECT_DIR$/src/Sim.java" afterPath="$PROJECT_DIR$/src/Sim.java" />
       <change beforePath="$PROJECT_DIR$/src/SpermWhales.java" afterPath="$PROJECT_DIR$/src/SpermWhales.java" />
     </list>
@@ -24,28 +35,8 @@
       <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="766" column="23" lean-forward="false" selection-start-line="766" selection-start-column="0" selection-end-line="767" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spermWhaleLog.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spermWhaleLog.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="237" column="3" lean-forward="false" selection-start-line="237" selection-start-column="3" selection-end-line="237" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spermWhaleLog.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spermWhaleLog.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="182" column="62" lean-forward="false" selection-start-line="182" selection-start-column="56" selection-end-line="182" selection-end-column="62" />
+            <state relative-caret-position="195">
+              <caret line="757" column="28" lean-forward="true" selection-start-line="757" selection-start-column="28" selection-end-line="757" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -54,8 +45,8 @@
       <file leaf-file-name="SpermWhales.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpermWhales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="296">
+              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -74,8 +65,51 @@
       <file leaf-file-name="Sim.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Sim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="269" column="17" lean-forward="true" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="266" column="0" lean-forward="true" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarineMammals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MarineMammals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainProc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainProc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+              <folding>
+                <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#1849#1850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spermWhaleLog.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spermWhaleLog.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="144" column="80" lean-forward="false" selection-start-line="144" selection-start-column="70" selection-end-line="144" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Simulation-of-Sperm-Whales-Species.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Simulation-of-Sperm-Whales-Species.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -102,8 +136,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>log</find>
       <find>remain</find>
+      <find>2.5</find>
+      <find>log</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -121,13 +156,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Engine.java" />
-        <option value="$PROJECT_DIR$/src/MainProc.java" />
-        <option value="$PROJECT_DIR$/src/MarineMammals.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/KillerWhales.java" />
         <option value="$PROJECT_DIR$/src/Event.java" />
-        <option value="$PROJECT_DIR$/src/SpermWhales.java" />
         <option value="$PROJECT_DIR$/src/Mammals.java" />
+        <option value="$PROJECT_DIR$/src/MainProc.java" />
+        <option value="$PROJECT_DIR$/src/SpermWhales.java" />
+        <option value="$PROJECT_DIR$/src/MarineMammals.java" />
         <option value="$PROJECT_DIR$/src/Sim.java" />
       </list>
     </option>
@@ -175,6 +210,12 @@
               <item name="Simulation-of-Sperm-Whales-Species" type="b2602c69:ProjectViewProjectNode" />
               <item name="Simulation-of-Sperm-Whales-Species" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Simulation-of-Sperm-Whales-Species" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Simulation-of-Sperm-Whales-Species" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MainProc.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Simulation-of-Sperm-Whales-Species" type="b2602c69:ProjectViewProjectNode" />
@@ -642,14 +683,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/MarineMammals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -663,13 +696,6 @@
         <state relative-caret-position="15">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation-of-Sperm-Whales-Species.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -709,26 +735,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainProc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SpermWhales.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="766" column="23" lean-forward="false" selection-start-line="766" selection-start-column="0" selection-end-line="767" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,26 +766,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spermWhaleLog.txt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="237" column="3" lean-forward="false" selection-start-line="237" selection-start-column="3" selection-end-line="237" selection-end-column="3" />
+        <state relative-caret-position="195">
+          <caret line="757" column="28" lean-forward="true" selection-start-line="757" selection-start-column="28" selection-end-line="757" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation-of-Sperm-Whales-Species.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainProc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="63" column="29" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SpermWhales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="296">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MarineMammals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spermWhaleLog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="144" column="80" lean-forward="false" selection-start-line="144" selection-start-column="70" selection-end-line="144" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="269" column="17" lean-forward="true" selection-start-line="269" selection-start-column="17" selection-end-line="269" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="266" column="0" lean-forward="true" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
           <folding />
         </state>
       </provider>
