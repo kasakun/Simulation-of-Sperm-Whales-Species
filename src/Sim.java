@@ -25,7 +25,7 @@ public class Sim {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        MainProc mp = new MainProc(0, 85, 1000000000);
+        MainProc mp = new MainProc(0, 85, 10000000);
         KillerWhales kw = new KillerWhales(50000, 20, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 30, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 40, 0.4, 0.3);
@@ -275,6 +275,7 @@ public class Sim {
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
+                    sw.food=0.0;
                     while (!swengine.eventList.isEmpty()) {
                         double temp =now;
                         swengine.eventHandler(mp, kw, sw, mm);
@@ -309,10 +310,10 @@ public class Sim {
                         sw.number = sw.number  +  (int) (temp*sw.reprorate);
                         sw.number = sw.number - (int) (temp*sw.deathrate);
                         System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.reprorate)
-                                + " reproduces. " + "Remain killer whales:" + sw.number);
+                                + " reproduces. " + "Remain sperm whales:" + sw.number);
 
                         spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, "
-                                + (int)(temp*sw.reprorate) + " reproduces. " + "Remain killer whales:" + sw.number);
+                                + (int)(temp*sw.reprorate) + " reproduces. " + "Remain sperm whales:" + sw.number);
 
                     } finally {
                         sw.numberl.unlock();
@@ -323,6 +324,7 @@ public class Sim {
                     try {
                         if (sw.food < sw.demand) {
                             sw.number -= (int)((sw.demand - sw.food)*2.5);
+                            spermWhalePrint.println(sw.food);
                             System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5) + " dies for hunger.");
 
                             spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*2.5)

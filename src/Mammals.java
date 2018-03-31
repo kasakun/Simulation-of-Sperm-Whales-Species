@@ -8,8 +8,8 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Mammals {
     String name;      // type of the animal
     int number;       // number of the species
-    int demand;       // demand of the food
-    int food;         // actually food
+    double demand;       // demand of the food
+    double food;         // actually food
     double reprorate; // reproduce rate
     double deathrate; // death rate
 
@@ -30,7 +30,7 @@ public class Mammals {
         return number;
     }
 
-    public int getDemand() {
+    public double getDemand() {
         return demand;
     }
 
