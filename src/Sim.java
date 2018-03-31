@@ -23,12 +23,12 @@ public class Sim {
 
     public static double timeLimit = 3600;
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
 
         MainProc mp = new MainProc(0, 85, 100000000);
-        KillerWhales kw = new KillerWhales(50000, 20, 0.015, 0.015);
-        SpermWhales sw = new SpermWhales(10000, 100000, 0.015, 0.01);
-        MarineMammals mm = new MarineMammals(0, 0, 0, 0);
+        KillerWhales kw = new KillerWhales(5000, 350, 0.012, 0.01);
+        SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.01);
+        MarineMammals mm = new MarineMammals(20000, 20000, 0.03, 0.01);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
@@ -163,6 +163,8 @@ public class Sim {
 
                 while(timeHelper < timeLimit) {
                     double now = 0.0;
+                    int eatcounter = 1;
+                    int deathcounter = 0;
 
                     Engine kwengine = new Engine();
                     Event hunt = new KillerWhalesHunt(now);
@@ -181,16 +183,18 @@ public class Sim {
                         double temp = now;
                         kwengine.eventHandler(mp, kw, sw, mm);
                         // Use prob to determine whether to schedule
-                        if (Math.random() > 0.2 && now < 90) {
+                        if (now < 90) {
                             now = Math.random()*0.5 +  temp;
                             Event huntTemp = new KillerWhalesHunt(now);
+                            ++eatcounter;
                             // schedule next event
                             kwengine.eventList.add(huntTemp);
                         }
                         // Use prob to determine whether to schedule
-                        if (Math.random() > 0.5 && now < 90) {
+                        if (Math.random() > 0.8 && now < 90) {
                             now = Math.random()*0.5 +  temp;
                             Event deathTemp = new KillerWhalesDeath(now);
+                            ++deathcounter;
                             // schedule next event
                             kwengine.eventList.add(deathTemp);
                         }
@@ -207,6 +211,8 @@ public class Sim {
                     killerWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
+                    killerWhalePrint.println(threadName + " eat: " + eatcounter);
+                    killerWhalePrint.println(threadName + " accidental death: " + deathcounter);
                     kw.numberl.lock();
                     try {
                         int temp = kw.number;
@@ -260,9 +266,11 @@ public class Sim {
 
                 while(timeHelper < timeLimit) {
                     double now = 0.0; // now is in the season scope
+                    int eatcounter = 1;
+                    int deathcounter = 0;
 
                     Engine swengine = new Engine();
-                    int counter = 1;
+
                     Event e = new SpermWhalesEat(0.0);
                     swengine.eventList.add(e);
 
@@ -274,22 +282,23 @@ public class Sim {
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
-                    sw.food=0.0;
-                    sw.demand=sw.number*90;
+                    sw.food = 0.0;
+                    sw.demand = sw.number*90;
                     while (!swengine.eventList.isEmpty()) {
                         double temp =now;
                         swengine.eventHandler(mp, kw, sw, mm);
 
-                        if (Math.random() > 0.5 && now < 90) {
+                        if (Math.random() > 0.8 && now < 90) {
                             now = Math.random()*0.5 + temp;
                             Event deathTemp = new SpermWhalesDeath(now);
+                            deathcounter++;
                             swengine.eventList.add(deathTemp);
                         }
 
                         if (now < 90) {
                             now = Math.random()*2 + temp;
                             Event eat = new SpermWhalesEat(now);
-                            counter++;
+                            eatcounter++;
                             swengine.eventList.add(eat);
                         }
                     }
@@ -302,33 +311,35 @@ public class Sim {
                     }
                     System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
-                    spermWhalePrint.println(threadName + "eat counter: " + counter + " ends");
+
 
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
+                    spermWhalePrint.println(threadName + " eat: " + eatcounter);
+                    spermWhalePrint.println(threadName + " accidental death: " + deathcounter);
                     sw.numberl.lock();
                     try {
                         int temp = sw.number;
                         sw.number = sw.number  +  (int) (temp*sw.reprorate);
                         sw.number = sw.number - (int) (temp*sw.deathrate);
                         System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.reprorate)
-                                + " reproduces. " + "Remain sperm whales:" + sw.number);
+                                + " reproduces.");
                         //spermWhalePrint.println(sw.food);
 
                         spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, "
-                                + (int)(temp*sw.reprorate) + " reproduces. " + "Remain sperm whales:" + sw.number);
+                                + (int)(temp*sw.reprorate) + " reproduces.");
 
                     } finally {
                         sw.numberl.unlock();
                     }
-
+                    spermWhalePrint.println("Sperm Whales total consumes: " + sw.food);
                     // Calculate death for hunger
                     sw.numberl.lock();
                     try {
                         if (sw.food < sw.demand ) {
                             sw.number -= (int)((sw.demand - sw.food)*0.01);
-                            spermWhalePrint.println(sw.food);
+
                             if (mm.number <= 0)
                                 mm.number = 0;
                             System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
@@ -339,7 +350,9 @@ public class Sim {
                     } finally {
                         sw.numberl.unlock();
                     }
-                    
+
+                    System.out.println("Remain sperm whales:" + sw.number);
+                    spermWhalePrint.println("Remain sperm whales:" + sw.number);
                     timeHelper += 90;
                     spermWhalePrint.println("====================================================================================================");
                     /*************************************** Season Complete ******************************************/
@@ -362,6 +375,8 @@ public class Sim {
 
                 while(timeHelper < timeLimit) {
                     double now = 0.0;
+                    int eatcounter = 1;
+                    int deathcounter = 0;
                     Engine mmengine = new Engine();
                     // Food resource consume
 
@@ -384,15 +399,17 @@ public class Sim {
 
                         mmengine.eventHandler(mp, kw, sw, mm);
 
-                        if (Math.random() > 0.1 && now < 90) {
-                            now = Math.random()*0.5 + temp;
+                        if (now < 90) {
+                            now = Math.random()*2 + temp;
                             Event eatTemp = new MarineMammalsEat(now);
+                            ++eatcounter;
                             mmengine.eventList.add(eatTemp);
                         }
 
-                        if ( now < 90) {
-                            now = Math.random()*0.5 +  temp;
+                        if (Math.random() > 0.8 && now < 90) {
+                            now = Math.random()*2 +  temp;
                             Event deathTemp = new MarineMammalsDeath(now);
+                            ++deathcounter;
                             mmengine.eventList.add(deathTemp);
                         }
 
@@ -407,20 +424,22 @@ public class Sim {
                     marineMammalPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
                     // Calculate natural death and reproduce
+                    marineMammalPrint.println(threadName + " eat: " + eatcounter);
+                    marineMammalPrint.println(threadName + " accidental death: " + deathcounter);
                     mm.numberl.lock();
                     try {
                         int temp = mm.number;
                         mm.number = mm.number  +  (int) (temp*mm.reprorate);
                         mm.number = mm.number - (int) (temp*mm.deathrate);
                         System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.reprorate)
-                                + " reproduces. " + "Remain Marine Mammals:" + mm.number);
+                                + " reproduces.");
                         marineMammalPrint.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, "
-                                + (int)(temp*mm.reprorate) + " reproduces. " + "Remain Marine Mammals:" + mm.number);
+                                + (int)(temp*mm.reprorate) + " reproduces.");
 
                     } finally {
                         mm.numberl.unlock();
                     }
-
+                    marineMammalPrint.println("Marine Mammals total consumes: " + mm.food);
                     // Calculate death for hunger
                     mm.numberl.lock();
                     try {
@@ -434,7 +453,7 @@ public class Sim {
                     } finally {
                         mm.numberl.unlock();
                     }
-
+                    marineMammalPrint.println("Remain Marine Mammals:" + mm.number);
                     timeHelper += 90;
                     marineMammalPrint.println("====================================================================================================");
                     /*************************************** Season Complete ******************************************/
@@ -447,13 +466,8 @@ public class Sim {
         kwthr.start();
         swthr.start();
         mmthr.start();
-        
 
-
-
-
-
-        System.out.println("Simulation ends");
+        //System.out.println("Simulation ends");
 
     }
 }

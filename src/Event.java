@@ -89,8 +89,11 @@ class KillerWhalesHunt extends Event {
     }
     @Override
     public void run(MainProc mp, KillerWhales kw, SpermWhales sw, MarineMammals mm) {
-        kw.killSpermWhales(sw);
-        kw.killMarineMammals(mm);
+        if (Math.random() < (double)(sw.number/(sw.number + mm.number))) {
+            kw.killSpermWhales(sw);
+        } else {
+            kw.killMarineMammals(mm);
+        }
     }
 }
 

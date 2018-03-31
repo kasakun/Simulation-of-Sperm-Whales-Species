@@ -18,7 +18,7 @@ public class KillerWhales extends Mammals {
     }
 
     public void killSpermWhales(SpermWhales sw) {
-        if (Math.random() > 0.5) {
+        if (Math.random() > (double)(number/sw.number)) {
             sw.numberl.lock();
             try {
                 --sw.number;
@@ -31,7 +31,7 @@ public class KillerWhales extends Mammals {
     }
 
     public void killMarineMammals(MarineMammals mm) {
-        if (Math.random() > 0.2) {
+        if (Math.random() > (double)(number/mm.number)) {
             mm.numberl.lock();
             try {
                 --mm.number;
