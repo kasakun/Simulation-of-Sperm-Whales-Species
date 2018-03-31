@@ -31,17 +31,17 @@ public class MainProc {
     int oceanCur;    // ocean current type
     int oceanTemp;   // ocean temperature
 
-    double fishRate; // human dish rate
+    double totalFood; // human dish rate
     double foodRes;  // food resource of sperm whales and other marine mammals
 
     // Lock
     Lock foodResl = new ReentrantLock();
 
-    MainProc(int Cur, int Temp, double Fish, double Food) {
+    MainProc(int Cur, int Temp, double Total) {
         this.oceanCur = Cur;
         this.oceanTemp = Temp;
-        this.fishRate = Fish;
-        this.foodRes = Food;
+        this.totalFood = Total;
+        this.foodRes = Total/10;
     }
 
 
@@ -60,6 +60,9 @@ public class MainProc {
     //     }
     // }
 
+    private void updateFood() {
+        this.foodRes = this.totalFood / 10;
+    }
 
     public void huntWhale(SpermWhales sw) {
         if (Math.random() > 0.5) {
@@ -83,12 +86,12 @@ public class MainProc {
 
     public void fish() {
         if (Math.random() < 0.3) {
-            this.foodRes = (0.95 + 0.05 * Math.random()) * this.foodRes;
-            System.out.println("Main Proc: Human fishing action. Remain food resource:" + this.foodRes);
+            this.totalFood = (0.95 + 0.05 * Math.random()) * this.totalFood;
+            System.out.println("Main Proc: Human fishing action. Remain food resource:" + this.totalFood);
         }
         // writeLog("log.txt", "hi");
         // writeLog("log.txt", "hihi");
-
+        this.updateFood();
     }
 
     public void naturalDisaster() {
@@ -101,8 +104,9 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.foodRes = this.foodRes * 1.01 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur); // Need discussion
-        System.out.println("Main Proc: Food resource grow, current food resource:" + this.foodRes);
+        this.totalFood = this.totalFood * 1.05 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
+        System.out.println("Main Proc: Food resource grow, current total food resource:" + this.totalFood);
+        this.updateFood();
     }
 
     public void winterToSpring() {
@@ -137,6 +141,7 @@ public class MainProc {
         return "Current condition: \n" +
                 "ocean currents: " + curType.getName(this.oceanCur) + "\n" +
                 "ocean temperature: " + this.oceanTemp + "\n" +
-                "food resource: " + this.foodRes;
+                "total food: " + this.totalFood +
+                "food resource available:" + this.foodRes;
     }
 }

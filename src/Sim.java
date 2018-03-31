@@ -25,14 +25,14 @@ public class Sim {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        MainProc mp = new MainProc(0, 85, 100, 1000000000);
+        MainProc mp = new MainProc(0, 85, 1000000000);
         KillerWhales kw = new KillerWhales(50000, 20, 0.15, 0.2);
         SpermWhales sw = new SpermWhales(10000, 30, 0.2, 0.1);
         MarineMammals mm = new MarineMammals(20000, 40, 0.4, 0.3);
 
         System.out.println("==================================================================================");
-        System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Human Fish Rate: "
-                + mp.fishRate + ", Food Unit: " + mp.foodRes);
+        System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
+                + mp.totalFood + ", Food Resource: " + mp.foodRes);
 
         System.out.println("Killer Whales: " + kw.number + ", Food Demand: " + kw.demand + ", Reproduce rate: " +
                 kw.reprorate + ", Death Rate: " + kw.deathrate);
