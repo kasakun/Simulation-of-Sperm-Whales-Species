@@ -1,230 +1,260 @@
 Sperm Whales ThreadSeason: 0 begins
-Sperm Whales Threadeat counter: 93 ends
+Sperm Whales Threadeat counter: 94 ends
 Sperm Whales ThreadSeason: 0 ends
-Sperm Whales: 97 dies, 146 reproduces. Remain sperm whales:9834
+Sperm Whales: 99 dies, 149 reproduces. Remain sperm whales:10009
 ====================================================================================================
 Sperm Whales ThreadSeason: 1 begins
-Sperm Whales Threadeat counter: 97 ends
+Sperm Whales Threadeat counter: 99 ends
 Sperm Whales ThreadSeason: 1 ends
-Sperm Whales: 86 dies, 129 reproduces. Remain sperm whales:8682
-229827.0
-Sperm Whales: 6552 dies for hunger.
+Sperm Whales: 97 dies, 146 reproduces. Remain sperm whales:9822
+109785.0
+Sperm Whales: 7909 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 2 begins
-Sperm Whales Threadeat counter: 85 ends
+Sperm Whales Threadeat counter: 99 ends
 Sperm Whales ThreadSeason: 2 ends
-Sperm Whales: 20 dies, 31 reproduces. Remain sperm whales:2093
-101404.0
-Sperm Whales: 902 dies for hunger.
+Sperm Whales: 16 dies, 25 reproduces. Remain sperm whales:1701
+131955.0
+Sperm Whales: 401 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 3 begins
-Sperm Whales Threadeat counter: 88 ends
+Sperm Whales Threadeat counter: 91 ends
 Sperm Whales ThreadSeason: 3 ends
-Sperm Whales: 9 dies, 14 reproduces. Remain sperm whales:991
-93785.0
-Sperm Whales: 134 dies for hunger.
+Sperm Whales: 10 dies, 16 reproduces. Remain sperm whales:1090
+101679.0
+Sperm Whales: 152 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 4 begins
-Sperm Whales Threadeat counter: 91 ends
+Sperm Whales Threadeat counter: 84 ends
 Sperm Whales ThreadSeason: 4 ends
-Sperm Whales: 6 dies, 9 reproduces. Remain sperm whales:648
-72416.0
-Sperm Whales: 47 dies for hunger.
+Sperm Whales: 7 dies, 11 reproduces. Remain sperm whales:742
+76633.0
+Sperm Whales: 77 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 5 begins
-Sperm Whales Threadeat counter: 81 ends
+Sperm Whales Threadeat counter: 95 ends
 Sperm Whales ThreadSeason: 5 ends
-Sperm Whales: 5 dies, 8 reproduces. Remain sperm whales:560
-46340.0
-Sperm Whales: 67 dies for hunger.
+Sperm Whales: 4 dies, 6 reproduces. Remain sperm whales:452
 ====================================================================================================
 Sperm Whales ThreadSeason: 6 begins
-Sperm Whales Threadeat counter: 94 ends
+Sperm Whales Threadeat counter: 85 ends
 Sperm Whales ThreadSeason: 6 ends
-Sperm Whales: 3 dies, 4 reproduces. Remain sperm whales:303
-41624.0
-Sperm Whales: 27 dies for hunger.
+Sperm Whales: 4 dies, 6 reproduces. Remain sperm whales:413
+36807.0
+Sperm Whales: 38 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 7 begins
-Sperm Whales Threadeat counter: 101 ends
+Sperm Whales Threadeat counter: 88 ends
 Sperm Whales ThreadSeason: 7 ends
-Sperm Whales: 0 dies, 0 reproduces. Remain sperm whales:65
+Sperm Whales: 1 dies, 2 reproduces. Remain sperm whales:186
+22062.0
+Sperm Whales: 115 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 8 begins
-Sperm Whales Threadeat counter: 94 ends
+Sperm Whales Threadeat counter: 87 ends
 Sperm Whales ThreadSeason: 8 ends
-Sperm Whales: -1 dies, -2 reproduces. Remain sperm whales:-140
--10892.0
-Sperm Whales: 21 dies for hunger.
+Sperm Whales: -1 dies, -2 reproduces. Remain sperm whales:-155
+-10272.0
+Sperm Whales: 166 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 9 begins
-Sperm Whales Threadeat counter: 92 ends
+Sperm Whales Threadeat counter: 83 ends
 Sperm Whales ThreadSeason: 9 ends
-Sperm Whales: -3 dies, -5 reproduces. Remain sperm whales:-394
--17031.0
-Sperm Whales: 25 dies for hunger.
+Sperm Whales: -3 dies, -5 reproduces. Remain sperm whales:-373
+-29097.0
+Sperm Whales: 1 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 10 begins
-Sperm Whales Threadeat counter: 88 ends
+Sperm Whales Threadeat counter: 95 ends
 Sperm Whales ThreadSeason: 10 ends
-Sperm Whales: -6 dies, -9 reproduces. Remain sperm whales:-647
--39168.0
-Sperm Whales: 14 dies for hunger.
+Sperm Whales: -4 dies, -6 reproduces. Remain sperm whales:-426
+-38044.0
+Sperm Whales: 43 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 11 begins
-Sperm Whales Threadeat counter: 97 ends
+Sperm Whales Threadeat counter: 88 ends
 Sperm Whales ThreadSeason: 11 ends
-Sperm Whales: -8 dies, -12 reproduces. Remain sperm whales:-862
--66508.0
-Sperm Whales: 70 dies for hunger.
+Sperm Whales: -5 dies, -7 reproduces. Remain sperm whales:-513
+-43200.0
+Sperm Whales: 9 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 12 begins
-Sperm Whales Threadeat counter: 94 ends
+Sperm Whales Threadeat counter: 75 ends
 Sperm Whales ThreadSeason: 12 ends
-Sperm Whales: -11 dies, -17 reproduces. Remain sperm whales:-1143
--89785.0
-Sperm Whales: 59 dies for hunger.
+Sperm Whales: -5 dies, -8 reproduces. Remain sperm whales:-565
 ====================================================================================================
 Sperm Whales ThreadSeason: 13 begins
-Sperm Whales Threadeat counter: 94 ends
+Sperm Whales Threadeat counter: 84 ends
 Sperm Whales ThreadSeason: 13 ends
-Sperm Whales: -14 dies, -21 reproduces. Remain sperm whales:-1428
--131125.0
-Sperm Whales: 220 dies for hunger.
+Sperm Whales: -7 dies, -10 reproduces. Remain sperm whales:-731
 ====================================================================================================
 Sperm Whales ThreadSeason: 14 begins
-Sperm Whales Threadeat counter: 84 ends
+Sperm Whales Threadeat counter: 91 ends
 Sperm Whales ThreadSeason: 14 ends
-Sperm Whales: -16 dies, -25 reproduces. Remain sperm whales:-1696
+Sperm Whales: -9 dies, -14 reproduces. Remain sperm whales:-946
+-68392.0
+Sperm Whales: 26 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 15 begins
-Sperm Whales Threadeat counter: 98 ends
+Sperm Whales Threadeat counter: 81 ends
 Sperm Whales ThreadSeason: 15 ends
-Sperm Whales: -19 dies, -28 reproduces. Remain sperm whales:-1918
+Sperm Whales: -10 dies, -15 reproduces. Remain sperm whales:-1014
 ====================================================================================================
 Sperm Whales ThreadSeason: 16 begins
-Sperm Whales Threadeat counter: 89 ends
+Sperm Whales Threadeat counter: 85 ends
 Sperm Whales ThreadSeason: 16 ends
-Sperm Whales: -21 dies, -31 reproduces. Remain sperm whales:-2126
+Sperm Whales: -12 dies, -18 reproduces. Remain sperm whales:-1226
 ====================================================================================================
 Sperm Whales ThreadSeason: 17 begins
-Sperm Whales Threadeat counter: 97 ends
+Sperm Whales Threadeat counter: 87 ends
 Sperm Whales ThreadSeason: 17 ends
-Sperm Whales: -21 dies, -31 reproduces. Remain sperm whales:-2111
+Sperm Whales: -11 dies, -17 reproduces. Remain sperm whales:-1152
 ====================================================================================================
 Sperm Whales ThreadSeason: 18 begins
-Sperm Whales Threadeat counter: 87 ends
+Sperm Whales Threadeat counter: 88 ends
 Sperm Whales ThreadSeason: 18 ends
-Sperm Whales: -23 dies, -34 reproduces. Remain sperm whales:-2328
+Sperm Whales: -13 dies, -20 reproduces. Remain sperm whales:-1389
 ====================================================================================================
 Sperm Whales ThreadSeason: 19 begins
-Sperm Whales Threadeat counter: 96 ends
+Sperm Whales Threadeat counter: 91 ends
 Sperm Whales ThreadSeason: 19 ends
-Sperm Whales: -23 dies, -35 reproduces. Remain sperm whales:-2400
+Sperm Whales: -15 dies, -23 reproduces. Remain sperm whales:-1592
+-130559.0
+Sperm Whales: 33 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 20 begins
-Sperm Whales Threadeat counter: 92 ends
+Sperm Whales Threadeat counter: 102 ends
 Sperm Whales ThreadSeason: 20 ends
-Sperm Whales: -24 dies, -36 reproduces. Remain sperm whales:-2451
+Sperm Whales: -18 dies, -27 reproduces. Remain sperm whales:-1831
+-168120.0
+Sperm Whales: 218 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 21 begins
 Sperm Whales Threadeat counter: 92 ends
 Sperm Whales ThreadSeason: 21 ends
-Sperm Whales: -26 dies, -40 reproduces. Remain sperm whales:-2685
--230530.0
-Sperm Whales: 78 dies for hunger.
+Sperm Whales: -20 dies, -30 reproduces. Remain sperm whales:-2055
+-190847.0
+Sperm Whales: 64 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 22 begins
-Sperm Whales Threadeat counter: 102 ends
+Sperm Whales Threadeat counter: 88 ends
 Sperm Whales ThreadSeason: 22 ends
-Sperm Whales: -28 dies, -42 reproduces. Remain sperm whales:-2820
--283889.0
-Sperm Whales: 352 dies for hunger.
+Sperm Whales: -23 dies, -35 reproduces. Remain sperm whales:-2346
+-201372.0
+Sperm Whales: 106 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 23 begins
-Sperm Whales Threadeat counter: 101 ends
+Sperm Whales Threadeat counter: 93 ends
 Sperm Whales ThreadSeason: 23 ends
-Sperm Whales: -33 dies, -50 reproduces. Remain sperm whales:-3413
+Sperm Whales: -26 dies, -39 reproduces. Remain sperm whales:-2666
+-230333.0
+Sperm Whales: 96 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 24 begins
-Sperm Whales Threadeat counter: 88 ends
+Sperm Whales Threadeat counter: 87 ends
 Sperm Whales ThreadSeason: 24 ends
-Sperm Whales: -36 dies, -54 reproduces. Remain sperm whales:-3619
+Sperm Whales: -29 dies, -44 reproduces. Remain sperm whales:-2991
 ====================================================================================================
 Sperm Whales ThreadSeason: 25 begins
-Sperm Whales Threadeat counter: 91 ends
+Sperm Whales Threadeat counter: 86 ends
 Sperm Whales ThreadSeason: 25 ends
-Sperm Whales: -38 dies, -57 reproduces. Remain sperm whales:-3835
+Sperm Whales: -32 dies, -48 reproduces. Remain sperm whales:-3229
+-274448.0
+Sperm Whales: 52 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 26 begins
-Sperm Whales Threadeat counter: 96 ends
+Sperm Whales Threadeat counter: 90 ends
 Sperm Whales ThreadSeason: 26 ends
-Sperm Whales: -40 dies, -60 reproduces. Remain sperm whales:-4065
--369989.0
-Sperm Whales: 248 dies for hunger.
+Sperm Whales: -34 dies, -52 reproduces. Remain sperm whales:-3503
+-299409.0
+Sperm Whales: 39 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 27 begins
-Sperm Whales Threadeat counter: 85 ends
+Sperm Whales Threadeat counter: 92 ends
 Sperm Whales ThreadSeason: 27 ends
-Sperm Whales: -45 dies, -67 reproduces. Remain sperm whales:-4546
+Sperm Whales: -37 dies, -56 reproduces. Remain sperm whales:-3756
+-328724.0
+Sperm Whales: 99 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 28 begins
-Sperm Whales Threadeat counter: 86 ends
+Sperm Whales Threadeat counter: 90 ends
 Sperm Whales ThreadSeason: 28 ends
-Sperm Whales: -45 dies, -68 reproduces. Remain sperm whales:-4604
+Sperm Whales: -40 dies, -61 reproduces. Remain sperm whales:-4090
+-357726.0
+Sperm Whales: 106 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 29 begins
-Sperm Whales Threadeat counter: 96 ends
+Sperm Whales Threadeat counter: 95 ends
 Sperm Whales ThreadSeason: 29 ends
-Sperm Whales: -48 dies, -72 reproduces. Remain sperm whales:-4850
+Sperm Whales: -44 dies, -66 reproduces. Remain sperm whales:-4445
+-401318.0
+Sperm Whales: 236 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 30 begins
-Sperm Whales Threadeat counter: 99 ends
+Sperm Whales Threadeat counter: 95 ends
 Sperm Whales ThreadSeason: 30 ends
-Sperm Whales: -48 dies, -73 reproduces. Remain sperm whales:-4924
+Sperm Whales: -47 dies, -70 reproduces. Remain sperm whales:-4751
+-446768.0
+Sperm Whales: 253 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 31 begins
-Sperm Whales Threadeat counter: 93 ends
+Sperm Whales Threadeat counter: 98 ends
 Sperm Whales ThreadSeason: 31 ends
-Sperm Whales: -51 dies, -76 reproduces. Remain sperm whales:-5156
+Sperm Whales: -52 dies, -78 reproduces. Remain sperm whales:-5253
+-502698.0
+Sperm Whales: 428 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 32 begins
-Sperm Whales Threadeat counter: 93 ends
+Sperm Whales Threadeat counter: 91 ends
 Sperm Whales ThreadSeason: 32 ends
-Sperm Whales: -51 dies, -77 reproduces. Remain sperm whales:-5225
+Sperm Whales: -57 dies, -85 reproduces. Remain sperm whales:-5753
+-519072.0
+Sperm Whales: 77 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 33 begins
-Sperm Whales Threadeat counter: 88 ends
+Sperm Whales Threadeat counter: 91 ends
 Sperm Whales ThreadSeason: 33 ends
-Sperm Whales: -54 dies, -81 reproduces. Remain sperm whales:-5477
+Sperm Whales: -60 dies, -90 reproduces. Remain sperm whales:-6073
+-543199.0
+Sperm Whales: 184 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 34 begins
-Sperm Whales Threadeat counter: 86 ends
+Sperm Whales Threadeat counter: 98 ends
 Sperm Whales ThreadSeason: 34 ends
-Sperm Whales: -55 dies, -82 reproduces. Remain sperm whales:-5547
+Sperm Whales: -64 dies, -97 reproduces. Remain sperm whales:-6509
+-615989.0
+Sperm Whales: 528 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 35 begins
-Sperm Whales Threadeat counter: 93 ends
+Sperm Whales Threadeat counter: 96 ends
 Sperm Whales ThreadSeason: 35 ends
-Sperm Whales: -57 dies, -86 reproduces. Remain sperm whales:-5791
+Sperm Whales: -70 dies, -106 reproduces. Remain sperm whales:-7127
+-677944.0
+Sperm Whales: 446 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 36 begins
-Sperm Whales Threadeat counter: 89 ends
+Sperm Whales Threadeat counter: 95 ends
 Sperm Whales ThreadSeason: 36 ends
-Sperm Whales: -59 dies, -89 reproduces. Remain sperm whales:-6011
+Sperm Whales: -77 dies, -116 reproduces. Remain sperm whales:-7831
+-721564.0
+Sperm Whales: 399 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 37 begins
-Sperm Whales Threadeat counter: 90 ends
+Sperm Whales Threadeat counter: 94 ends
 Sperm Whales ThreadSeason: 37 ends
-Sperm Whales: -62 dies, -93 reproduces. Remain sperm whales:-6255
+Sperm Whales: -84 dies, -126 reproduces. Remain sperm whales:-8495
+-776840.0
+Sperm Whales: 360 dies for hunger.
 ====================================================================================================
 Sperm Whales ThreadSeason: 38 begins
-Sperm Whales Threadeat counter: 87 ends
+Sperm Whales Threadeat counter: 83 ends
 Sperm Whales ThreadSeason: 38 ends
-Sperm Whales: -64 dies, -96 reproduces. Remain sperm whales:-6489
+Sperm Whales: -90 dies, -136 reproduces. Remain sperm whales:-9115
 ====================================================================================================
 Sperm Whales ThreadSeason: 39 begins
-Sperm Whales Threadeat counter: 96 ends
+Sperm Whales Threadeat counter: 92 ends
 Sperm Whales ThreadSeason: 39 ends
-Sperm Whales: -65 dies, -98 reproduces. Remain sperm whales:-6567
+Sperm Whales: -93 dies, -139 reproduces. Remain sperm whales:-9363
+-854890.0
+Sperm Whales: 207 dies for hunger.
 ====================================================================================================

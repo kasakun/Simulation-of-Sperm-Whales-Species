@@ -1,179 +1,200 @@
 Marine Mammals ThreadSeason: 0 begins
 Marine Mammals ThreadSeason: 0 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-446
-Marine Mammals: 824 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-370
+Marine Mammals: 617 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 1 begins
 Marine Mammals ThreadSeason: 1 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-1718
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-632
+Marine Mammals: 0 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 2 begins
 Marine Mammals ThreadSeason: 2 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-1720
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-591
+Marine Mammals: 319 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 3 begins
 Marine Mammals ThreadSeason: 3 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-2156
-Marine Mammals: 4770 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-615
+Marine Mammals: 15 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 4 begins
 Marine Mammals ThreadSeason: 4 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-7371
-Marine Mammals: 18750 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-591
+Marine Mammals: 979 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 5 begins
 Marine Mammals ThreadSeason: 5 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-26305
-Marine Mammals: 61154 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-603
+Marine Mammals: 1376 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 6 begins
 Marine Mammals ThreadSeason: 6 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-87918
-Marine Mammals: 223040 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-345
+Marine Mammals: 541 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 7 begins
 Marine Mammals ThreadSeason: 7 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-311420
-Marine Mammals: 756707 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-610
+Marine Mammals: 1258 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 8 begins
 Marine Mammals ThreadSeason: 8 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-1068599
-Marine Mammals: 2863643 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 1296 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 9 begins
 Marine Mammals ThreadSeason: 9 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-3932669
-Marine Mammals: 9988483 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-360
+Marine Mammals: 583 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 10 begins
 Marine Mammals ThreadSeason: 10 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-13921578
-Marine Mammals: 34247133 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-383
+Marine Mammals: 655 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 11 begins
 Marine Mammals ThreadSeason: 11 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-48169167
-Marine Mammals: 178304547 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-357
+Marine Mammals: 576 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 12 begins
 Marine Mammals ThreadSeason: 12 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-226473957
-Marine Mammals: 13186759 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-364
+Marine Mammals: 618 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 13 begins
 Marine Mammals ThreadSeason: 13 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-239661172
-Marine Mammals: 842660598 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-603
+Marine Mammals: 1170 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 14 begins
 Marine Mammals ThreadSeason: 14 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-1082321956
-Marine Mammals: 2147483647 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-608
+Marine Mammals: 1371 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 15 begins
 Marine Mammals ThreadSeason: 15 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1065161227
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-361
+Marine Mammals: 583 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 16 begins
 Marine Mammals ThreadSeason: 16 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1065160786
-Marine Mammals: 3100686 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-597
+Marine Mammals: 1314 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 17 begins
 Marine Mammals ThreadSeason: 17 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1062059651
-Marine Mammals: 10961281 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-347
+Marine Mammals: 555 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 18 begins
 Marine Mammals ThreadSeason: 18 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1051097898
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-623
+Marine Mammals: 1219 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 19 begins
 Marine Mammals ThreadSeason: 19 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1051097708
-Marine Mammals: 1095303 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 766 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 20 begins
 Marine Mammals ThreadSeason: 20 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1050002233
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-613
+Marine Mammals: 576 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 21 begins
 Marine Mammals ThreadSeason: 21 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1050001782
-Marine Mammals: 109176 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 871 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 22 begins
 Marine Mammals ThreadSeason: 22 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049892427
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-653
+Marine Mammals: 807 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 23 begins
 Marine Mammals ThreadSeason: 23 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049891969
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 735 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 24 begins
 Marine Mammals ThreadSeason: 24 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049891545
-Marine Mammals: 9966 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-628
+Marine Mammals: 833 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 25 begins
 Marine Mammals ThreadSeason: 25 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049881325
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 1368 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 26 begins
 Marine Mammals ThreadSeason: 26 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049881049
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 672 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 27 begins
 Marine Mammals ThreadSeason: 27 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049880590
-Marine Mammals: 138 dies for hunger.
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 938 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 28 begins
 Marine Mammals ThreadSeason: 28 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049880267
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-621
+Marine Mammals: 1440 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 29 begins
 Marine Mammals ThreadSeason: 29 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049879823
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 500 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 30 begins
 Marine Mammals ThreadSeason: 30 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049879648
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 593 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 31 begins
 Marine Mammals ThreadSeason: 31 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049879182
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-633
+Marine Mammals: 1295 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 32 begins
 Marine Mammals ThreadSeason: 32 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049878995
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-360
+Marine Mammals: 595 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 33 begins
 Marine Mammals ThreadSeason: 33 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049878556
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-611
+Marine Mammals: 1144 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 34 begins
 Marine Mammals ThreadSeason: 34 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049878373
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 1018 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 35 begins
 Marine Mammals ThreadSeason: 35 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049877934
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-363
+Marine Mammals: 585 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 36 begins
 Marine Mammals ThreadSeason: 36 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049877488
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 1106 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 37 begins
 Marine Mammals ThreadSeason: 37 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049877030
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 565 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 38 begins
 Marine Mammals ThreadSeason: 38 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049876593
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:-629
+Marine Mammals: 619 dies for hunger.
 ====================================================================================================
 Marine Mammals ThreadSeason: 39 begins
 Marine Mammals ThreadSeason: 39 ends
-Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:1049876417
+Marine Mammals: 0 dies, 0 reproduces. Remain Marine Mammals:0
+Marine Mammals: 1173 dies for hunger.
 ====================================================================================================

@@ -26,7 +26,7 @@ public class Sim {
     public static void main(String[] args) throws FileNotFoundException {
 
         MainProc mp = new MainProc(0, 85, 100000000);
-        KillerWhales kw = new KillerWhales(50000, 20, 0.015, 0.02);
+        KillerWhales kw = new KillerWhales(50000, 20, 0.015, 0.015);
         SpermWhales sw = new SpermWhales(10000, 100000, 0.015, 0.01);
         MarineMammals mm = new MarineMammals(0, 0, 0, 0);
 
@@ -326,9 +326,11 @@ public class Sim {
                     // Calculate death for hunger
                     sw.numberl.lock();
                     try {
-                        if (sw.food < sw.demand) {
+                        if (sw.food < sw.demand ) {
                             sw.number -= (int)((sw.demand - sw.food)*0.01);
                             spermWhalePrint.println(sw.food);
+                            if (mm.number <= 0)
+                                mm.number = 0;
                             System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
 
                             spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01)
@@ -388,7 +390,7 @@ public class Sim {
                             mmengine.eventList.add(eatTemp);
                         }
 
-                        if (Math.random() > 0.5 && now < 90) {
+                        if ( now < 90) {
                             now = Math.random()*0.5 +  temp;
                             Event deathTemp = new MarineMammalsDeath(now);
                             mmengine.eventList.add(deathTemp);
@@ -424,6 +426,7 @@ public class Sim {
                     try {
                         if (mm.food < mm.demand) {
                             mm.number -= (int) ((mm.demand - mm.food) * 0.01);
+                            if (mm.number <= 0) mm.number = 0;
                             System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
                             marineMammalPrint.println(mm.name + ": "
                                     + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
