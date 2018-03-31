@@ -1,316 +1,272 @@
-Main Process ThreadSeason: 0.0begins
+Main Process ThreadSeason: 0 begins
 Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
 Main Process Thread: Human hunt event at 0.0
+Main Process Thread: Human fish event at 0.0
+Main Process ThreadSeason: 0 ends
+Main Process: Food Unit: 9.941667592999984E7
+Main Process: Ocean Temperature: 90
+====================================================================================================
+Main Process ThreadSeason: 1 begins
 Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
 Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 0.0ends
-Main Process ThreadSeason: 1.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process ThreadSeason: 1.0ends
-Main Process ThreadSeason: 2.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 2.0ends
-Main Process ThreadSeason: 3.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 3.0ends
-Main Process ThreadSeason: 4.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 4.0ends
-Main Process ThreadSeason: 5.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 5.0ends
-Main Process ThreadSeason: 6.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 6.0ends
-Main Process ThreadSeason: 7.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 7.0ends
-Main Process ThreadSeason: 8.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 8.0ends
-Main Process ThreadSeason: 9.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 9.0ends
-Main Process ThreadSeason: 10.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 10.0ends
-Main Process ThreadSeason: 11.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 11.0ends
-Main Process ThreadSeason: 12.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 12.0ends
-Main Process ThreadSeason: 13.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 13.0ends
-Main Process ThreadSeason: 14.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 14.0ends
-Main Process ThreadSeason: 15.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 15.0ends
-Main Process ThreadSeason: 16.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 16.0ends
-Main Process ThreadSeason: 17.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 17.0ends
-Main Process ThreadSeason: 18.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 18.0ends
-Main Process ThreadSeason: 19.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 19.0ends
-Main Process ThreadSeason: 20.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 20.0ends
-Main Process ThreadSeason: 21.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 21.0ends
-Main Process ThreadSeason: 22.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 22.0ends
-Main Process ThreadSeason: 23.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 23.0ends
-Main Process ThreadSeason: 24.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 24.0ends
-Main Process ThreadSeason: 25.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 25.0ends
-Main Process ThreadSeason: 26.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 26.0ends
-Main Process ThreadSeason: 27.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 27.0ends
-Main Process ThreadSeason: 28.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 28.0ends
-Main Process ThreadSeason: 29.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 29.0ends
-Main Process ThreadSeason: 30.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 30.0ends
-Main Process ThreadSeason: 31.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 31.0ends
-Main Process ThreadSeason: 32.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 32.0ends
-Main Process ThreadSeason: 33.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 33.0ends
-Main Process ThreadSeason: 34.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 34.0ends
-Main Process ThreadSeason: 35.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process Thread: Human fish event at 90.0
-Main Process ThreadSeason: 35.0ends
-Main Process ThreadSeason: 36.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 36.0ends
-Main Process ThreadSeason: 37.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 37.0ends
-Main Process ThreadSeason: 38.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 38.0ends
-Main Process ThreadSeason: 39.0begins
-Main Process Thread: Food grow at 0.0
-Main Process Thread: Natural disaster at 0.0
-Main Process Thread: Human hunt event at 0.0
-Main Process Thread: Human fish event at 0.0
-Main Process Thread: Food grow at 90.0
-Main Process Thread: Natural disaster at 90.0
-Main Process ThreadSeason: 39.0ends
+Main Process ThreadSeason: 1 ends
+Main Process: Food Unit: 1.0875490477616785E8
+Main Process: Ocean Temperature: 93
+====================================================================================================
+Main Process ThreadSeason: 2 begins
+Main Process Thread: Food grow at 180.0
+Main Process ThreadSeason: 2 ends
+Main Process: Food Unit: 1.0784901566903348E8
+Main Process: Ocean Temperature: 89
+====================================================================================================
+Main Process ThreadSeason: 3 begins
+Main Process Thread: Food grow at 270.0
+Main Process ThreadSeason: 3 ends
+Main Process: Food Unit: 1.059880593918287E8
+Main Process: Ocean Temperature: 84
+====================================================================================================
+Main Process ThreadSeason: 4 begins
+Main Process Thread: Food grow at 360.0
+Main Process Thread: Human hunt event at 360.0
+Main Process ThreadSeason: 4 ends
+Main Process: Food Unit: 1.1613673381356452E8
+Main Process: Ocean Temperature: 86
+====================================================================================================
+Main Process ThreadSeason: 5 begins
+Main Process Thread: Food grow at 450.0
+Main Process ThreadSeason: 5 ends
+Main Process: Food Unit: 1.3113346072851244E8
+Main Process: Ocean Temperature: 90
+====================================================================================================
+Main Process ThreadSeason: 6 begins
+Main Process Thread: Food grow at 540.0
+Main Process Thread: Human fish event at 540.0
+Main Process ThreadSeason: 6 ends
+Main Process: Food Unit: 1.2887100596656597E8
+Main Process: Ocean Temperature: 85
+====================================================================================================
+Main Process ThreadSeason: 7 begins
+Main Process Thread: Food grow at 630.0
+Main Process Thread: Natural disaster at 630.0
+Main Process ThreadSeason: 7 ends
+Main Process: Food Unit: 1.2279210670333438E8
+Main Process: Ocean Temperature: 80
+====================================================================================================
+Main Process ThreadSeason: 8 begins
+Main Process Thread: Food grow at 720.0
+Main Process Thread: Human hunt event at 720.0
+Main Process ThreadSeason: 8 ends
+Main Process: Food Unit: 1.1977244744240616E8
+Main Process: Ocean Temperature: 86
+====================================================================================================
+Main Process ThreadSeason: 9 begins
+Main Process Thread: Food grow at 810.0
+Main Process Thread: Human fish event at 810.0
+Main Process ThreadSeason: 9 ends
+Main Process: Food Unit: 1.3048244778252795E8
+Main Process: Ocean Temperature: 89
+====================================================================================================
+Main Process ThreadSeason: 10 begins
+Main Process Thread: Food grow at 900.0
+Main Process Thread: Human fish event at 900.0
+Main Process ThreadSeason: 10 ends
+Main Process: Food Unit: 1.3341949833281954E8
+Main Process: Ocean Temperature: 85
+====================================================================================================
+Main Process ThreadSeason: 11 begins
+Main Process Thread: Food grow at 990.0
+Main Process Thread: Human fish event at 990.0
+Main Process ThreadSeason: 11 ends
+Main Process: Food Unit: 1.2481078382987015E8
+Main Process: Ocean Temperature: 83
+====================================================================================================
+Main Process ThreadSeason: 12 begins
+Main Process Thread: Food grow at 1080.0
+Main Process Thread: Human hunt event at 1080.0
+Main Process Thread: Human fish event at 1080.0
+Main Process ThreadSeason: 12 ends
+Main Process: Food Unit: 1.2894698962915665E8
+Main Process: Ocean Temperature: 85
+====================================================================================================
+Main Process ThreadSeason: 13 begins
+Main Process Thread: Food grow at 1170.0
+Main Process ThreadSeason: 13 ends
+Main Process: Food Unit: 1.3267309892941792E8
+Main Process: Ocean Temperature: 88
+====================================================================================================
+Main Process ThreadSeason: 14 begins
+Main Process Thread: Food grow at 1260.0
+Main Process Thread: Human fish event at 1260.0
+Main Process ThreadSeason: 14 ends
+Main Process: Food Unit: 1.1652259413981944E8
+Main Process: Ocean Temperature: 85
+====================================================================================================
+Main Process ThreadSeason: 15 begins
+Main Process Thread: Food grow at 1350.0
+Main Process Thread: Human fish event at 1350.0
+Main Process ThreadSeason: 15 ends
+Main Process: Food Unit: 9.348036698593444E7
+Main Process: Ocean Temperature: 80
+====================================================================================================
+Main Process ThreadSeason: 16 begins
+Main Process Thread: Food grow at 1440.0
+Main Process Thread: Human hunt event at 1440.0
+Main Process Thread: Human fish event at 1440.0
+Main Process ThreadSeason: 16 ends
+Main Process: Food Unit: 6.269870848615062E7
+Main Process: Ocean Temperature: 83
+====================================================================================================
+Main Process ThreadSeason: 17 begins
+Main Process Thread: Food grow at 1530.0
+Main Process ThreadSeason: 17 ends
+Main Process: Food Unit: 3.483051366039564E7
+Main Process: Ocean Temperature: 87
+====================================================================================================
+Main Process ThreadSeason: 18 begins
+Main Process Thread: Food grow at 1620.0
+Main Process Thread: Human fish event at 1620.0
+Main Process ThreadSeason: 18 ends
+Main Process: Food Unit: 3.4239956979219645E7
+Main Process: Ocean Temperature: 85
+====================================================================================================
+Main Process ThreadSeason: 19 begins
+Main Process Thread: Food grow at 1710.0
+Main Process Thread: Human fish event at 1710.0
+Main Process ThreadSeason: 19 ends
+Main Process: Food Unit: -2.4501070506913945E7
+Main Process: Ocean Temperature: 80
+====================================================================================================
+Main Process ThreadSeason: 20 begins
+Main Process Thread: Food grow at 1800.0
+Main Process Thread: Human hunt event at 1800.0
+Main Process ThreadSeason: 20 ends
+Main Process: Food Unit: -9.972600681990883E7
+Main Process: Ocean Temperature: 84
+====================================================================================================
+Main Process ThreadSeason: 21 begins
+Main Process Thread: Food grow at 1890.0
+Main Process Thread: Human fish event at 1890.0
+Main Process ThreadSeason: 21 ends
+Main Process: Food Unit: -2.0447591198108837E8
+Main Process: Ocean Temperature: 87
+====================================================================================================
+Main Process ThreadSeason: 22 begins
+Main Process Thread: Food grow at 1980.0
+Main Process ThreadSeason: 22 ends
+Main Process: Food Unit: -3.4341722575016546E8
+Main Process: Ocean Temperature: 82
+====================================================================================================
+Main Process ThreadSeason: 23 begins
+Main Process Thread: Food grow at 2070.0
+Main Process ThreadSeason: 23 ends
+Main Process: Food Unit: -4.8946956327893317E8
+Main Process: Ocean Temperature: 79
+====================================================================================================
+Main Process ThreadSeason: 24 begins
+Main Process Thread: Food grow at 2160.0
+Main Process Thread: Human hunt event at 2160.0
+Main Process Thread: Human fish event at 2160.0
+Main Process ThreadSeason: 24 ends
+Main Process: Food Unit: -7.43675848858774E8
+Main Process: Ocean Temperature: 84
+====================================================================================================
+Main Process ThreadSeason: 25 begins
+Main Process Thread: Food grow at 2250.0
+Main Process ThreadSeason: 25 ends
+Main Process: Food Unit: -1.1168689793942466E9
+Main Process: Ocean Temperature: 89
+====================================================================================================
+Main Process ThreadSeason: 26 begins
+Main Process Thread: Food grow at 2340.0
+Main Process ThreadSeason: 26 ends
+Main Process: Food Unit: -1.4738481370401533E9
+Main Process: Ocean Temperature: 86
+====================================================================================================
+Main Process ThreadSeason: 27 begins
+Main Process Thread: Food grow at 2430.0
+Main Process ThreadSeason: 27 ends
+Main Process: Food Unit: -1.9271770869025762E9
+Main Process: Ocean Temperature: 84
+====================================================================================================
+Main Process ThreadSeason: 28 begins
+Main Process Thread: Food grow at 2520.0
+Main Process Thread: Human hunt event at 2520.0
+Main Process Thread: Human fish event at 2520.0
+Main Process ThreadSeason: 28 ends
+Main Process: Food Unit: -2.720241058713192E9
+Main Process: Ocean Temperature: 87
+====================================================================================================
+Main Process ThreadSeason: 29 begins
+Main Process Thread: Food grow at 2610.0
+Main Process ThreadSeason: 29 ends
+Main Process: Food Unit: -3.759098047722072E9
+Main Process: Ocean Temperature: 91
+====================================================================================================
+Main Process ThreadSeason: 30 begins
+Main Process Thread: Food grow at 2700.0
+Main Process Thread: Human fish event at 2700.0
+Main Process ThreadSeason: 30 ends
+Main Process: Food Unit: -4.189023533053497E9
+Main Process: Ocean Temperature: 87
+====================================================================================================
+Main Process ThreadSeason: 31 begins
+Main Process Thread: Food grow at 2790.0
+Main Process ThreadSeason: 31 ends
+Main Process: Food Unit: -5.560999329520962E9
+Main Process: Ocean Temperature: 85
+====================================================================================================
+Main Process ThreadSeason: 32 begins
+Main Process Thread: Food grow at 2880.0
+Main Process Thread: Human hunt event at 2880.0
+Main Process ThreadSeason: 32 ends
+Main Process: Food Unit: -7.322414180429641E9
+Main Process: Ocean Temperature: 89
+====================================================================================================
+Main Process ThreadSeason: 33 begins
+Main Process Thread: Food grow at 2970.0
+Main Process Thread: Human fish event at 2970.0
+Main Process ThreadSeason: 33 ends
+Main Process: Food Unit: -1.0890533035326204E10
+Main Process: Ocean Temperature: 95
+====================================================================================================
+Main Process ThreadSeason: 34 begins
+Main Process Thread: Food grow at 3060.0
+Main Process ThreadSeason: 34 ends
+Main Process: Food Unit: -1.3439498707057325E10
+Main Process: Ocean Temperature: 91
+====================================================================================================
+Main Process ThreadSeason: 35 begins
+Main Process Thread: Food grow at 3150.0
+Main Process Thread: Human fish event at 3150.0
+Main Process ThreadSeason: 35 ends
+Main Process: Food Unit: -1.7392880505589085E10
+Main Process: Ocean Temperature: 88
+====================================================================================================
+Main Process ThreadSeason: 36 begins
+Main Process Thread: Food grow at 3240.0
+Main Process Thread: Human hunt event at 3240.0
+Main Process Thread: Human fish event at 3240.0
+Main Process ThreadSeason: 36 ends
+Main Process: Food Unit: -2.4444632930175156E10
+Main Process: Ocean Temperature: 92
+====================================================================================================
+Main Process ThreadSeason: 37 begins
+Main Process Thread: Food grow at 3330.0
+Main Process ThreadSeason: 37 ends
+Main Process: Food Unit: -3.466133070900004E10
+Main Process: Ocean Temperature: 95
+====================================================================================================
+Main Process ThreadSeason: 38 begins
+Main Process Thread: Food grow at 3420.0
+Main Process Thread: Human fish event at 3420.0
+Main Process ThreadSeason: 38 ends
+Main Process: Food Unit: -4.694565118415922E10
+Main Process: Ocean Temperature: 90
+====================================================================================================
+Main Process ThreadSeason: 39 begins
+Main Process Thread: Food grow at 3510.0
+Main Process Thread: Human fish event at 3510.0
+Main Process ThreadSeason: 39 ends
+Main Process: Food Unit: -5.5910148150929085E10
+Main Process: Ocean Temperature: 87
+====================================================================================================

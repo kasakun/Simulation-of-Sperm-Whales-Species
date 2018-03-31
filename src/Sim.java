@@ -60,12 +60,14 @@ public class Sim {
                 }
                 PrintStream mainProcPrint = new PrintStream(mainProcLog);
 
-                while(timeHelper < timeLimit) {
-                    double now = 0.0;
+                double now = 0.0;
+                Engine mpengine = new Engine();
+                Event season = new seasonChange(now);
+                mpengine.eventList.add(season);
 
-                    Engine mpengine = new Engine();
-                    Event season = new seasonChange(now);
-                    mpengine.eventList.add(season);
+
+                while(timeHelper < timeLimit) {
+                	now = timeHelper;
 
                     // Start Barrier
                     try{
@@ -78,11 +80,12 @@ public class Sim {
                     mainProcPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     // Season begins
                     /**************************************** Season Begins *******************************************/
-                    while (!mpengine.eventList.isEmpty() && now <= mpengine.eventList.peek().timestamp) {
+                    while (now <= timeHelper) {
                         double temp = now;
                         // Why run all event in the list?
-                        mpengine.eventHandler(mp, kw, sw, mm);
-
+                        while (!mpengine.eventList.isEmpty()) {
+	                        mpengine.eventHandler(mp, kw, sw, mm);
+	                    }
 
                         Event season1 = new seasonChange(temp + 90);
                         Event food = new foodGrow(temp + 90);
@@ -91,7 +94,7 @@ public class Sim {
                         mainProcPrint.println(threadName + ": Food grow at " + now);
 
 
-                        if (Math.random() > 0.01) {
+                        if (Math.random() < 0.01) {
                            Event disaster = new naturalDisaster(temp + 90);
                            mpengine.eventList.add(disaster);
 	                       mainProcPrint.println(threadName + ": Natural disaster at " + now);
@@ -126,6 +129,11 @@ public class Sim {
                         System.out.println("Main Process: Food Unit: " + mp.foodRes);
 
                         mainProcPrint.println("Main Process: Food Unit: " + mp.foodRes);
+
+                        System.out.println("Main Process: Ocean Temperature: " + mp.oceanTemp);
+
+                        mainProcPrint.println("Main Process: Ocean Temperature: " + mp.oceanTemp);
+
 
                     } finally {
                         mp.foodResl.unlock();
