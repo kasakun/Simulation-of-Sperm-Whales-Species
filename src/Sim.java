@@ -25,10 +25,10 @@ public class Sim {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        MainProc mp = new MainProc(0, 85, 100, 100000000);
-        KillerWhales kw = new KillerWhales(50000, 200, 0.15, 0.2);
-        SpermWhales sw = new SpermWhales(10000, 200, 0.2, 0.1);
-        MarineMammals mm = new MarineMammals(20000, 200, 0.4, 0.3);
+        MainProc mp = new MainProc(0, 85, 100, 1000000000);
+        KillerWhales kw = new KillerWhales(50000, 20, 0.15, 0.2);
+        SpermWhales sw = new SpermWhales(10000, 30, 0.2, 0.1);
+        MarineMammals mm = new MarineMammals(20000, 40, 0.4, 0.3);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Human Fish Rate: "
@@ -272,8 +272,8 @@ public class Sim {
                     } catch (Exception ex) {
                         Thread.currentThread().interrupt();
                     }
-                    System.out.println(threadName + "Season: " + (int)(timeHelper/90) + "begins");
-                    spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + "begins");
+                    System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
+                    spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     while (!swengine.eventList.isEmpty()) {
                         double temp =now;
@@ -366,8 +366,8 @@ public class Sim {
                         Thread.currentThread().interrupt();
                     }
 
-                    System.out.println(threadName + "Season: " + (int)(timeHelper/90) + "begins");
-                    marineMammalPrint.println(threadName + "Season: " + (int)(timeHelper/90) + "begins");
+                    System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
+                    marineMammalPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     while (!mmengine.eventList.isEmpty()) {
                         double temp = now;
@@ -415,10 +415,10 @@ public class Sim {
                     mm.numberl.lock();
                     try {
                         if (mm.food < mm.demand) {
-                            mm.number -= (int) ((mm.demand - mm.food) * 5.0);
-                            System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 5.0) + " dies for hunger.");
+                            mm.number -= (int) ((mm.demand - mm.food) * 2.5);
+                            System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 2.5) + " dies for hunger.");
                             marineMammalPrint.println(mm.name + ": "
-                                    + (int) ((mm.demand - mm.food) * 5.0) + " dies for hunger.");
+                                    + (int) ((mm.demand - mm.food) * 2.5) + " dies for hunger.");
                         }
                     } finally {
                         mm.numberl.unlock();

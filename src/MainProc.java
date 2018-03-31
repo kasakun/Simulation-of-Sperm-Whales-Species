@@ -101,7 +101,7 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.foodRes = this.foodRes * 1.05 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
+        this.foodRes = this.foodRes * 1.01 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur); // Need discussion
         System.out.println("Main Proc: Food resource grow, current food resource:" + this.foodRes);
     }
 

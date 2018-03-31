@@ -1,200 +1,200 @@
-Sperm Whales ThreadSeason: 0begins
+Sperm Whales ThreadSeason: 0 begins
 Sperm Whales ThreadSeason: 0 ends
-Sperm Whales: 964 dies, 964 reproduces. Remain killer whales:10608
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 966 dies, 966 reproduces. Remain killer whales:10626
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 1begins
+Sperm Whales ThreadSeason: 1 begins
 Sperm Whales ThreadSeason: 1 ends
-Sperm Whales: 993 dies, 993 reproduces. Remain killer whales:10933
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1038 dies, 1038 reproduces. Remain killer whales:11420
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 2begins
+Sperm Whales ThreadSeason: 2 begins
 Sperm Whales ThreadSeason: 2 ends
-Sperm Whales: 1027 dies, 1027 reproduces. Remain killer whales:11301
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1120 dies, 1120 reproduces. Remain killer whales:12323
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 3begins
+Sperm Whales ThreadSeason: 3 begins
 Sperm Whales ThreadSeason: 3 ends
-Sperm Whales: 1043 dies, 1043 reproduces. Remain killer whales:11476
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1207 dies, 1207 reproduces. Remain killer whales:13285
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 4begins
+Sperm Whales ThreadSeason: 4 begins
 Sperm Whales ThreadSeason: 4 ends
-Sperm Whales: 1082 dies, 1082 reproduces. Remain killer whales:11902
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1285 dies, 1285 reproduces. Remain killer whales:14138
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 5begins
+Sperm Whales ThreadSeason: 5 begins
 Sperm Whales ThreadSeason: 5 ends
-Sperm Whales: 1106 dies, 1106 reproduces. Remain killer whales:12169
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1387 dies, 1387 reproduces. Remain killer whales:15258
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 6begins
+Sperm Whales ThreadSeason: 6 begins
 Sperm Whales ThreadSeason: 6 ends
-Sperm Whales: 1134 dies, 1134 reproduces. Remain killer whales:12474
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1498 dies, 1498 reproduces. Remain killer whales:16488
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 7begins
+Sperm Whales ThreadSeason: 7 begins
 Sperm Whales ThreadSeason: 7 ends
-Sperm Whales: 1161 dies, 1161 reproduces. Remain killer whales:12772
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1607 dies, 1607 reproduces. Remain killer whales:17678
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 8begins
+Sperm Whales ThreadSeason: 8 begins
 Sperm Whales ThreadSeason: 8 ends
-Sperm Whales: 1227 dies, 1227 reproduces. Remain killer whales:13499
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1725 dies, 1725 reproduces. Remain killer whales:18979
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 9begins
+Sperm Whales ThreadSeason: 9 begins
 Sperm Whales ThreadSeason: 9 ends
-Sperm Whales: 1263 dies, 1263 reproduces. Remain killer whales:13894
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1854 dies, 1854 reproduces. Remain killer whales:20401
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 10begins
+Sperm Whales ThreadSeason: 10 begins
 Sperm Whales ThreadSeason: 10 ends
-Sperm Whales: 1304 dies, 1304 reproduces. Remain killer whales:14353
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 1997 dies, 1997 reproduces. Remain killer whales:21976
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 11begins
+Sperm Whales ThreadSeason: 11 begins
 Sperm Whales ThreadSeason: 11 ends
-Sperm Whales: 1385 dies, 1385 reproduces. Remain killer whales:15237
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 2154 dies, 2154 reproduces. Remain killer whales:23701
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 12begins
+Sperm Whales ThreadSeason: 12 begins
 Sperm Whales ThreadSeason: 12 ends
-Sperm Whales: 1440 dies, 1440 reproduces. Remain killer whales:15846
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 2324 dies, 2324 reproduces. Remain killer whales:25574
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 13begins
+Sperm Whales ThreadSeason: 13 begins
 Sperm Whales ThreadSeason: 13 ends
-Sperm Whales: 1497 dies, 1497 reproduces. Remain killer whales:16474
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 2511 dies, 2511 reproduces. Remain killer whales:27630
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 14begins
+Sperm Whales ThreadSeason: 14 begins
 Sperm Whales ThreadSeason: 14 ends
-Sperm Whales: 1563 dies, 1563 reproduces. Remain killer whales:17202
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 2719 dies, 2719 reproduces. Remain killer whales:29911
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 15begins
+Sperm Whales ThreadSeason: 15 begins
 Sperm Whales ThreadSeason: 15 ends
-Sperm Whales: 1633 dies, 1633 reproduces. Remain killer whales:17970
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 2946 dies, 2946 reproduces. Remain killer whales:32406
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 16begins
+Sperm Whales ThreadSeason: 16 begins
 Sperm Whales ThreadSeason: 16 ends
-Sperm Whales: 1710 dies, 1710 reproduces. Remain killer whales:18813
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 3197 dies, 3197 reproduces. Remain killer whales:35173
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 17begins
+Sperm Whales ThreadSeason: 17 begins
 Sperm Whales ThreadSeason: 17 ends
-Sperm Whales: 1797 dies, 1797 reproduces. Remain killer whales:19771
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 3140 dies, 3140 reproduces. Remain killer whales:34550
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 18begins
+Sperm Whales ThreadSeason: 18 begins
 Sperm Whales ThreadSeason: 18 ends
-Sperm Whales: 1908 dies, 1908 reproduces. Remain killer whales:20997
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 3411 dies, 3411 reproduces. Remain killer whales:37527
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 19begins
+Sperm Whales ThreadSeason: 19 begins
 Sperm Whales ThreadSeason: 19 ends
-Sperm Whales: 2016 dies, 2016 reproduces. Remain killer whales:22183
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 3710 dies, 3710 reproduces. Remain killer whales:40820
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 20begins
+Sperm Whales ThreadSeason: 20 begins
 Sperm Whales ThreadSeason: 20 ends
-Sperm Whales: 2132 dies, 2132 reproduces. Remain killer whales:23454
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 4036 dies, 4036 reproduces. Remain killer whales:44397
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 21begins
+Sperm Whales ThreadSeason: 21 begins
 Sperm Whales ThreadSeason: 21 ends
-Sperm Whales: 2259 dies, 2259 reproduces. Remain killer whales:24859
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 3954 dies, 3954 reproduces. Remain killer whales:43496
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 22begins
+Sperm Whales ThreadSeason: 22 begins
 Sperm Whales ThreadSeason: 22 ends
-Sperm Whales: 2399 dies, 2399 reproduces. Remain killer whales:26393
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 4306 dies, 4306 reproduces. Remain killer whales:47366
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 23begins
+Sperm Whales ThreadSeason: 23 begins
 Sperm Whales ThreadSeason: 23 ends
-Sperm Whales: 2574 dies, 2574 reproduces. Remain killer whales:28317
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 4695 dies, 4695 reproduces. Remain killer whales:51648
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 24begins
+Sperm Whales ThreadSeason: 24 begins
 Sperm Whales ThreadSeason: 24 ends
-Sperm Whales: 2748 dies, 2748 reproduces. Remain killer whales:30228
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 5124 dies, 5124 reproduces. Remain killer whales:56374
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 25begins
+Sperm Whales ThreadSeason: 25 begins
 Sperm Whales ThreadSeason: 25 ends
-Sperm Whales: 2936 dies, 2936 reproduces. Remain killer whales:32300
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 5034 dies, 5034 reproduces. Remain killer whales:55383
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 26begins
+Sperm Whales ThreadSeason: 26 begins
 Sperm Whales ThreadSeason: 26 ends
-Sperm Whales: 3143 dies, 3143 reproduces. Remain killer whales:34575
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 5498 dies, 5498 reproduces. Remain killer whales:60479
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 27begins
+Sperm Whales ThreadSeason: 27 begins
 Sperm Whales ThreadSeason: 27 ends
-Sperm Whales: 3374 dies, 3374 reproduces. Remain killer whales:37118
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 6006 dies, 6006 reproduces. Remain killer whales:66066
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 28begins
+Sperm Whales ThreadSeason: 28 begins
 Sperm Whales ThreadSeason: 28 ends
-Sperm Whales: 3643 dies, 3643 reproduces. Remain killer whales:40080
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 6580 dies, 6580 reproduces. Remain killer whales:72386
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 29begins
+Sperm Whales ThreadSeason: 29 begins
 Sperm Whales ThreadSeason: 29 ends
-Sperm Whales: 3939 dies, 3939 reproduces. Remain killer whales:43330
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 6473 dies, 6473 reproduces. Remain killer whales:71203
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 30begins
+Sperm Whales ThreadSeason: 30 begins
 Sperm Whales ThreadSeason: 30 ends
-Sperm Whales: 4248 dies, 4248 reproduces. Remain killer whales:46736
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 7093 dies, 7093 reproduces. Remain killer whales:78025
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 31begins
+Sperm Whales ThreadSeason: 31 begins
 Sperm Whales ThreadSeason: 31 ends
-Sperm Whales: 4603 dies, 4603 reproduces. Remain killer whales:50640
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 7777 dies, 7777 reproduces. Remain killer whales:85548
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 32begins
+Sperm Whales ThreadSeason: 32 begins
 Sperm Whales ThreadSeason: 32 ends
-Sperm Whales: 4977 dies, 4977 reproduces. Remain killer whales:54754
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 8512 dies, 8512 reproduces. Remain killer whales:93632
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 33begins
+Sperm Whales ThreadSeason: 33 begins
 Sperm Whales ThreadSeason: 33 ends
-Sperm Whales: 5408 dies, 5408 reproduces. Remain killer whales:59495
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 9338 dies, 9338 reproduces. Remain killer whales:102721
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 34begins
+Sperm Whales ThreadSeason: 34 begins
 Sperm Whales ThreadSeason: 34 ends
-Sperm Whales: 5862 dies, 5862 reproduces. Remain killer whales:64491
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 10243 dies, 10243 reproduces. Remain killer whales:112677
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 35begins
+Sperm Whales ThreadSeason: 35 begins
 Sperm Whales ThreadSeason: 35 ends
-Sperm Whales: 6365 dies, 6365 reproduces. Remain killer whales:70016
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 11223 dies, 11223 reproduces. Remain killer whales:123462
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 36begins
+Sperm Whales ThreadSeason: 36 begins
 Sperm Whales ThreadSeason: 36 ends
-Sperm Whales: 6931 dies, 6931 reproduces. Remain killer whales:76245
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 12323 dies, 12323 reproduces. Remain killer whales:135555
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 37begins
+Sperm Whales ThreadSeason: 37 begins
 Sperm Whales ThreadSeason: 37 ends
-Sperm Whales: 7557 dies, 7557 reproduces. Remain killer whales:83127
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 12174 dies, 12174 reproduces. Remain killer whales:133918
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 38begins
+Sperm Whales ThreadSeason: 38 begins
 Sperm Whales ThreadSeason: 38 ends
-Sperm Whales: 8228 dies, 8228 reproduces. Remain killer whales:90514
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 13364 dies, 13364 reproduces. Remain killer whales:147013
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================
-Sperm Whales ThreadSeason: 39begins
+Sperm Whales ThreadSeason: 39 begins
 Sperm Whales ThreadSeason: 39 ends
-Sperm Whales: 8985 dies, 8985 reproduces. Remain killer whales:98845
-Sperm Whales: 500 dies for hunger.
+Sperm Whales: 14658 dies, 14658 reproduces. Remain killer whales:161240
+Sperm Whales: 75 dies for hunger.
 ====================================================================================================

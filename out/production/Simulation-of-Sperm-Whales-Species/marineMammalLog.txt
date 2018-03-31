@@ -1,80 +1,200 @@
-Marine Mammals ThreadSeason: 0.0begins
-Marine Mammals ThreadSeason: 0.0ends
-Marine Mammals ThreadSeason: 1.0begins
-Marine Mammals ThreadSeason: 1.0ends
-Marine Mammals ThreadSeason: 2.0begins
-Marine Mammals ThreadSeason: 2.0ends
-Marine Mammals ThreadSeason: 3.0begins
-Marine Mammals ThreadSeason: 3.0ends
-Marine Mammals ThreadSeason: 4.0begins
-Marine Mammals ThreadSeason: 4.0ends
-Marine Mammals ThreadSeason: 5.0begins
-Marine Mammals ThreadSeason: 5.0ends
-Marine Mammals ThreadSeason: 6.0begins
-Marine Mammals ThreadSeason: 6.0ends
-Marine Mammals ThreadSeason: 7.0begins
-Marine Mammals ThreadSeason: 7.0ends
-Marine Mammals ThreadSeason: 8.0begins
-Marine Mammals ThreadSeason: 8.0ends
-Marine Mammals ThreadSeason: 9.0begins
-Marine Mammals ThreadSeason: 9.0ends
-Marine Mammals ThreadSeason: 10.0begins
-Marine Mammals ThreadSeason: 10.0ends
-Marine Mammals ThreadSeason: 11.0begins
-Marine Mammals ThreadSeason: 11.0ends
-Marine Mammals ThreadSeason: 12.0begins
-Marine Mammals ThreadSeason: 12.0ends
-Marine Mammals ThreadSeason: 13.0begins
-Marine Mammals ThreadSeason: 13.0ends
-Marine Mammals ThreadSeason: 14.0begins
-Marine Mammals ThreadSeason: 14.0ends
-Marine Mammals ThreadSeason: 15.0begins
-Marine Mammals ThreadSeason: 15.0ends
-Marine Mammals ThreadSeason: 16.0begins
-Marine Mammals ThreadSeason: 16.0ends
-Marine Mammals ThreadSeason: 17.0begins
-Marine Mammals ThreadSeason: 17.0ends
-Marine Mammals ThreadSeason: 18.0begins
-Marine Mammals ThreadSeason: 18.0ends
-Marine Mammals ThreadSeason: 19.0begins
-Marine Mammals ThreadSeason: 19.0ends
-Marine Mammals ThreadSeason: 20.0begins
-Marine Mammals ThreadSeason: 20.0ends
-Marine Mammals ThreadSeason: 21.0begins
-Marine Mammals ThreadSeason: 21.0ends
-Marine Mammals ThreadSeason: 22.0begins
-Marine Mammals ThreadSeason: 22.0ends
-Marine Mammals ThreadSeason: 23.0begins
-Marine Mammals ThreadSeason: 23.0ends
-Marine Mammals ThreadSeason: 24.0begins
-Marine Mammals ThreadSeason: 24.0ends
-Marine Mammals ThreadSeason: 25.0begins
-Marine Mammals ThreadSeason: 25.0ends
-Marine Mammals ThreadSeason: 26.0begins
-Marine Mammals ThreadSeason: 26.0ends
-Marine Mammals ThreadSeason: 27.0begins
-Marine Mammals ThreadSeason: 27.0ends
-Marine Mammals ThreadSeason: 28.0begins
-Marine Mammals ThreadSeason: 28.0ends
-Marine Mammals ThreadSeason: 29.0begins
-Marine Mammals ThreadSeason: 29.0ends
-Marine Mammals ThreadSeason: 30.0begins
-Marine Mammals ThreadSeason: 30.0ends
-Marine Mammals ThreadSeason: 31.0begins
-Marine Mammals ThreadSeason: 31.0ends
-Marine Mammals ThreadSeason: 32.0begins
-Marine Mammals ThreadSeason: 32.0ends
-Marine Mammals ThreadSeason: 33.0begins
-Marine Mammals ThreadSeason: 33.0ends
-Marine Mammals ThreadSeason: 34.0begins
-Marine Mammals ThreadSeason: 34.0ends
-Marine Mammals ThreadSeason: 35.0begins
-Marine Mammals ThreadSeason: 35.0ends
-Marine Mammals ThreadSeason: 36.0begins
-Marine Mammals ThreadSeason: 36.0ends
-Marine Mammals ThreadSeason: 37.0begins
-Marine Mammals ThreadSeason: 37.0ends
-Marine Mammals ThreadSeason: 38.0begins
-Marine Mammals ThreadSeason: 38.0ends
-Marine Mammals ThreadSeason: 39.0begins
-Marine Mammals ThreadSeason: 39.0ends
+Marine Mammals ThreadSeason: 0begins
+Marine Mammals ThreadSeason: 0 ends
+Marine Mammals: 1976 dies, 1976 reproduces. Remain Marine Mammals:25692
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 1begins
+Marine Mammals ThreadSeason: 1 ends
+Marine Mammals: 2445 dies, 2445 reproduces. Remain Marine Mammals:31787
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 2begins
+Marine Mammals ThreadSeason: 2 ends
+Marine Mammals: 3078 dies, 3078 reproduces. Remain Marine Mammals:40021
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 3begins
+Marine Mammals ThreadSeason: 3 ends
+Marine Mammals: 3879 dies, 3879 reproduces. Remain Marine Mammals:50428
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 4begins
+Marine Mammals ThreadSeason: 4 ends
+Marine Mammals: 4920 dies, 4920 reproduces. Remain Marine Mammals:63960
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 5begins
+Marine Mammals ThreadSeason: 5 ends
+Marine Mammals: 6296 dies, 6296 reproduces. Remain Marine Mammals:81848
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 6begins
+Marine Mammals ThreadSeason: 6 ends
+Marine Mammals: 8066 dies, 8066 reproduces. Remain Marine Mammals:104866
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 7begins
+Marine Mammals ThreadSeason: 7 ends
+Marine Mammals: 10368 dies, 10368 reproduces. Remain Marine Mammals:134793
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 8begins
+Marine Mammals ThreadSeason: 8 ends
+Marine Mammals: 13360 dies, 13360 reproduces. Remain Marine Mammals:173687
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 9begins
+Marine Mammals ThreadSeason: 9 ends
+Marine Mammals: 17246 dies, 17246 reproduces. Remain Marine Mammals:224209
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 10begins
+Marine Mammals ThreadSeason: 10 ends
+Marine Mammals: 22302 dies, 22302 reproduces. Remain Marine Mammals:289931
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 11begins
+Marine Mammals ThreadSeason: 11 ends
+Marine Mammals: 28869 dies, 28869 reproduces. Remain Marine Mammals:375299
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 12begins
+Marine Mammals ThreadSeason: 12 ends
+Marine Mammals: 37407 dies, 37407 reproduces. Remain Marine Mammals:486291
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 13begins
+Marine Mammals ThreadSeason: 13 ends
+Marine Mammals: 48506 dies, 48506 reproduces. Remain Marine Mammals:630578
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 14begins
+Marine Mammals ThreadSeason: 14 ends
+Marine Mammals: 62933 dies, 62933 reproduces. Remain Marine Mammals:818134
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 15begins
+Marine Mammals ThreadSeason: 15 ends
+Marine Mammals: 81694 dies, 81694 reproduces. Remain Marine Mammals:1062023
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 16begins
+Marine Mammals ThreadSeason: 16 ends
+Marine Mammals: 106078 dies, 106078 reproduces. Remain Marine Mammals:1379022
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 17begins
+Marine Mammals ThreadSeason: 17 ends
+Marine Mammals: 137779 dies, 137779 reproduces. Remain Marine Mammals:1791131
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 18begins
+Marine Mammals ThreadSeason: 18 ends
+Marine Mammals: 179007 dies, 179007 reproduces. Remain Marine Mammals:2327098
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 19begins
+Marine Mammals ThreadSeason: 19 ends
+Marine Mammals: 232584 dies, 232584 reproduces. Remain Marine Mammals:3023604
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 20begins
+Marine Mammals ThreadSeason: 20 ends
+Marine Mammals: 302236 dies, 302236 reproduces. Remain Marine Mammals:3929076
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 21begins
+Marine Mammals ThreadSeason: 21 ends
+Marine Mammals: 392789 dies, 392789 reproduces. Remain Marine Mammals:5106262
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 22begins
+Marine Mammals ThreadSeason: 22 ends
+Marine Mammals: 510507 dies, 510507 reproduces. Remain Marine Mammals:6636602
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 23begins
+Marine Mammals ThreadSeason: 23 ends
+Marine Mammals: 663533 dies, 663533 reproduces. Remain Marine Mammals:8625931
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 24begins
+Marine Mammals ThreadSeason: 24 ends
+Marine Mammals: 862469 dies, 862469 reproduces. Remain Marine Mammals:11212109
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 25begins
+Marine Mammals ThreadSeason: 25 ends
+Marine Mammals: 1121087 dies, 1121087 reproduces. Remain Marine Mammals:14574136
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 26begins
+Marine Mammals ThreadSeason: 26 ends
+Marine Mammals: 1457291 dies, 1457291 reproduces. Remain Marine Mammals:18944788
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 27begins
+Marine Mammals ThreadSeason: 27 ends
+Marine Mammals: 1894354 dies, 1894354 reproduces. Remain Marine Mammals:24626603
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 28begins
+Marine Mammals ThreadSeason: 28 ends
+Marine Mammals: 2462542 dies, 2462542 reproduces. Remain Marine Mammals:32013053
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 29begins
+Marine Mammals ThreadSeason: 29 ends
+Marine Mammals: 3201185 dies, 3201185 reproduces. Remain Marine Mammals:41615405
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 30begins
+Marine Mammals ThreadSeason: 30 ends
+Marine Mammals: 4161434 dies, 4161434 reproduces. Remain Marine Mammals:54098644
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 31begins
+Marine Mammals ThreadSeason: 31 ends
+Marine Mammals: 5409738 dies, 5409738 reproduces. Remain Marine Mammals:70326601
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 32begins
+Marine Mammals ThreadSeason: 32 ends
+Marine Mammals: 7032534 dies, 7032534 reproduces. Remain Marine Mammals:91422950
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 33begins
+Marine Mammals ThreadSeason: 33 ends
+Marine Mammals: 9142167 dies, 9142167 reproduces. Remain Marine Mammals:118848173
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 34begins
+Marine Mammals ThreadSeason: 34 ends
+Marine Mammals: 11884698 dies, 11884698 reproduces. Remain Marine Mammals:154501086
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 35begins
+Marine Mammals ThreadSeason: 35 ends
+Marine Mammals: 15449989 dies, 15449989 reproduces. Remain Marine Mammals:200849858
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 36begins
+Marine Mammals ThreadSeason: 36 ends
+Marine Mammals: 20084862 dies, 20084862 reproduces. Remain Marine Mammals:261103211
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 37begins
+Marine Mammals ThreadSeason: 37 ends
+Marine Mammals: 26110196 dies, 26110196 reproduces. Remain Marine Mammals:339432559
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 38begins
+Marine Mammals ThreadSeason: 38 ends
+Marine Mammals: 33943129 dies, 33943129 reproduces. Remain Marine Mammals:441260688
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
+Marine Mammals ThreadSeason: 39begins
+Marine Mammals ThreadSeason: 39 ends
+Marine Mammals: 44125944 dies, 44125944 reproduces. Remain Marine Mammals:573637272
+Marine Mammals: 1000 dies for hunger.
+====================================================================================================
