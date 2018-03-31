@@ -286,7 +286,7 @@ public class Sim {
                             swengine.eventList.add(deathTemp);
                         }
 
-                        if (Math.random() > 0.1 && now < 90) {
+                        if (now < 90) {
                             now = Math.random()*2 + temp;
                             Event eat = new SpermWhalesEat(now);
                             counter++;
