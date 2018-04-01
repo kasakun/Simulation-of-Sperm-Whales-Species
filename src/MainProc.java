@@ -68,16 +68,17 @@ public class MainProc {
         if (Math.random() > 0.5) {
             sw.numberl.lock();
             try {
-                sw.number = sw.number - 10;
-                System.out.println("Main Proc: Hunts a sperm whale. Remain spem whales:" + sw.number);
+                sw.number = sw.number - 50;
+                System.out.println("Main Proc: Hunts 50 sperm whale. Remain spem whales:" + sw.number);
             } finally {
                 sw.numberl.unlock();
             }
         } else {
             sw.numberl.lock();
             try {
-                sw.number = (int) (sw.number * 0.9);
-                System.out.println("Main Proc: Hunts 2 sperm whales. Remain spem whales:" + sw.number);
+                int huntnum = (int) (sw.number * 0.02);
+                sw.number = sw.number - huntnum;
+                System.out.println("Main Proc: Hunts " + huntnum + " sperm whales. Remain spem whales:" + sw.number);
             } finally {
                 sw.numberl.unlock();
             }
