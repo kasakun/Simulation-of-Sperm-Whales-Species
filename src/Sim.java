@@ -26,9 +26,9 @@ public class Sim {
     public static void main(String[] args) {
 
         MainProc mp = new MainProc(0, 85, 100000000);
-        KillerWhales kw = new KillerWhales(5000, 350, 0.012, 0.01);
+        KillerWhales kw = new KillerWhales(5000, 350, 0.02, 0.01);
         SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.01);
-        MarineMammals mm = new MarineMammals(20000, 20000, 0.03, 0.01);
+        MarineMammals mm = new MarineMammals(20000, 20000, 0.04, 0.02);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
@@ -68,7 +68,7 @@ public class Sim {
 
                 while(timeHelper < timeLimit) {
                 	now = timeHelper;
-
+                    mp.foodRes = 2700000;
                     // Start Barrier
                     try{
                         startBarrier.await();
@@ -78,40 +78,56 @@ public class Sim {
 
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     mainProcPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
+
+                    mp.foodResl.lock();
+                    try {
+                        System.out.println("Main Process: Start food Unit: " + mp.foodRes);
+
+                        mainProcPrint.println("Main Process: Start food Unit: " + mp.foodRes);
+
+                        System.out.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
+
+                        mainProcPrint.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
+
+
+                    } finally {
+                        mp.foodResl.unlock();
+                    }
                     // Season begins
                     /**************************************** Season Begins *******************************************/
                     while (now <= timeHelper) {
                         double temp = now;
+
                         // Why run all event in the list?
-                        while (!mpengine.eventList.isEmpty()) {
-	                        mpengine.eventHandler(mp, kw, sw, mm);
-	                    }
-
-                        Event season1 = new seasonChange(temp + 90);
-                        Event food = new foodGrow(temp + 90);
-                        mpengine.eventList.add(season1);
-                        mpengine.eventList.add(food);
-                        mainProcPrint.println(threadName + ": Food grow at " + now);
-
-
-                        if (Math.random() < 0.01) {
-                           Event disaster = new naturalDisaster(temp + 90);
-                           mpengine.eventList.add(disaster);
-	                       mainProcPrint.println(threadName + ": Natural disaster at " + now);
-
-                        }
-
-                        if (temp % 360 == 0) {
-                           Event humanHunt = new humanHunt(temp + 90);
-                           mpengine.eventList.add(humanHunt);
-	                       mainProcPrint.println(threadName + ": Human hunt event at " + now);
-                        }
-
-                        if (Math.random() > 0.5) {
-                           Event humanFish = new humanFish(temp + 90);
-                           mpengine.eventList.add(humanFish);
-	                       mainProcPrint.println(threadName + ": Human fish event at " + now);
-                        }
+//                        while (!mpengine.eventList.isEmpty()) {
+//	                        mpengine.eventHandler(mp, kw, sw, mm);
+//	                    }
+//
+//                        Event season1 = new seasonChange(temp + 90);
+//                        Event food = new foodGrow(temp + 90);
+//                        mpengine.eventList.add(season1);
+//                        mpengine.eventList.add(food);
+//                        mainProcPrint.println(threadName + ": Food grow at " + now);
+//
+//
+//                        if (Math.random() < 0.01) {
+//                           Event disaster = new naturalDisaster(temp + 90);
+//                           mpengine.eventList.add(disaster);
+//	                       mainProcPrint.println(threadName + ": Natural disaster at " + now);
+//
+//                        }
+//
+//                        if (temp % 360 == 0) {
+//                           Event humanHunt = new humanHunt(temp + 90);
+//                           mpengine.eventList.add(humanHunt);
+//	                       mainProcPrint.println(threadName + ": Human hunt event at " + now);
+//                        }
+//
+//                        if (Math.random() > 0.5) {
+//                           Event humanFish = new humanFish(temp + 90);
+//                           mpengine.eventList.add(humanFish);
+//	                       mainProcPrint.println(threadName + ": Human fish event at " + now);
+//                        }
                         now = temp + 90;
                     }
 
@@ -126,13 +142,13 @@ public class Sim {
                     /*************************************** Season Checkout ******************************************/
                     mp.foodResl.lock();
                     try {
-                        System.out.println("Main Process: Food Unit: " + mp.foodRes);
+                        System.out.println("Main Process: End food Unit: " + mp.foodRes);
 
-                        mainProcPrint.println("Main Process: Food Unit: " + mp.foodRes);
+                        mainProcPrint.println("Main Process: End food Unit: " + mp.foodRes);
 
-                        System.out.println("Main Process: Ocean Temperature: " + mp.oceanTemp);
+                        System.out.println("Main Process: End Ocean Temperature: " + mp.oceanTemp);
 
-                        mainProcPrint.println("Main Process: Ocean Temperature: " + mp.oceanTemp);
+                        mainProcPrint.println("Main Process: End Ocean Temperature: " + mp.oceanTemp);
 
 
                     } finally {
@@ -179,6 +195,8 @@ public class Sim {
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     killerWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
+                    kw.food = 0.0;
+                    kw.demand = kw.number*0.3;
                     while (!kwengine.eventList.isEmpty()) {
                         double temp = now;
                         kwengine.eventHandler(mp, kw, sw, mm);
@@ -191,7 +209,7 @@ public class Sim {
                             kwengine.eventList.add(huntTemp);
                         }
                         // Use prob to determine whether to schedule
-                        if (Math.random() > 0.8 && now < 90) {
+                        if (Math.random() > 0.95 && now < 90) {
                             now = Math.random()*0.5 +  temp;
                             Event deathTemp = new KillerWhalesDeath(now);
                             ++deathcounter;
@@ -219,10 +237,10 @@ public class Sim {
                         kw.number = kw.number  +  (int) (temp*kw.reprorate);
                         kw.number = kw.number - (int) (temp*kw.deathrate);
                         System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.reprorate)
-                                + " reproduces. " + "Remain killer whales:" + kw.number);
+                                + " reproduces.");
 
                         killerWhalePrint.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " +
-                                (int)(temp*kw.reprorate) + " reproduces. " + "Remain killer whales:" + kw.number);
+                                (int)(temp*kw.reprorate) + " reproduces.");
 
                     } finally {
                         kw.numberl.unlock();
@@ -242,7 +260,7 @@ public class Sim {
                         kw.numberl.unlock();
                     }
 
-
+                    killerWhalePrint.println("Remain killer whales:" + kw.number);
                     timeHelper += 90;
                     killerWhalePrint.println("====================================================================================================");
                     /*************************************** Season Complete ******************************************/
@@ -283,12 +301,12 @@ public class Sim {
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     sw.food = 0.0;
-                    sw.demand = sw.number*90;
+                    sw.demand = sw.number*70;
                     while (!swengine.eventList.isEmpty()) {
                         double temp =now;
                         swengine.eventHandler(mp, kw, sw, mm);
 
-                        if (Math.random() > 0.8 && now < 90) {
+                        if (Math.random() > 0.95 && now < 90) {
                             now = Math.random()*0.5 + temp;
                             Event deathTemp = new SpermWhalesDeath(now);
                             deathcounter++;
@@ -393,7 +411,7 @@ public class Sim {
                     marineMammalPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     mm.food = 0.0;
-                    mm.demand = mm.number*90;
+                    mm.demand = mm.number*70;
                     while (!mmengine.eventList.isEmpty()) {
                         double temp = now;
 
@@ -406,7 +424,7 @@ public class Sim {
                             mmengine.eventList.add(eatTemp);
                         }
 
-                        if (Math.random() > 0.8 && now < 90) {
+                        if (Math.random() > 0.95 && now < 90) {
                             now = Math.random()*2 +  temp;
                             Event deathTemp = new MarineMammalsDeath(now);
                             ++deathcounter;
