@@ -1,200 +1,720 @@
 Marine Mammals ThreadSeason: 0 begins
 Marine Mammals ThreadSeason: 0 ends
-Marine Mammals: 5942 dies, 7923 reproduces. Remain Marine Mammals:21789
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 356 dies, 593 reproduces.
+Marine Whales total demands: 1400000.0
+Marine Mammals total consumes: 1524519.0
+Remain Marine Mammals:20025
 ====================================================================================================
 Marine Mammals ThreadSeason: 1 begins
 Marine Mammals ThreadSeason: 1 ends
-Marine Mammals: 6369 dies, 8492 reproduces. Remain Marine Mammals:23355
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 355 dies, 697 reproduces.
+Marine Whales total demands: 1401750.0
+Marine Mammals total consumes: 1540779.0
+Remain Marine Mammals:20085
 ====================================================================================================
 Marine Mammals ThreadSeason: 2 begins
 Marine Mammals ThreadSeason: 2 ends
-Marine Mammals: 6841 dies, 9122 reproduces. Remain Marine Mammals:25087
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 355 dies, 707 reproduces.
+Marine Whales total demands: 1403780.0
+Marine Mammals total consumes: 1581330.0
+Remain Marine Mammals:20091
 ====================================================================================================
 Marine Mammals ThreadSeason: 3 begins
 Marine Mammals ThreadSeason: 3 ends
-Marine Mammals: 7359 dies, 9812 reproduces. Remain Marine Mammals:26985
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 356 dies, 740 reproduces.
+Marine Whales total demands: 1406370.0
+Marine Mammals total consumes: 1526862.0
+Remain Marine Mammals:20194
 ====================================================================================================
 Marine Mammals ThreadSeason: 4 begins
 Marine Mammals ThreadSeason: 4 ends
-Marine Mammals: 7933 dies, 10577 reproduces. Remain Marine Mammals:29088
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 85
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 360 dies, 699 reproduces.
+Marine Whales total demands: 1411410.0
+Marine Mammals total consumes: 1582921.0
+Remain Marine Mammals:20373
 ====================================================================================================
 Marine Mammals ThreadSeason: 5 begins
 Marine Mammals ThreadSeason: 5 ends
-Marine Mammals: 8567 dies, 11423 reproduces. Remain Marine Mammals:31415
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 361 dies, 741 reproduces.
+Marine Whales total demands: 1426110.0
+Marine Mammals total consumes: 1566481.0
+Remain Marine Mammals:20440
 ====================================================================================================
 Marine Mammals ThreadSeason: 6 begins
 Marine Mammals ThreadSeason: 6 ends
-Marine Mammals: 9318 dies, 12424 reproduces. Remain Marine Mammals:34166
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 362 dies, 717 reproduces.
+Marine Whales total demands: 1430800.0
+Marine Mammals total consumes: 1610205.0
+Remain Marine Mammals:20480
 ====================================================================================================
 Marine Mammals ThreadSeason: 7 begins
 Marine Mammals ThreadSeason: 7 ends
-Marine Mammals: 10141 dies, 13521 reproduces. Remain Marine Mammals:37184
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 77
+Marine Mammals Thread accidental death: 1
+Marine Mammals: 362 dies, 748 reproduces.
+Marine Whales total demands: 1433600.0
+Marine Mammals total consumes: 1532152.0
+Remain Marine Mammals:20545
 ====================================================================================================
 Marine Mammals ThreadSeason: 8 begins
 Marine Mammals ThreadSeason: 8 ends
-Marine Mammals: 11001 dies, 14668 reproduces. Remain Marine Mammals:40339
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 83
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 365 dies, 688 reproduces.
+Marine Whales total demands: 1438150.0
+Marine Mammals total consumes: 1585365.0
+Remain Marine Mammals:20640
 ====================================================================================================
 Marine Mammals ThreadSeason: 9 begins
 Marine Mammals ThreadSeason: 9 ends
-Marine Mammals: 11935 dies, 15914 reproduces. Remain Marine Mammals:43764
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 78
+Marine Mammals Thread accidental death: 1
+Marine Mammals: 363 dies, 721 reproduces.
+Marine Whales total demands: 1440180.0
+Marine Mammals total consumes: 1533470.0
+Remain Marine Mammals:20535
 ====================================================================================================
 Marine Mammals ThreadSeason: 10 begins
 Marine Mammals ThreadSeason: 10 ends
-Marine Mammals: 12971 dies, 17294 reproduces. Remain Marine Mammals:47560
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 89
+Marine Mammals Thread accidental death: 7
+Marine Mammals: 365 dies, 681 reproduces.
+Marine Whales total demands: 1437450.0
+Marine Mammals total consumes: 1644390.0
+Remain Marine Mammals:20613
 ====================================================================================================
 Marine Mammals ThreadSeason: 11 begins
 Marine Mammals ThreadSeason: 11 ends
-Marine Mammals: 14100 dies, 18801 reproduces. Remain Marine Mammals:51704
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 85
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 365 dies, 769 reproduces.
+Marine Whales total demands: 1438290.0
+Marine Mammals total consumes: 1604879.0
+Remain Marine Mammals:20715
 ====================================================================================================
 Marine Mammals ThreadSeason: 12 begins
 Marine Mammals ThreadSeason: 12 ends
-Marine Mammals: 15423 dies, 20565 reproduces. Remain Marine Mammals:56555
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 87
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 365 dies, 736 reproduces.
+Marine Whales total demands: 1450050.0
+Marine Mammals total consumes: 1627307.0
+Remain Marine Mammals:20684
 ====================================================================================================
 Marine Mammals ThreadSeason: 13 begins
 Marine Mammals ThreadSeason: 13 ends
-Marine Mammals: 16809 dies, 22412 reproduces. Remain Marine Mammals:61634
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 85
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 366 dies, 744 reproduces.
+Marine Whales total demands: 1447880.0
+Marine Mammals total consumes: 1607753.0
+Remain Marine Mammals:20727
 ====================================================================================================
 Marine Mammals ThreadSeason: 14 begins
 Marine Mammals ThreadSeason: 14 ends
-Marine Mammals: 18406 dies, 24542 reproduces. Remain Marine Mammals:67491
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 87
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 364 dies, 725 reproduces.
+Marine Whales total demands: 1450890.0
+Marine Mammals total consumes: 1619986.0
+Remain Marine Mammals:20606
 ====================================================================================================
 Marine Mammals ThreadSeason: 15 begins
 Marine Mammals ThreadSeason: 15 ends
-Marine Mammals: 20082 dies, 26777 reproduces. Remain Marine Mammals:73638
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 81
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 367 dies, 737 reproduces.
+Marine Whales total demands: 1442420.0
+Marine Mammals total consumes: 1576630.0
+Remain Marine Mammals:20803
 ====================================================================================================
 Marine Mammals ThreadSeason: 16 begins
 Marine Mammals ThreadSeason: 16 ends
-Marine Mammals: 22003 dies, 29337 reproduces. Remain Marine Mammals:80678
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 366 dies, 707 reproduces.
+Marine Whales total demands: 1453760.0
+Marine Mammals total consumes: 1627961.0
+Remain Marine Mammals:20684
 ====================================================================================================
 Marine Mammals ThreadSeason: 17 begins
 Marine Mammals ThreadSeason: 17 ends
-Marine Mammals: 24120 dies, 32160 reproduces. Remain Marine Mammals:88442
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 88
+Marine Mammals Thread accidental death: 8
+Marine Mammals: 365 dies, 733 reproduces.
+Marine Whales total demands: 1440530.0
+Marine Mammals total consumes: 1664198.0
+Remain Marine Mammals:20659
 ====================================================================================================
 Marine Mammals ThreadSeason: 18 begins
 Marine Mammals ThreadSeason: 18 ends
-Marine Mammals: 26378 dies, 35171 reproduces. Remain Marine Mammals:96722
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 90
+Marine Mammals Thread accidental death: 7
+Marine Mammals: 366 dies, 770 reproduces.
+Marine Whales total demands: 1446130.0
+Marine Mammals total consumes: 1672441.0
+Remain Marine Mammals:20741
 ====================================================================================================
 Marine Mammals ThreadSeason: 19 begins
 Marine Mammals ThreadSeason: 19 ends
-Marine Mammals: 28852 dies, 38470 reproduces. Remain Marine Mammals:105794
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 90
+Marine Mammals Thread accidental death: 8
+Marine Mammals: 367 dies, 772 reproduces.
+Marine Whales total demands: 1451870.0
+Marine Mammals total consumes: 1656383.0
+Remain Marine Mammals:20814
 ====================================================================================================
 Marine Mammals ThreadSeason: 20 begins
 Marine Mammals ThreadSeason: 20 ends
-Marine Mammals: 31571 dies, 42094 reproduces. Remain Marine Mammals:115760
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 369 dies, 759 reproduces.
+Marine Whales total demands: 1454460.0
+Marine Mammals total consumes: 1601709.0
+Remain Marine Mammals:20913
 ====================================================================================================
 Marine Mammals ThreadSeason: 21 begins
 Marine Mammals ThreadSeason: 21 ends
-Marine Mammals: 34642 dies, 46190 reproduces. Remain Marine Mammals:127024
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 84
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 370 dies, 718 reproduces.
+Marine Whales total demands: 1463910.0
+Marine Mammals total consumes: 1624279.0
+Remain Marine Mammals:20907
 ====================================================================================================
 Marine Mammals ThreadSeason: 22 begins
 Marine Mammals ThreadSeason: 22 ends
-Marine Mammals: 37941 dies, 50589 reproduces. Remain Marine Mammals:139121
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 370 dies, 727 reproduces.
+Marine Whales total demands: 1463490.0
+Marine Mammals total consumes: 1585633.0
+Remain Marine Mammals:20947
 ====================================================================================================
 Marine Mammals ThreadSeason: 23 begins
 Marine Mammals ThreadSeason: 23 ends
-Marine Mammals: 41649 dies, 55532 reproduces. Remain Marine Mammals:152713
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 84
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 369 dies, 698 reproduces.
+Marine Whales total demands: 1466290.0
+Marine Mammals total consumes: 1642332.0
+Remain Marine Mammals:20876
 ====================================================================================================
 Marine Mammals ThreadSeason: 24 begins
 Marine Mammals ThreadSeason: 24 ends
-Marine Mammals: 45727 dies, 60969 reproduces. Remain Marine Mammals:167666
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 79
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 371 dies, 736 reproduces.
+Marine Whales total demands: 1443680.0
+Marine Mammals total consumes: 1567328.0
+Remain Marine Mammals:20987
 ====================================================================================================
 Marine Mammals ThreadSeason: 25 begins
 Marine Mammals ThreadSeason: 25 ends
-Marine Mammals: 50130 dies, 66840 reproduces. Remain Marine Mammals:183812
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 83
+Marine Mammals Thread accidental death: 8
+Marine Mammals: 373 dies, 706 reproduces.
+Marine Whales total demands: 1469090.0
+Marine Mammals total consumes: 1702545.0
+Remain Marine Mammals:21090
 ====================================================================================================
 Marine Mammals ThreadSeason: 26 begins
 Marine Mammals ThreadSeason: 26 ends
-Marine Mammals: 54981 dies, 73308 reproduces. Remain Marine Mammals:201597
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 79
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 372 dies, 774 reproduces.
+Marine Whales total demands: 1476300.0
+Marine Mammals total consumes: 1635283.0
+Remain Marine Mammals:21090
 ====================================================================================================
 Marine Mammals ThreadSeason: 27 begins
 Marine Mammals ThreadSeason: 27 ends
-Marine Mammals: 60384 dies, 80512 reproduces. Remain Marine Mammals:221410
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 373 dies, 726 reproduces.
+Marine Whales total demands: 1476300.0
+Marine Mammals total consumes: 1665862.0
+Remain Marine Mammals:21113
 ====================================================================================================
 Marine Mammals ThreadSeason: 28 begins
 Marine Mammals ThreadSeason: 28 ends
-Marine Mammals: 66253 dies, 88338 reproduces. Remain Marine Mammals:242931
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 88
+Marine Mammals Thread accidental death: 7
+Marine Mammals: 377 dies, 754 reproduces.
+Marine Whales total demands: 1477910.0
+Marine Mammals total consumes: 1658896.0
+Remain Marine Mammals:21372
 ====================================================================================================
 Marine Mammals ThreadSeason: 29 begins
 Marine Mammals ThreadSeason: 29 ends
-Marine Mammals: 72714 dies, 96952 reproduces. Remain Marine Mammals:266620
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 377 dies, 747 reproduces.
+Marine Whales total demands: 1488270.0
+Marine Mammals total consumes: 1617083.0
+Remain Marine Mammals:21370
 ====================================================================================================
 Marine Mammals ThreadSeason: 30 begins
 Marine Mammals ThreadSeason: 30 ends
-Marine Mammals: 79895 dies, 106526 reproduces. Remain Marine Mammals:292948
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 85
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 381 dies, 718 reproduces.
+Marine Whales total demands: 1482950.0
+Marine Mammals total consumes: 1673419.0
+Remain Marine Mammals:21517
 ====================================================================================================
 Marine Mammals ThreadSeason: 31 begins
 Marine Mammals ThreadSeason: 31 ends
-Marine Mammals: 87717 dies, 116956 reproduces. Remain Marine Mammals:321630
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 83
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 382 dies, 759 reproduces.
+Marine Whales total demands: 1506190.0
+Marine Mammals total consumes: 1678220.0
+Remain Marine Mammals:21638
 ====================================================================================================
 Marine Mammals ThreadSeason: 32 begins
 Marine Mammals ThreadSeason: 32 ends
-Marine Mammals: 96334 dies, 128446 reproduces. Remain Marine Mammals:353227
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 383 dies, 748 reproduces.
+Marine Whales total demands: 1514660.0
+Marine Mammals total consumes: 1709182.0
+Remain Marine Mammals:21673
 ====================================================================================================
 Marine Mammals ThreadSeason: 33 begins
 Marine Mammals ThreadSeason: 33 ends
-Marine Mammals: 105883 dies, 141177 reproduces. Remain Marine Mammals:388238
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 79
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 386 dies, 767 reproduces.
+Marine Whales total demands: 1504510.0
+Marine Mammals total consumes: 1633391.0
+Remain Marine Mammals:21872
 ====================================================================================================
 Marine Mammals ThreadSeason: 34 begins
 Marine Mammals ThreadSeason: 34 ends
-Marine Mammals: 116382 dies, 155176 reproduces. Remain Marine Mammals:426736
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 78
+Marine Mammals Thread accidental death: 1
+Marine Mammals: 388 dies, 728 reproduces.
+Marine Whales total demands: 1531040.0
+Marine Mammals total consumes: 1640328.0
+Remain Marine Mammals:21923
 ====================================================================================================
 Marine Mammals ThreadSeason: 35 begins
 Marine Mammals ThreadSeason: 35 ends
-Marine Mammals: 127858 dies, 170477 reproduces. Remain Marine Mammals:468813
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 388 dies, 716 reproduces.
+Marine Whales total demands: 1534610.0
+Marine Mammals total consumes: 1660278.0
+Remain Marine Mammals:21887
 ====================================================================================================
 Marine Mammals ThreadSeason: 36 begins
 Marine Mammals ThreadSeason: 36 ends
-Marine Mammals: 140537 dies, 187382 reproduces. Remain Marine Mammals:515302
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 388 dies, 727 reproduces.
+Marine Whales total demands: 1529570.0
+Marine Mammals total consumes: 1641312.0
+Remain Marine Mammals:21933
 ====================================================================================================
 Marine Mammals ThreadSeason: 37 begins
 Marine Mammals ThreadSeason: 37 ends
-Marine Mammals: 154505 dies, 206007 reproduces. Remain Marine Mammals:566520
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 388 dies, 717 reproduces.
+Marine Whales total demands: 1527750.0
+Marine Mammals total consumes: 1685577.0
+Remain Marine Mammals:21935
 ====================================================================================================
 Marine Mammals ThreadSeason: 38 begins
 Marine Mammals ThreadSeason: 38 ends
-Marine Mammals: 169791 dies, 226388 reproduces. Remain Marine Mammals:622569
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 79
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 387 dies, 742 reproduces.
+Marine Whales total demands: 1532930.0
+Marine Mammals total consumes: 1638140.0
+Remain Marine Mammals:21892
 ====================================================================================================
 Marine Mammals ThreadSeason: 39 begins
 Marine Mammals ThreadSeason: 39 ends
-Marine Mammals: 186593 dies, 248791 reproduces. Remain Marine Mammals:684177
-Marine Mammals: 100 dies for hunger.
+Marine Mammals Thread eat: 88
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 386 dies, 709 reproduces.
+Marine Whales total demands: 1529850.0
+Marine Mammals total consumes: 1568300.0
+Remain Marine Mammals:21806
+====================================================================================================
+Marine Mammals ThreadSeason: 40 begins
+Marine Mammals ThreadSeason: 40 ends
+Marine Mammals Thread eat: 81
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 389 dies, 672 reproduces.
+Marine Whales total demands: 1513470.0
+Marine Mammals total consumes: 1664741.0
+Remain Marine Mammals:21901
+====================================================================================================
+Marine Mammals ThreadSeason: 41 begins
+Marine Mammals ThreadSeason: 41 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 390 dies, 744 reproduces.
+Marine Whales total demands: 1533070.0
+Marine Mammals total consumes: 1733663.0
+Remain Marine Mammals:22022
+====================================================================================================
+Marine Mammals ThreadSeason: 42 begins
+Marine Mammals ThreadSeason: 42 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 389 dies, 773 reproduces.
+Marine Whales total demands: 1541540.0
+Marine Mammals total consumes: 1669769.0
+Remain Marine Mammals:22034
+====================================================================================================
+Marine Mammals ThreadSeason: 43 begins
+Marine Mammals ThreadSeason: 43 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 393 dies, 738 reproduces.
+Marine Whales total demands: 1539790.0
+Marine Mammals total consumes: 1682278.0
+Remain Marine Mammals:22192
+====================================================================================================
+Marine Mammals ThreadSeason: 44 begins
+Marine Mammals ThreadSeason: 44 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 393 dies, 749 reproduces.
+Marine Whales total demands: 1529500.0
+Marine Mammals total consumes: 1660487.0
+Remain Marine Mammals:22202
+====================================================================================================
+Marine Mammals ThreadSeason: 45 begins
+Marine Mammals ThreadSeason: 45 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 395 dies, 745 reproduces.
+Marine Whales total demands: 1554140.0
+Marine Mammals total consumes: 1713832.0
+Remain Marine Mammals:22321
+====================================================================================================
+Marine Mammals ThreadSeason: 46 begins
+Marine Mammals ThreadSeason: 46 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 395 dies, 762 reproduces.
+Marine Whales total demands: 1559810.0
+Marine Mammals total consumes: 1670276.0
+Remain Marine Mammals:22341
+====================================================================================================
+Marine Mammals ThreadSeason: 47 begins
+Marine Mammals ThreadSeason: 47 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 393 dies, 728 reproduces.
+Marine Whales total demands: 1553230.0
+Marine Mammals total consumes: 1685002.0
+Remain Marine Mammals:22218
+====================================================================================================
+Marine Mammals ThreadSeason: 48 begins
+Marine Mammals ThreadSeason: 48 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 393 dies, 742 reproduces.
+Marine Whales total demands: 1552600.0
+Marine Mammals total consumes: 1750188.0
+Remain Marine Mammals:22220
+====================================================================================================
+Marine Mammals ThreadSeason: 49 begins
+Marine Mammals ThreadSeason: 49 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 394 dies, 786 reproduces.
+Marine Whales total demands: 1555400.0
+Marine Mammals total consumes: 1665417.0
+Remain Marine Mammals:22303
+====================================================================================================
+Marine Mammals ThreadSeason: 50 begins
+Marine Mammals ThreadSeason: 50 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 396 dies, 734 reproduces.
+Marine Whales total demands: 1561210.0
+Marine Mammals total consumes: 1718291.0
+Remain Marine Mammals:22365
+====================================================================================================
+Marine Mammals ThreadSeason: 51 begins
+Marine Mammals ThreadSeason: 51 ends
+Marine Mammals Thread eat: 89
+Marine Mammals Thread accidental death: 7
+Marine Mammals: 396 dies, 766 reproduces.
+Marine Whales total demands: 1562820.0
+Marine Mammals total consumes: 1651145.0
+Remain Marine Mammals:22377
+====================================================================================================
+Marine Mammals ThreadSeason: 52 begins
+Marine Mammals ThreadSeason: 52 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 395 dies, 718 reproduces.
+Marine Whales total demands: 1566390.0
+Marine Mammals total consumes: 1759551.0
+Remain Marine Mammals:22315
+====================================================================================================
+Marine Mammals ThreadSeason: 53 begins
+Marine Mammals ThreadSeason: 53 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 396 dies, 787 reproduces.
+Marine Whales total demands: 1562050.0
+Marine Mammals total consumes: 1716740.0
+Remain Marine Mammals:22399
+====================================================================================================
+Marine Mammals ThreadSeason: 54 begins
+Marine Mammals ThreadSeason: 54 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 395 dies, 763 reproduces.
+Marine Whales total demands: 1567930.0
+Marine Mammals total consumes: 1713939.0
+Remain Marine Mammals:22335
+====================================================================================================
+Marine Mammals ThreadSeason: 55 begins
+Marine Mammals ThreadSeason: 55 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 397 dies, 763 reproduces.
+Marine Whales total demands: 1563450.0
+Marine Mammals total consumes: 1680216.0
+Remain Marine Mammals:22468
+====================================================================================================
+Marine Mammals ThreadSeason: 56 begins
+Marine Mammals ThreadSeason: 56 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 398 dies, 742 reproduces.
+Marine Whales total demands: 1572760.0
+Marine Mammals total consumes: 1769392.0
+Remain Marine Mammals:22456
+====================================================================================================
+Marine Mammals ThreadSeason: 57 begins
+Marine Mammals ThreadSeason: 57 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 399 dies, 798 reproduces.
+Marine Whales total demands: 1569190.0
+Marine Mammals total consumes: 1711142.0
+Remain Marine Mammals:22619
+====================================================================================================
+Marine Mammals ThreadSeason: 58 begins
+Marine Mammals ThreadSeason: 58 ends
+Marine Mammals Thread eat: 85
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 393 dies, 752 reproduces.
+Marine Whales total demands: 1577870.0
+Marine Mammals total consumes: 1681415.0
+Remain Marine Mammals:22194
+====================================================================================================
+Marine Mammals ThreadSeason: 59 begins
+Marine Mammals ThreadSeason: 59 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 392 dies, 725 reproduces.
+Marine Whales total demands: 1553580.0
+Marine Mammals total consumes: 1700521.0
+Remain Marine Mammals:22131
+====================================================================================================
+Marine Mammals ThreadSeason: 60 begins
+Marine Mammals ThreadSeason: 60 ends
+Marine Mammals Thread eat: 84
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 391 dies, 754 reproduces.
+Marine Whales total demands: 1549170.0
+Marine Mammals total consumes: 1697344.0
+Remain Marine Mammals:22120
+====================================================================================================
+Marine Mammals ThreadSeason: 61 begins
+Marine Mammals ThreadSeason: 61 ends
+Marine Mammals Thread eat: 87
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 394 dies, 758 reproduces.
+Marine Whales total demands: 1548400.0
+Marine Mammals total consumes: 1665992.0
+Remain Marine Mammals:22273
+====================================================================================================
+Marine Mammals ThreadSeason: 62 begins
+Marine Mammals ThreadSeason: 62 ends
+Marine Mammals Thread eat: 91
+Marine Mammals Thread accidental death: 9
+Marine Mammals: 394 dies, 737 reproduces.
+Marine Whales total demands: 1536150.0
+Marine Mammals total consumes: 1667516.0
+Remain Marine Mammals:22279
+====================================================================================================
+Marine Mammals ThreadSeason: 63 begins
+Marine Mammals ThreadSeason: 63 ends
+Marine Mammals Thread eat: 98
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 391 dies, 739 reproduces.
+Marine Whales total demands: 1559530.0
+Marine Mammals total consumes: 1630863.0
+Remain Marine Mammals:22091
+====================================================================================================
+Marine Mammals ThreadSeason: 64 begins
+Marine Mammals ThreadSeason: 64 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 393 dies, 702 reproduces.
+Marine Whales total demands: 1546370.0
+Marine Mammals total consumes: 1660606.0
+Remain Marine Mammals:22158
+====================================================================================================
+Marine Mammals ThreadSeason: 65 begins
+Marine Mammals ThreadSeason: 65 ends
+Marine Mammals Thread eat: 84
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 392 dies, 729 reproduces.
+Marine Whales total demands: 1551060.0
+Marine Mammals total consumes: 1659205.0
+Remain Marine Mammals:22163
+====================================================================================================
+Marine Mammals ThreadSeason: 66 begins
+Marine Mammals ThreadSeason: 66 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 392 dies, 724 reproduces.
+Marine Whales total demands: 1548540.0
+Marine Mammals total consumes: 1659301.0
+Remain Marine Mammals:22164
+====================================================================================================
+Marine Mammals ThreadSeason: 67 begins
+Marine Mammals ThreadSeason: 67 ends
+Marine Mammals Thread eat: 78
+Marine Mammals Thread accidental death: 1
+Marine Mammals: 394 dies, 728 reproduces.
+Marine Whales total demands: 1545740.0
+Marine Mammals total consumes: 1665757.0
+Remain Marine Mammals:22251
+====================================================================================================
+Marine Mammals ThreadSeason: 68 begins
+Marine Mammals ThreadSeason: 68 ends
+Marine Mammals Thread eat: 76
+Marine Mammals Thread accidental death: 0
+Marine Mammals: 393 dies, 730 reproduces.
+Marine Whales total demands: 1554770.0
+Marine Mammals total consumes: 1639185.0
+Remain Marine Mammals:22188
+====================================================================================================
+Marine Mammals ThreadSeason: 69 begins
+Marine Mammals ThreadSeason: 69 ends
+Marine Mammals Thread eat: 87
+Marine Mammals Thread accidental death: 6
+Marine Mammals: 389 dies, 702 reproduces.
+Marine Whales total demands: 1553160.0
+Marine Mammals total consumes: 1734822.0
+Remain Marine Mammals:21975
+====================================================================================================
+Marine Mammals ThreadSeason: 70 begins
+Marine Mammals ThreadSeason: 70 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 388 dies, 760 reproduces.
+Marine Whales total demands: 1538250.0
+Marine Mammals total consumes: 1661454.0
+Remain Marine Mammals:21935
+====================================================================================================
+Marine Mammals ThreadSeason: 71 begins
+Marine Mammals ThreadSeason: 71 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 388 dies, 727 reproduces.
+Marine Whales total demands: 1532510.0
+Marine Mammals total consumes: 1641374.0
+Remain Marine Mammals:21935
+====================================================================================================
+Marine Mammals ThreadSeason: 72 begins
+Marine Mammals ThreadSeason: 72 ends
+Marine Mammals Thread eat: 84
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 387 dies, 715 reproduces.
+Marine Whales total demands: 1535450.0
+Marine Mammals total consumes: 1613498.0
+Remain Marine Mammals:21838
+====================================================================================================
+Marine Mammals ThreadSeason: 73 begins
+Marine Mammals ThreadSeason: 73 ends
+Marine Mammals Thread eat: 86
+Marine Mammals Thread accidental death: 5
+Marine Mammals: 389 dies, 699 reproduces.
+Marine Whales total demands: 1528660.0
+Marine Mammals total consumes: 1730706.0
+Remain Marine Mammals:21933
+====================================================================================================
+Marine Mammals ThreadSeason: 74 begins
+Marine Mammals ThreadSeason: 74 ends
+Marine Mammals Thread eat: 80
+Marine Mammals Thread accidental death: 2
+Marine Mammals: 387 dies, 775 reproduces.
+Marine Whales total demands: 1535310.0
+Marine Mammals total consumes: 1658998.0
+Remain Marine Mammals:21932
+====================================================================================================
+Marine Mammals ThreadSeason: 75 begins
+Marine Mammals ThreadSeason: 75 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 386 dies, 725 reproduces.
+Marine Whales total demands: 1535240.0
+Marine Mammals total consumes: 1680109.0
+Remain Marine Mammals:21838
+====================================================================================================
+Marine Mammals ThreadSeason: 76 begins
+Marine Mammals ThreadSeason: 76 ends
+Marine Mammals Thread eat: 84
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 386 dies, 738 reproduces.
+Marine Whales total demands: 1513960.0
+Marine Mammals total consumes: 1695279.0
+Remain Marine Mammals:21808
+====================================================================================================
+Marine Mammals ThreadSeason: 77 begins
+Marine Mammals ThreadSeason: 77 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 3
+Marine Mammals: 387 dies, 763 reproduces.
+Marine Whales total demands: 1517530.0
+Marine Mammals total consumes: 1677391.0
+Remain Marine Mammals:21880
+====================================================================================================
+Marine Mammals ThreadSeason: 78 begins
+Marine Mammals ThreadSeason: 78 ends
+Marine Mammals Thread eat: 82
+Marine Mammals Thread accidental death: 4
+Marine Mammals: 386 dies, 747 reproduces.
+Marine Whales total demands: 1528520.0
+Marine Mammals total consumes: 1632672.0
+Remain Marine Mammals:21841
+====================================================================================================
+Marine Mammals ThreadSeason: 79 begins
+Marine Mammals ThreadSeason: 79 ends
+Marine Mammals Thread eat: 93
+Marine Mammals Thread accidental death: 9
+Marine Mammals: 387 dies, 712 reproduces.
+Marine Whales total demands: 1528870.0
+Marine Mammals total consumes: 1636739.0
+Remain Marine Mammals:21856
 ====================================================================================================

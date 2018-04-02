@@ -32,7 +32,7 @@ public class SpermWhales extends Mammals {
         mp.foodResl.lock();
         try {
             mp.foodRes = mp.foodRes - number;
-            System.out.println(name + ": Consumes food: " + number + ". Remain:" + mp.foodRes);
+            System.out.println(name + ": Consumes food: " + number + ".");
             food += number;
         } finally {
             mp.foodResl.unlock();

@@ -21,16 +21,26 @@ public class Sim {
     private static CyclicBarrier endBarrier = new CyclicBarrier(4);
 
 
-    public static double timeLimit = 3600;
+    public static double timeLimit = 3600;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
 
     public static void main(String[] args) {
+        if (args.length  == 0) {
+            System.out.println("Running by default 3600 days, 40 seasons.");
+        }
+        else if (args.length == 1) {
+            System.out.println("Running by " + args[0] + " days, " + (Integer.parseInt(args[0])/90 + 1) + " seasons.");
+            timeLimit = Integer.parseInt(args[0]);
+        }
+        else {
+            System.out.println("Please input the correct number of days.");
+            return;
+        }
 
         MainProc mp = new MainProc(0, 85, 100000000);
         KillerWhales kw = new KillerWhales(3000, 350, 0.03, 0.01);
         SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.002);
         MarineMammals mm = new MarineMammals(20000, 20000, 0.03, 0.018);
 
-        System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
                 + mp.totalFood + ", Food Resource: " + mp.foodRes);
 
@@ -44,7 +54,6 @@ public class Sim {
                 mm.reprorate + ", Death Rate: " + mm.deathrate);
 
 
-        System.out.println("==================================================================================");
         System.out.println("Simulation starts");
 
         MainProcThread mpthr = new MainProcThread("Main Process Thread") {
@@ -98,7 +107,7 @@ public class Sim {
                     while (now <= timeHelper) {
                         double temp = now;
 
-                        // Why run all event in the list?
+                        // Under construction
 //                        while (!mpengine.eventList.isEmpty()) {
 //	                        mpengine.eventHandler(mp, kw, sw, mm);
 //	                    }
@@ -155,7 +164,6 @@ public class Sim {
                         mp.foodResl.unlock();
                     }
                     timeHelper += 90;
-                    //System.out.println("====================================================================================================");
                     mainProcPrint.println("====================================================================================================");
                     /*************************************** Season Complete ******************************************/
                 }
@@ -203,7 +211,6 @@ public class Sim {
                         kwengine.eventHandler(mp, kw, sw, mm);
                         // Use prob to determine whether to schedule
                         if (now < 90) {
-                            System.out.println("====================================================================================================");
                             now = Math.random()*15 +  temp;
                             Event huntTemp = new KillerWhalesHunt(now);
                             ++eatcounter;
