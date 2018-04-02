@@ -1,280 +1,280 @@
 Main Process ThreadSeason: 0 begins
-Main Process: Start food Unit: 2680000.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 0 ends
-Main Process: End food Unit: 51344.0
+Main Process: End food Unit: 376271.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 1 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2341746.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 1 ends
-Main Process: End food Unit: -5040.0
+Main Process: End food Unit: 379787.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 2 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2669109.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 2 ends
-Main Process: End food Unit: -11592.0
+Main Process: End food Unit: 346809.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 3 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2689597.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 3 ends
-Main Process: End food Unit: -6762.0
+Main Process: End food Unit: 381423.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 4 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2689467.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 4 ends
-Main Process: End food Unit: 84657.0
+Main Process: End food Unit: 394947.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 5 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2689318.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 5 ends
-Main Process: End food Unit: 20226.0
+Main Process: End food Unit: 391361.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 6 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 6 ends
-Main Process: End food Unit: -8932.0
+Main Process: End food Unit: 371068.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 7 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 7 ends
-Main Process: End food Unit: -17483.0
+Main Process: End food Unit: 314925.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 8 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 8 ends
-Main Process: End food Unit: -10440.0
+Main Process: End food Unit: 346232.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 9 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 9 ends
-Main Process: End food Unit: -2497.0
+Main Process: End food Unit: 205116.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 10 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 10 ends
-Main Process: End food Unit: -16823.0
+Main Process: End food Unit: 338047.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 11 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2688603.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 11 ends
-Main Process: End food Unit: -11043.0
+Main Process: End food Unit: 179267.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 12 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 12 ends
-Main Process: End food Unit: -13115.0
+Main Process: End food Unit: 244557.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 13 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2647555.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 13 ends
-Main Process: End food Unit: -6324.0
+Main Process: End food Unit: 232627.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 14 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 14 ends
-Main Process: End food Unit: -17304.0
+Main Process: End food Unit: 206986.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 15 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 15 ends
-Main Process: End food Unit: -12636.0
+Main Process: End food Unit: 110631.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 16 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2393935.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 16 ends
-Main Process: End food Unit: -7627.0
+Main Process: End food Unit: 163249.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 17 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 1161516.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 17 ends
-Main Process: End food Unit: -7183.0
+Main Process: End food Unit: 270026.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 18 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 18 ends
-Main Process: End food Unit: -19916.0
+Main Process: End food Unit: 85604.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 19 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2654655.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 19 ends
-Main Process: End food Unit: -15900.0
+Main Process: End food Unit: 131940.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 20 begins
-Main Process: Start food Unit: 1001001.0
+Main Process: Start food Unit: 1196653.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 20 ends
-Main Process: End food Unit: -1036.0
+Main Process: End food Unit: 137022.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 21 begins
-Main Process: Start food Unit: 888149.0
+Main Process: Start food Unit: 1154140.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 21 ends
-Main Process: End food Unit: -10610.0
+Main Process: End food Unit: 185159.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 22 begins
-Main Process: Start food Unit: 904593.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 22 ends
-Main Process: End food Unit: -13177.0
+Main Process: End food Unit: 70210.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 23 begins
-Main Process: Start food Unit: 1092408.0
+Main Process: Start food Unit: 2639660.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 23 ends
-Main Process: End food Unit: -5416.0
+Main Process: End food Unit: 164311.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 24 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2437391.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 24 ends
-Main Process: End food Unit: -2888.0
+Main Process: End food Unit: 105723.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 25 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2665505.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 25 ends
-Main Process: End food Unit: -570.0
+Main Process: End food Unit: -270.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 26 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2645608.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 26 ends
-Main Process: End food Unit: -3399.0
+Main Process: End food Unit: 52049.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 27 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 27 ends
-Main Process: End food Unit: -1531.0
+Main Process: End food Unit: -17532.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 28 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2644440.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 28 ends
-Main Process: End food Unit: -7493.0
+Main Process: End food Unit: 55065.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 29 begins
-Main Process: Start food Unit: 2700000.0
+Main Process: Start food Unit: 2629730.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 29 ends
-Main Process: End food Unit: -1653.0
+Main Process: End food Unit: -5653.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 30 begins
 Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 30 ends
-Main Process: End food Unit: -9869.0
+Main Process: End food Unit: -2356.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 31 begins
-Main Process: Start food Unit: -2892.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 31 ends
-Main Process: End food Unit: -2892.0
+Main Process: End food Unit: -8505.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 32 begins
-Main Process: Start food Unit: 1035476.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 32 ends
-Main Process: End food Unit: -10327.0
+Main Process: End food Unit: -3341.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 33 begins
-Main Process: Start food Unit: 1181073.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 33 ends
-Main Process: End food Unit: -6997.0
+Main Process: End food Unit: -13016.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 34 begins
-Main Process: Start food Unit: -8353.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 34 ends
-Main Process: End food Unit: -8353.0
+Main Process: End food Unit: -4195.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 35 begins
-Main Process: Start food Unit: -455.0
+Main Process: Start food Unit: 2700000.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 35 ends
-Main Process: End food Unit: -455.0
+Main Process: End food Unit: -13623.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 36 begins
-Main Process: Start food Unit: 1344530.0
+Main Process: Start food Unit: 2460232.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 36 ends
-Main Process: End food Unit: -13476.0
+Main Process: End food Unit: -5361.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 37 begins
-Main Process: Start food Unit: 2451457.0
+Main Process: Start food Unit: 2641407.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 37 ends
-Main Process: End food Unit: -12948.0
+Main Process: End food Unit: -8551.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 38 begins
-Main Process: Start food Unit: 1352037.0
+Main Process: Start food Unit: 2685761.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 38 ends
-Main Process: End food Unit: -13575.0
+Main Process: End food Unit: -440.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================
 Main Process ThreadSeason: 39 begins
-Main Process: Start food Unit: 2440172.0
+Main Process: Start food Unit: 2677780.0
 Main Process: Start Ocean Temperature: 85
 Main Process ThreadSeason: 39 ends
-Main Process: End food Unit: -1944.0
+Main Process: End food Unit: -7149.0
 Main Process: End Ocean Temperature: 85
 ====================================================================================================

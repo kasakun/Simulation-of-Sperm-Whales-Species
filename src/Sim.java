@@ -26,9 +26,9 @@ public class Sim {
     public static void main(String[] args) {
 
         MainProc mp = new MainProc(0, 85, 100000000);
-        KillerWhales kw = new KillerWhales(5000, 350, 0.02, 0.01);
-        SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.01);
-        MarineMammals mm = new MarineMammals(20000, 20000, 0.04, 0.02);
+        KillerWhales kw = new KillerWhales(3000, 350, 0.03, 0.01);
+        SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.002);
+        MarineMammals mm = new MarineMammals(20000, 20000, 0.03, 0.018);
 
         System.out.println("==================================================================================");
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
@@ -196,13 +196,15 @@ public class Sim {
                     killerWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     kw.food = 0.0;
-                    kw.demand = kw.number*0.3;
+                    kw.demand = kw.number*0.12;
+
                     while (!kwengine.eventList.isEmpty()) {
                         double temp = now;
                         kwengine.eventHandler(mp, kw, sw, mm);
                         // Use prob to determine whether to schedule
                         if (now < 90) {
-                            now = Math.random()*0.5 +  temp;
+                            System.out.println("====================================================================================================");
+                            now = Math.random()*15 +  temp;
                             Event huntTemp = new KillerWhalesHunt(now);
                             ++eatcounter;
                             // schedule next event
@@ -210,7 +212,7 @@ public class Sim {
                         }
                         // Use prob to determine whether to schedule
                         if (Math.random() > 0.95 && now < 90) {
-                            now = Math.random()*0.5 +  temp;
+                            now = Math.random()*2 +  temp;
                             Event deathTemp = new KillerWhalesDeath(now);
                             ++deathcounter;
                             // schedule next event
@@ -245,16 +247,21 @@ public class Sim {
                     } finally {
                         kw.numberl.unlock();
                     }
+                    killerWhalePrint.println("Killer Whales total demands: " + kw.demand);
+                    killerWhalePrint.println("Killer Whales total consumes: " + kw.food);
 
                     // Calculate death for hunger
                     kw.numberl.lock();
                     try {
                         if (kw.food < kw.demand) {
-                            kw.number -= (int)((kw.demand - kw.food)*0.01);
-                            System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.01) + " dies for hunger.");
+                            kw.reprorate = 0.02*((kw.demand - kw.food)/kw.demand);
+                            kw.number -= (int)((kw.demand - kw.food)*0.1);
+                            System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
 
                             killerWhalePrint.println(kw.name + ": "
-                                    + (int)((kw.demand - kw.food)*0.01) + " dies for hunger.");
+                                    + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
+                        } else {
+                            kw.reprorate = 0.025*(1 + (kw.food - kw.demand)/kw.demand);
                         }
                     } finally {
                         kw.numberl.unlock();
@@ -317,7 +324,8 @@ public class Sim {
                             now = Math.random()*2 + temp;
                             Event eat = new SpermWhalesEat(now);
                             eatcounter++;
-                            swengine.eventList.add(eat);
+                            if (sw.food < sw.demand*1.02)
+                                swengine.eventList.add(eat);
                         }
                     }
 
@@ -351,11 +359,14 @@ public class Sim {
                     } finally {
                         sw.numberl.unlock();
                     }
+                    spermWhalePrint.println("Sperm Whales total demands: " + sw.demand);
                     spermWhalePrint.println("Sperm Whales total consumes: " + sw.food);
                     // Calculate death for hunger
                     sw.numberl.lock();
                     try {
                         if (sw.food < sw.demand ) {
+                            if (sw.food != sw.demand)
+                                sw.reprorate = 0.02*((sw.demand - sw.food)/sw.demand);
                             sw.number -= (int)((sw.demand - sw.food)*0.01);
 
                             if (mm.number <= 0)
@@ -364,6 +375,9 @@ public class Sim {
 
                             spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01)
                                     + " dies for hunger.");
+                        } else {
+                            if (sw.food != sw.demand)
+                                sw.reprorate = 0.02*(1 + (sw.food - sw.demand)/sw.demand);
                         }
                     } finally {
                         sw.numberl.unlock();
@@ -421,7 +435,8 @@ public class Sim {
                             now = Math.random()*2 + temp;
                             Event eatTemp = new MarineMammalsEat(now);
                             ++eatcounter;
-                            mmengine.eventList.add(eatTemp);
+                            if (mm.food < mm.demand*1.05)
+                                mmengine.eventList.add(eatTemp);
                         }
 
                         if (Math.random() > 0.95 && now < 90) {
@@ -457,16 +472,22 @@ public class Sim {
                     } finally {
                         mm.numberl.unlock();
                     }
+                    marineMammalPrint.println("Marine Whales total demands: " + mm.demand);
                     marineMammalPrint.println("Marine Mammals total consumes: " + mm.food);
                     // Calculate death for hunger
                     mm.numberl.lock();
                     try {
                         if (mm.food < mm.demand) {
+                            if (mm.food != mm.demand)
+                                mm.reprorate = 0.03*((mm.demand - mm.food)/sw.demand);;
                             mm.number -= (int) ((mm.demand - mm.food) * 0.01);
                             if (mm.number <= 0) mm.number = 0;
                             System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
                             marineMammalPrint.println(mm.name + ": "
                                     + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
+                        } else {
+                            if (mm.food != mm.demand)
+                                mm.reprorate = 0.03*(1 + (mm.food - mm.demand)/sw.demand);
                         }
                     } finally {
                         mm.numberl.unlock();

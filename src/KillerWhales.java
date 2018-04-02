@@ -18,29 +18,29 @@ public class KillerWhales extends Mammals {
     }
 
     public void killSpermWhales(SpermWhales sw) {
-        if (Math.random() > (double)(number/sw.number)) {
-            sw.numberl.lock();
-            try {
-                --sw.number;
-                ++food;
-                System.out.println("Killer Whales: Kills sperm whales. Remain sperm whales: " + sw.number);
-            } finally {
-                sw.numberl.unlock();
-            }
+
+        sw.numberl.lock();
+        try {
+            sw.number -= (double)number*0.005;
+            food += number*0.005;
+            System.out.println("Killer Whales: Kills sperm whales. Remain sperm whales: " + sw.number);
+        } finally {
+            sw.numberl.unlock();
         }
+
     }
 
     public void killMarineMammals(MarineMammals mm) {
-        if (Math.random() > (double)(number/mm.number)) {
-            mm.numberl.lock();
-            try {
-                --mm.number;
-                ++food;
-                System.out.println("Killer Whales: Kills  marine mammals. Remain marine mammals:" + mm.number);
-            } finally {
-                mm.numberl.unlock();
-            }
+
+        mm.numberl.lock();
+        try {
+            mm.number -= (double)number*0.010;
+            food += number*0.01;
+            System.out.println("Killer Whales: Kills  marine mammals. Remain marine mammals:" + mm.number);
+        } finally {
+            mm.numberl.unlock();
         }
+
 
     }
 
