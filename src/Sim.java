@@ -177,6 +177,9 @@ public class Sim {
             @Override public void run() {
                 // Killer Whales
                 double timeHelper = 0.0;
+                double reprorate;
+                int K = 3500;
+
                 FileOutputStream killerWhaleLog = null;
                 try {
                     killerWhaleLog = new FileOutputStream("killerWhaleLog.txt");
@@ -237,42 +240,37 @@ public class Sim {
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     killerWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
-                    // Calculate natural death and reproduce
-                    killerWhalePrint.println(threadName + " eat: " + eatcounter);
-                    killerWhalePrint.println(threadName + " accidental death: " + deathcounter);
+
                     kw.numberl.lock();
+                    reprorate = kw.reprorate*(1 - kw.number/K);
                     try {
                         int temp = kw.number;
-                        kw.number = kw.number  +  (int) (temp*kw.reprorate);
+                        kw.number = temp  +  (int) (temp*reprorate);
                         kw.number = kw.number - (int) (temp*kw.deathrate);
-                        System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.reprorate)
-                                + " reproduces.");
+                        System.out.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.reprorate) + " reproduces.");
 
-                        killerWhalePrint.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " +
-                                (int)(temp*kw.reprorate) + " reproduces.");
+                        killerWhalePrint.println(kw.name + ": " +(int)(temp*kw.deathrate) + " dies, " + (int)(temp*kw.reprorate) + " reproduces.");
 
-                    } finally {
-                        kw.numberl.unlock();
-                    }
-                    killerWhalePrint.println("Killer Whales total demands: " + kw.demand);
-                    killerWhalePrint.println("Killer Whales total consumes: " + kw.food);
-
-                    // Calculate death for hunger
-                    kw.numberl.lock();
-                    try {
                         if (kw.food < kw.demand) {
-                            kw.reprorate = 0.02*((kw.demand - kw.food)/kw.demand);
+//                            kw.reprorate = 0.02*((kw.demand - kw.food)/kw.demand);
                             kw.number -= (int)((kw.demand - kw.food)*0.1);
                             System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
 
-                            killerWhalePrint.println(kw.name + ": "
-                                    + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
-                        } else {
-                            kw.reprorate = 0.025*(1 + (kw.food - kw.demand)/kw.demand);
+                            killerWhalePrint.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
                         }
+//                        else {
+//                            kw.reprorate = 0.025*(1 + (kw.food - kw.demand)/kw.demand);
+//                        }
+
                     } finally {
                         kw.numberl.unlock();
                     }
+
+                    // Calculate natural death and reproduce
+                    killerWhalePrint.println(threadName + " eat: " + eatcounter);
+                    killerWhalePrint.println(threadName + " accidental death: " + deathcounter);
+                    killerWhalePrint.println(threadName + " total demands: " + kw.demand);
+                    killerWhalePrint.println(threadName + " total consumes: " + kw.food);
 
                     killerWhalePrint.println("Remain killer whales:" + kw.number);
                     timeHelper += 90;
@@ -287,6 +285,9 @@ public class Sim {
             @Override public void run() {
                 // Sperm Whales
                 double timeHelper = 0.0;
+                double reprorate;
+
+                int K = 15000;
 
                 FileOutputStream spermWhaleLog = null;
                 try {
@@ -298,6 +299,7 @@ public class Sim {
 
                 while(timeHelper < timeLimit) {
                     double now = 0.0; // now is in the season scope
+
                     int eatcounter = 1;
                     int deathcounter = 0;
 
@@ -342,56 +344,46 @@ public class Sim {
                     } catch (Exception ex) {
                         Thread.currentThread().interrupt();
                     }
-                    System.out.println(threadName + "Season: " + timeHelper/90 + "ends");
+
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
-
-
                     spermWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
-                    // Calculate natural death and reproduce
-                    spermWhalePrint.println(threadName + " eat: " + eatcounter);
-                    spermWhalePrint.println(threadName + " accidental death: " + deathcounter);
                     sw.numberl.lock();
+                    // Adjust reproduce rate;
+                    reprorate = sw.reprorate*(1 - sw.number/K);
                     try {
                         int temp = sw.number;
-                        sw.number = sw.number  +  (int) (temp*sw.reprorate);
+                        sw.number = temp  +  (int) (temp*reprorate);
                         sw.number = sw.number - (int) (temp*sw.deathrate);
-                        System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*sw.reprorate)
-                                + " reproduces.");
-                        //spermWhalePrint.println(sw.food);
+                        System.out.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*reprorate) + " reproduces.");
+                        spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, " + (int)(temp*reprorate) + " reproduces.");
 
-                        spermWhalePrint.println(sw.name + ": " +(int)(temp*sw.deathrate) + " dies, "
-                                + (int)(temp*sw.reprorate) + " reproduces.");
-
-                    } finally {
-                        sw.numberl.unlock();
-                    }
-                    spermWhalePrint.println("Sperm Whales total demands: " + sw.demand);
-                    spermWhalePrint.println("Sperm Whales total consumes: " + sw.food);
-                    // Calculate death for hunger
-                    sw.numberl.lock();
-                    try {
+                        // Calculate death for hunger
                         if (sw.food < sw.demand ) {
                             if (sw.food != sw.demand)
-                                sw.reprorate = 0.02*((sw.demand - sw.food)/sw.demand);
-                            sw.number -= (int)((sw.demand - sw.food)*0.01);
+//                                sw.reprorate = 0.02*((sw.demand - sw.food)/sw.demand);
+                                sw.number -= (int)((sw.demand - sw.food)*0.01);
 
                             if (mm.number <= 0)
                                 mm.number = 0;
                             System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
-
-                            spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01)
-                                    + " dies for hunger.");
-                        } else {
-                            if (sw.food != sw.demand)
-                                sw.reprorate = 0.02*(1 + (sw.food - sw.demand)/sw.demand);
+                            spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
                         }
+//                        else {
+//                            if (sw.food != sw.demand)
+//                                sw.reprorate = 0.02*(1 + (sw.food - sw.demand)/sw.demand);
+//                        }
+
                     } finally {
                         sw.numberl.unlock();
                     }
+                    // Calculate natural death and reproduce
+                    spermWhalePrint.println(threadName + " eat: " + eatcounter);
+                    spermWhalePrint.println(threadName + " accidental death: " + deathcounter);
+                    spermWhalePrint.println(threadName +" total demands: " + sw.demand);
+                    spermWhalePrint.println(threadName + " total consumes: " + sw.food);
 
-                    System.out.println("Remain sperm whales:" + sw.number);
-                    spermWhalePrint.println("Remain sperm whales:" + sw.number);
+                    spermWhalePrint.println(threadName + " num:" + sw.number);
                     timeHelper += 90;
                     spermWhalePrint.println("====================================================================================================");
                     /*************************************** Season Complete ******************************************/
@@ -403,6 +395,9 @@ public class Sim {
         MarineMammalThread mmthr = new MarineMammalThread("Marine Mammals Thread") {
             @Override public void run() {
                 double timeHelper = 0.0;
+                double reprorate;
+
+                int K = 25000;
 
                 FileOutputStream marineMammalLog = null;
                 try {
@@ -460,45 +455,42 @@ public class Sim {
                     } catch (Exception ex) {
                         Thread.currentThread().interrupt();
                     }
+
                     System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     marineMammalPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " ends");
                     /*************************************** Season Checkout ******************************************/
-                    // Calculate natural death and reproduce
-                    marineMammalPrint.println(threadName + " eat: " + eatcounter);
-                    marineMammalPrint.println(threadName + " accidental death: " + deathcounter);
                     mm.numberl.lock();
+
+                    reprorate = mm.reprorate*(1 - mm.number/K);
                     try {
                         int temp = mm.number;
-                        mm.number = mm.number  +  (int) (temp*mm.reprorate);
+                        mm.number = temp  +  (int) (temp*reprorate);
                         mm.number = mm.number - (int) (temp*mm.deathrate);
-                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*mm.reprorate)
-                                + " reproduces.");
-                        marineMammalPrint.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, "
-                                + (int)(temp*mm.reprorate) + " reproduces.");
+                        System.out.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*reprorate) + " reproduces.");
+                        marineMammalPrint.println(mm.name + ": " +(int)(temp*mm.deathrate) + " dies, " + (int)(temp*reprorate) + " reproduces.");
+
+                        if (mm.food < mm.demand) {
+//                            if (mm.food != mm.demand)
+//                                mm.reprorate = 0.03*((mm.demand - mm.food)/sw.demand);
+                            mm.number -= (int) ((mm.demand - mm.food) * 0.01);
+                            if (mm.number <= 0) mm.number = 0;
+                            System.out.println(mm.name + ": " + (int)((mm.demand - mm.food) * 0.01) + " dies for hunger.");
+                            marineMammalPrint.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
+                        }
+//                        else {
+//                            if (mm.food != mm.demand)
+//                                mm.reprorate = 0.03*(1 + (mm.food - mm.demand)/sw.demand);
+//                        }
 
                     } finally {
                         mm.numberl.unlock();
                     }
-                    marineMammalPrint.println("Marine Whales total demands: " + mm.demand);
-                    marineMammalPrint.println("Marine Mammals total consumes: " + mm.food);
+                    // Calculate natural death and reproduce
+                    marineMammalPrint.println(threadName + " eat: " + eatcounter);
+                    marineMammalPrint.println(threadName + " accidental death: " + deathcounter);
+                    marineMammalPrint.println(threadName + " total demands: " + mm.demand);
+                    marineMammalPrint.println(threadName + " total consumes: " + mm.food);
                     // Calculate death for hunger
-                    mm.numberl.lock();
-                    try {
-                        if (mm.food < mm.demand) {
-                            if (mm.food != mm.demand)
-                                mm.reprorate = 0.03*((mm.demand - mm.food)/sw.demand);;
-                            mm.number -= (int) ((mm.demand - mm.food) * 0.01);
-                            if (mm.number <= 0) mm.number = 0;
-                            System.out.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
-                            marineMammalPrint.println(mm.name + ": "
-                                    + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
-                        } else {
-                            if (mm.food != mm.demand)
-                                mm.reprorate = 0.03*(1 + (mm.food - mm.demand)/sw.demand);
-                        }
-                    } finally {
-                        mm.numberl.unlock();
-                    }
                     marineMammalPrint.println("Remain Marine Mammals:" + mm.number);
                     timeHelper += 90;
                     marineMammalPrint.println("====================================================================================================");
