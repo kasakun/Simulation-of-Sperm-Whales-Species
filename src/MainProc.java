@@ -61,7 +61,8 @@ public class MainProc {
     // }
 
     private void updateFood() {
-       this.foodRes = 2700000;//this.totalFood / 10;
+        this.foodRes = this.totalFood / 10;
+        this.totalFood = this.totalFood - this.foodRes;
     }
 
     public void huntWhale(SpermWhales sw) {
@@ -69,16 +70,16 @@ public class MainProc {
             sw.numberl.lock();
             try {
                 sw.number = sw.number - 50;
-                System.out.println("Main Proc: Hunts 50 sperm whale. Remain spem whales:" + sw.number);
+                System.out.println("Main Proc: Hunts 50 sperm whale. Remain sperm whales:" + sw.number);
             } finally {
                 sw.numberl.unlock();
             }
         } else {
             sw.numberl.lock();
             try {
-                int huntnum = (int) (sw.number * 0.02);
+                int huntnum = (int) (sw.number * 0.01);
                 sw.number = sw.number - huntnum;
-                System.out.println("Main Proc: Hunts " + huntnum + " sperm whales. Remain spem whales:" + sw.number);
+                System.out.println("Main Proc: Hunts " + huntnum + " sperm whales. Remain sperm whales:" + sw.number);
             } finally {
                 sw.numberl.unlock();
             }
@@ -105,7 +106,7 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.totalFood = this.totalFood * 1.05 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
+        this.totalFood = this.totalFood * 1.12 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
         System.out.println("Main Proc: Food resource grow, current total food resource:" + this.totalFood);
         this.updateFood();
     }

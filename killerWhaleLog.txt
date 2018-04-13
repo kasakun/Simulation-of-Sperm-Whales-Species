@@ -1,382 +1,764 @@
 Killer Whales ThreadSeason: 0 begins
 Killer Whales ThreadSeason: 0 ends
 Killer Whales: 30 dies, 90 reproduces.
-Killer Whales: 1 dies for hunger.
-Killer Whales Thread eat: 14
+Killer Whales: 18 dies for hunger.
+Killer Whales Thread eat: 10
 Killer Whales Thread accidental death: 0
 Killer Whales Thread total demands: 360.0
-Killer Whales Thread total consumes: 345.0
-Remain killer whales:3059
+Killer Whales Thread total consumes: 180.0
+Remain killer whales:3042
 ====================================================================================================
 Killer Whales ThreadSeason: 1 begins
 Killer Whales ThreadSeason: 1 ends
 Killer Whales: 30 dies, 91 reproduces.
 Killer Whales Thread eat: 13
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 367.08
-Killer Whales Thread total consumes: 397.66999999999996
-Remain killer whales:3120
+Killer Whales Thread total demands: 365.03999999999996
+Killer Whales Thread total consumes: 365.0400000000001
+Remain killer whales:3103
 ====================================================================================================
 Killer Whales ThreadSeason: 2 begins
 Killer Whales ThreadSeason: 2 ends
 Killer Whales: 31 dies, 93 reproduces.
-Killer Whales Thread eat: 16
-Killer Whales Thread accidental death: 2
-Killer Whales Thread total demands: 374.4
-Killer Whales Thread total consumes: 467.93499999999995
-Remain killer whales:3180
+Killer Whales: 1 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 372.36
+Killer Whales Thread total consumes: 356.8449999999999
+Remain killer whales:3164
 ====================================================================================================
 Killer Whales ThreadSeason: 3 begins
 Killer Whales ThreadSeason: 3 ends
-Killer Whales: 31 dies, 95 reproduces.
-Killer Whales: 15 dies for hunger.
-Killer Whales Thread eat: 11
+Killer Whales: 31 dies, 94 reproduces.
+Killer Whales Thread eat: 18
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 381.59999999999997
-Killer Whales Thread total consumes: 222.60000000000002
-Remain killer whales:3229
+Killer Whales Thread total demands: 379.68
+Killer Whales Thread total consumes: 553.6999999999998
+Remain killer whales:3227
 ====================================================================================================
 Killer Whales ThreadSeason: 4 begins
 Killer Whales ThreadSeason: 4 ends
 Killer Whales: 32 dies, 96 reproduces.
-Killer Whales Thread eat: 17
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 387.47999999999996
-Killer Whales Thread total consumes: 548.7949999999998
-Remain killer whales:3292
+Killer Whales: 0 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 387.24
+Killer Whales Thread total consumes: 387.23999999999995
+Remain killer whales:3291
 ====================================================================================================
 Killer Whales ThreadSeason: 5 begins
 Killer Whales ThreadSeason: 5 ends
 Killer Whales: 32 dies, 98 reproduces.
-Killer Whales: 14 dies for hunger.
-Killer Whales Thread eat: 12
+Killer Whales Thread eat: 17
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 395.03999999999996
-Killer Whales Thread total consumes: 246.90000000000006
-Remain killer whales:3344
+Killer Whales Thread total demands: 394.91999999999996
+Killer Whales Thread total consumes: 427.83000000000015
+Remain killer whales:3357
 ====================================================================================================
 Killer Whales ThreadSeason: 6 begins
 Killer Whales ThreadSeason: 6 ends
 Killer Whales: 33 dies, 100 reproduces.
-Killer Whales Thread eat: 15
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 401.28
-Killer Whales Thread total consumes: 501.6000000000001
-Remain killer whales:3411
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 402.84
+Killer Whales Thread total consumes: 436.29
+Remain killer whales:3423
 ====================================================================================================
 Killer Whales ThreadSeason: 7 begins
 Killer Whales ThreadSeason: 7 ends
 Killer Whales: 34 dies, 102 reproduces.
-Killer Whales Thread eat: 14
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 409.32
-Killer Whales Thread total consumes: 477.54000000000013
-Remain killer whales:3479
+Killer Whales: 1 dies for hunger.
+Killer Whales Thread eat: 19
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 410.76
+Killer Whales Thread total consumes: 393.58500000000015
+Remain killer whales:3489
 ====================================================================================================
 Killer Whales ThreadSeason: 8 begins
 Killer Whales ThreadSeason: 8 ends
 Killer Whales: 34 dies, 104 reproduces.
-Killer Whales: 17 dies for hunger.
-Killer Whales Thread eat: 11
+Killer Whales Thread eat: 16
 Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 417.47999999999996
-Killer Whales Thread total consumes: 243.48000000000002
-Remain killer whales:3531
+Killer Whales Thread total demands: 418.68
+Killer Whales Thread total consumes: 436.07499999999993
+Remain killer whales:3558
 ====================================================================================================
 Killer Whales ThreadSeason: 9 begins
 Killer Whales ThreadSeason: 9 ends
-Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 5 dies for hunger.
 Killer Whales Thread eat: 15
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 423.71999999999997
-Killer Whales Thread total consumes: 511.93500000000006
-Remain killer whales:3495
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 426.96
+Killer Whales Thread total consumes: 373.59
+Remain killer whales:3518
 ====================================================================================================
 Killer Whales ThreadSeason: 10 begins
 Killer Whales ThreadSeason: 10 ends
-Killer Whales: 34 dies, 104 reproduces.
-Killer Whales: 1 dies for hunger.
-Killer Whales Thread eat: 14
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 419.4
-Killer Whales Thread total consumes: 401.925
-Remain killer whales:3564
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 422.15999999999997
+Killer Whales Thread total consumes: 439.69000000000005
+Remain killer whales:3482
 ====================================================================================================
 Killer Whales ThreadSeason: 11 begins
 Killer Whales ThreadSeason: 11 ends
-Killer Whales: 35 dies, 106 reproduces.
-Killer Whales Thread eat: 16
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 427.68
-Killer Whales Thread total consumes: 516.665
-Remain killer whales:3528
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 8 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 417.84
+Killer Whales Thread total consumes: 330.78999999999996
+Remain killer whales:3544
 ====================================================================================================
 Killer Whales ThreadSeason: 12 begins
 Killer Whales ThreadSeason: 12 ends
-Killer Whales: 35 dies, 105 reproduces.
-Killer Whales: 8 dies for hunger.
-Killer Whales Thread eat: 15
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 423.35999999999996
-Killer Whales Thread total consumes: 335.12499999999994
-Remain killer whales:3484
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 425.28
+Killer Whales Thread total consumes: 549.3199999999999
+Remain killer whales:3509
 ====================================================================================================
 Killer Whales ThreadSeason: 13 begins
 Killer Whales ThreadSeason: 13 ends
-Killer Whales: 34 dies, 104 reproduces.
-Killer Whales: 3 dies for hunger.
-Killer Whales Thread eat: 14
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 7 dies for hunger.
+Killer Whales Thread eat: 13
 Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 418.08
-Killer Whales Thread total consumes: 383.17999999999995
-Remain killer whales:3550
+Killer Whales Thread total demands: 421.08
+Killer Whales Thread total consumes: 350.855
+Remain killer whales:3466
 ====================================================================================================
 Killer Whales ThreadSeason: 14 begins
 Killer Whales ThreadSeason: 14 ends
-Killer Whales: 35 dies, 106 reproduces.
-Killer Whales: 19 dies for hunger.
+Killer Whales: 34 dies, 103 reproduces.
+Killer Whales: 5 dies for hunger.
 Killer Whales Thread eat: 14
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 426.0
-Killer Whales Thread total consumes: 230.75
-Remain killer whales:3496
+Killer Whales Thread accidental death: 2
+Killer Whales Thread total demands: 415.91999999999996
+Killer Whales Thread total consumes: 363.825
+Remain killer whales:3528
 ====================================================================================================
 Killer Whales ThreadSeason: 15 begins
 Killer Whales ThreadSeason: 15 ends
-Killer Whales: 34 dies, 104 reproduces.
-Killer Whales: 5 dies for hunger.
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 7 dies for hunger.
 Killer Whales Thread eat: 14
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 419.52
-Killer Whales Thread total consumes: 367.0799999999999
-Remain killer whales:3561
+Killer Whales Thread total demands: 423.35999999999996
+Killer Whales Thread total consumes: 352.79999999999995
+Remain killer whales:3486
 ====================================================================================================
 Killer Whales ThreadSeason: 16 begins
 Killer Whales ThreadSeason: 16 ends
-Killer Whales: 35 dies, 106 reproduces.
-Killer Whales: 21 dies for hunger.
-Killer Whales Thread eat: 14
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 427.32
-Killer Whales Thread total consumes: 213.625
-Remain killer whales:3504
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 19
+Killer Whales Thread accidental death: 3
+Killer Whales Thread total demands: 418.32
+Killer Whales Thread total consumes: 749.2000000000002
+Remain killer whales:3553
 ====================================================================================================
 Killer Whales ThreadSeason: 17 begins
 Killer Whales ThreadSeason: 17 ends
-Killer Whales: 35 dies, 105 reproduces.
-Killer Whales Thread eat: 16
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 420.47999999999996
-Killer Whales Thread total consumes: 525.6
-Remain killer whales:3469
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 3
+Killer Whales Thread total demands: 426.35999999999996
+Killer Whales Thread total consumes: 532.595
+Remain killer whales:3515
 ====================================================================================================
 Killer Whales ThreadSeason: 18 begins
 Killer Whales ThreadSeason: 18 ends
-Killer Whales: 34 dies, 103 reproduces.
-Killer Whales Thread eat: 17
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 3 dies for hunger.
+Killer Whales Thread eat: 15
 Killer Whales Thread accidental death: 3
-Killer Whales Thread total demands: 416.28
-Killer Whales Thread total consumes: 450.73500000000007
-Remain killer whales:3535
+Killer Whales Thread total demands: 421.8
+Killer Whales Thread total consumes: 386.43
+Remain killer whales:3474
 ====================================================================================================
 Killer Whales ThreadSeason: 19 begins
 Killer Whales ThreadSeason: 19 ends
-Killer Whales: 35 dies, 105 reproduces.
-Killer Whales Thread eat: 19
-Killer Whales Thread accidental death: 2
-Killer Whales Thread total demands: 424.2
-Killer Whales Thread total consumes: 565.5
-Remain killer whales:3498
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 416.88
+Killer Whales Thread total consumes: 555.7500000000001
+Remain killer whales:3543
 ====================================================================================================
 Killer Whales ThreadSeason: 20 begins
 Killer Whales ThreadSeason: 20 ends
-Killer Whales: 34 dies, 104 reproduces.
-Killer Whales: 10 dies for hunger.
-Killer Whales Thread eat: 14
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 15
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 419.76
-Killer Whales Thread total consumes: 314.8200000000001
-Remain killer whales:3558
+Killer Whales Thread total demands: 425.15999999999997
+Killer Whales Thread total consumes: 531.4499999999999
+Remain killer whales:3508
 ====================================================================================================
 Killer Whales ThreadSeason: 21 begins
 Killer Whales ThreadSeason: 21 ends
-Killer Whales: 35 dies, 106 reproduces.
-Killer Whales: 21 dies for hunger.
-Killer Whales Thread eat: 13
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 12
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 426.96
-Killer Whales Thread total consumes: 213.47999999999996
-Remain killer whales:3502
+Killer Whales Thread total demands: 420.96
+Killer Whales Thread total consumes: 456.03999999999996
+Remain killer whales:3473
 ====================================================================================================
 Killer Whales ThreadSeason: 22 begins
 Killer Whales ThreadSeason: 22 ends
-Killer Whales: 35 dies, 105 reproduces.
-Killer Whales: 10 dies for hunger.
-Killer Whales Thread eat: 12
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 420.24
-Killer Whales Thread total consumes: 315.18
-Remain killer whales:3457
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 2
+Killer Whales Thread total demands: 416.76
+Killer Whales Thread total consumes: 486.09
+Remain killer whales:3541
 ====================================================================================================
 Killer Whales ThreadSeason: 23 begins
 Killer Whales ThreadSeason: 23 ends
-Killer Whales: 34 dies, 103 reproduces.
-Killer Whales: 12 dies for hunger.
-Killer Whales Thread eat: 11
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 414.84
-Killer Whales Thread total consumes: 293.845
-Remain killer whales:3514
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 14 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 424.91999999999996
+Killer Whales Thread total consumes: 283.22999999999996
+Remain killer whales:3491
 ====================================================================================================
 Killer Whales ThreadSeason: 24 begins
 Killer Whales ThreadSeason: 24 ends
-Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 34 dies, 104 reproduces.
 Killer Whales Thread eat: 13
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 421.68
-Killer Whales Thread total consumes: 439.2499999999999
-Remain killer whales:3479
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 418.91999999999996
+Killer Whales Thread total consumes: 488.60999999999984
+Remain killer whales:3560
 ====================================================================================================
 Killer Whales ThreadSeason: 25 begins
 Killer Whales ThreadSeason: 25 ends
-Killer Whales: 34 dies, 104 reproduces.
-Killer Whales Thread eat: 21
-Killer Whales Thread accidental death: 2
-Killer Whales Thread total demands: 417.47999999999996
-Killer Whales Thread total consumes: 643.3699999999998
-Remain killer whales:3547
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 3 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 427.2
+Killer Whales Thread total consumes: 391.5150000000001
+Remain killer whales:3521
 ====================================================================================================
 Killer Whales ThreadSeason: 26 begins
 Killer Whales ThreadSeason: 26 ends
-Killer Whales: 35 dies, 106 reproduces.
-Killer Whales: 12 dies for hunger.
-Killer Whales Thread eat: 14
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 425.64
-Killer Whales Thread total consumes: 301.415
-Remain killer whales:3499
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 18
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 422.52
+Killer Whales Thread total consumes: 633.7800000000001
+Remain killer whales:3486
 ====================================================================================================
 Killer Whales ThreadSeason: 27 begins
 Killer Whales ThreadSeason: 27 ends
 Killer Whales: 34 dies, 104 reproduces.
-Killer Whales Thread eat: 11
+Killer Whales: 8 dies for hunger.
+Killer Whales Thread eat: 15
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 419.88
-Killer Whales Thread total consumes: 419.88000000000005
-Remain killer whales:3569
+Killer Whales Thread total demands: 418.32
+Killer Whales Thread total consumes: 331.1700000000001
+Remain killer whales:3548
 ====================================================================================================
 Killer Whales ThreadSeason: 28 begins
 Killer Whales ThreadSeason: 28 ends
-Killer Whales: 35 dies, 107 reproduces.
-Killer Whales: 10 dies for hunger.
-Killer Whales Thread eat: 16
-Killer Whales Thread accidental death: 2
-Killer Whales Thread total demands: 428.28
-Killer Whales Thread total consumes: 321.08000000000004
-Remain killer whales:3522
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 3 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 425.76
+Killer Whales Thread total consumes: 390.21000000000004
+Remain killer whales:3509
 ====================================================================================================
 Killer Whales ThreadSeason: 29 begins
 Killer Whales ThreadSeason: 29 ends
 Killer Whales: 35 dies, 105 reproduces.
-Killer Whales Thread eat: 17
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 422.64
-Killer Whales Thread total consumes: 510.62999999999994
-Remain killer whales:3486
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 421.08
+Killer Whales Thread total consumes: 421.08000000000015
+Remain killer whales:3474
 ====================================================================================================
 Killer Whales ThreadSeason: 30 begins
 Killer Whales ThreadSeason: 30 ends
 Killer Whales: 34 dies, 104 reproduces.
 Killer Whales: 8 dies for hunger.
-Killer Whales Thread eat: 12
-Killer Whales Thread accidental death: 1
-Killer Whales Thread total demands: 418.32
-Killer Whales Thread total consumes: 331.1050000000001
-Remain killer whales:3547
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 416.88
+Killer Whales Thread total consumes: 330.03000000000003
+Remain killer whales:3536
 ====================================================================================================
 Killer Whales ThreadSeason: 31 begins
 Killer Whales ThreadSeason: 31 ends
 Killer Whales: 35 dies, 106 reproduces.
-Killer Whales Thread eat: 15
-Killer Whales Thread accidental death: 2
-Killer Whales Thread total demands: 425.64
-Killer Whales Thread total consumes: 443.28499999999997
-Remain killer whales:3510
+Killer Whales: 1 dies for hunger.
+Killer Whales Thread eat: 17
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 424.32
+Killer Whales Thread total consumes: 406.6400000000001
+Remain killer whales:3500
 ====================================================================================================
 Killer Whales ThreadSeason: 32 begins
 Killer Whales ThreadSeason: 32 ends
-Killer Whales: 35 dies, 105 reproduces.
-Killer Whales: 15 dies for hunger.
-Killer Whales Thread eat: 13
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 421.2
-Killer Whales Thread total consumes: 263.25000000000006
-Remain killer whales:3460
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 420.0
+Killer Whales Thread total consumes: 507.3950000000001
+Remain killer whales:3569
 ====================================================================================================
 Killer Whales ThreadSeason: 33 begins
 Killer Whales ThreadSeason: 33 ends
-Killer Whales: 34 dies, 103 reproduces.
-Killer Whales Thread eat: 17
+Killer Whales: 35 dies, 107 reproduces.
+Killer Whales: 14 dies for hunger.
+Killer Whales Thread eat: 13
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 415.2
-Killer Whales Thread total consumes: 432.5000000000001
-Remain killer whales:3529
+Killer Whales Thread total demands: 428.28
+Killer Whales Thread total consumes: 285.52
+Remain killer whales:3520
 ====================================================================================================
 Killer Whales ThreadSeason: 34 begins
 Killer Whales ThreadSeason: 34 ends
 Killer Whales: 35 dies, 105 reproduces.
-Killer Whales: 10 dies for hunger.
-Killer Whales Thread eat: 18
-Killer Whales Thread accidental death: 2
-Killer Whales Thread total demands: 423.47999999999996
-Killer Whales Thread total consumes: 317.52
+Killer Whales: 0 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 3
+Killer Whales Thread total demands: 422.4
+Killer Whales Thread total consumes: 422.245
 Remain killer whales:3482
 ====================================================================================================
 Killer Whales ThreadSeason: 35 begins
 Killer Whales ThreadSeason: 35 ends
 Killer Whales: 34 dies, 104 reproduces.
 Killer Whales: 10 dies for hunger.
-Killer Whales Thread eat: 15
+Killer Whales Thread eat: 13
 Killer Whales Thread accidental death: 1
 Killer Whales Thread total demands: 417.84
-Killer Whales Thread total consumes: 313.33
+Killer Whales Thread total consumes: 313.35999999999996
 Remain killer whales:3541
 ====================================================================================================
 Killer Whales ThreadSeason: 36 begins
 Killer Whales ThreadSeason: 36 ends
 Killer Whales: 35 dies, 106 reproduces.
-Killer Whales: 3 dies for hunger.
-Killer Whales Thread eat: 13
-Killer Whales Thread accidental death: 0
+Killer Whales: 5 dies for hunger.
+Killer Whales Thread eat: 18
+Killer Whales Thread accidental death: 2
 Killer Whales Thread total demands: 424.91999999999996
-Killer Whales Thread total consumes: 389.51000000000005
-Remain killer whales:3503
+Killer Whales Thread total consumes: 371.66999999999996
+Remain killer whales:3499
 ====================================================================================================
 Killer Whales ThreadSeason: 37 begins
 Killer Whales ThreadSeason: 37 ends
-Killer Whales: 35 dies, 105 reproduces.
-Killer Whales: 7 dies for hunger.
-Killer Whales Thread eat: 13
-Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 420.35999999999996
-Killer Whales Thread total consumes: 350.29999999999995
-Remain killer whales:3461
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 419.88
+Killer Whales Thread total consumes: 472.26500000000016
+Remain killer whales:3568
 ====================================================================================================
 Killer Whales ThreadSeason: 38 begins
 Killer Whales ThreadSeason: 38 ends
-Killer Whales: 34 dies, 103 reproduces.
-Killer Whales Thread eat: 16
+Killer Whales: 35 dies, 107 reproduces.
+Killer Whales: 12 dies for hunger.
+Killer Whales Thread eat: 11
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 415.32
-Killer Whales Thread total consumes: 449.9300000000001
-Remain killer whales:3530
+Killer Whales Thread total demands: 428.15999999999997
+Killer Whales Thread total consumes: 303.28000000000003
+Remain killer whales:3521
 ====================================================================================================
 Killer Whales ThreadSeason: 39 begins
 Killer Whales ThreadSeason: 39 ends
 Killer Whales: 35 dies, 105 reproduces.
-Killer Whales Thread eat: 19
+Killer Whales Thread eat: 15
 Killer Whales Thread accidental death: 0
-Killer Whales Thread total demands: 423.59999999999997
-Killer Whales Thread total consumes: 564.8
-Remain killer whales:3495
+Killer Whales Thread total demands: 422.52
+Killer Whales Thread total consumes: 528.15
+Remain killer whales:3486
+====================================================================================================
+Killer Whales ThreadSeason: 40 begins
+Killer Whales ThreadSeason: 40 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 3 dies for hunger.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 418.32
+Killer Whales Thread total consumes: 383.36000000000007
+Remain killer whales:3552
+====================================================================================================
+Killer Whales ThreadSeason: 41 begins
+Killer Whales ThreadSeason: 41 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 12 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 426.24
+Killer Whales Thread total consumes: 301.92
+Remain killer whales:3505
+====================================================================================================
+Killer Whales ThreadSeason: 42 begins
+Killer Whales ThreadSeason: 42 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 12 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 420.59999999999997
+Killer Whales Thread total consumes: 297.925
+Remain killer whales:3458
+====================================================================================================
+Killer Whales ThreadSeason: 43 begins
+Killer Whales ThreadSeason: 43 ends
+Killer Whales: 34 dies, 103 reproduces.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 414.96
+Killer Whales Thread total consumes: 466.8299999999999
+Remain killer whales:3527
+====================================================================================================
+Killer Whales ThreadSeason: 44 begins
+Killer Whales ThreadSeason: 44 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 7 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 423.24
+Killer Whales Thread total consumes: 352.655
+Remain killer whales:3484
+====================================================================================================
+Killer Whales ThreadSeason: 45 begins
+Killer Whales ThreadSeason: 45 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 17
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 418.08
+Killer Whales Thread total consumes: 505.125
+Remain killer whales:3553
+====================================================================================================
+Killer Whales ThreadSeason: 46 begins
+Killer Whales ThreadSeason: 46 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 426.35999999999996
+Killer Whales Thread total consumes: 461.8899999999999
+Remain killer whales:3518
+====================================================================================================
+Killer Whales ThreadSeason: 47 begins
+Killer Whales ThreadSeason: 47 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 422.15999999999997
+Killer Whales Thread total consumes: 439.75
+Remain killer whales:3483
+====================================================================================================
+Killer Whales ThreadSeason: 48 begins
+Killer Whales ThreadSeason: 48 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 417.96
+Killer Whales Thread total consumes: 452.78999999999996
+Remain killer whales:3553
+====================================================================================================
+Killer Whales ThreadSeason: 49 begins
+Killer Whales ThreadSeason: 49 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 17
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 426.35999999999996
+Killer Whales Thread total consumes: 532.8999999999999
+Remain killer whales:3517
+====================================================================================================
+Killer Whales ThreadSeason: 50 begins
+Killer Whales ThreadSeason: 50 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 422.03999999999996
+Killer Whales Thread total consumes: 439.62500000000006
+Remain killer whales:3482
+====================================================================================================
+Killer Whales ThreadSeason: 51 begins
+Killer Whales ThreadSeason: 51 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 417.84
+Killer Whales Thread total consumes: 452.585
+Remain killer whales:3551
+====================================================================================================
+Killer Whales ThreadSeason: 52 begins
+Killer Whales ThreadSeason: 52 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 426.12
+Killer Whales Thread total consumes: 514.895
+Remain killer whales:3516
+====================================================================================================
+Killer Whales ThreadSeason: 53 begins
+Killer Whales ThreadSeason: 53 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 15 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 421.91999999999996
+Killer Whales Thread total consumes: 263.7
+Remain killer whales:3466
+====================================================================================================
+Killer Whales ThreadSeason: 54 begins
+Killer Whales ThreadSeason: 54 ends
+Killer Whales: 34 dies, 103 reproduces.
+Killer Whales Thread eat: 17
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 415.91999999999996
+Killer Whales Thread total consumes: 623.7249999999998
+Remain killer whales:3534
+====================================================================================================
+Killer Whales ThreadSeason: 55 begins
+Killer Whales ThreadSeason: 55 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 5 dies for hunger.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 424.08
+Killer Whales Thread total consumes: 371.01499999999993
+Remain killer whales:3493
+====================================================================================================
+Killer Whales ThreadSeason: 56 begins
+Killer Whales ThreadSeason: 56 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 6 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 419.15999999999997
+Killer Whales Thread total consumes: 349.27
+Remain killer whales:3556
+====================================================================================================
+Killer Whales ThreadSeason: 57 begins
+Killer Whales ThreadSeason: 57 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 17
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 426.71999999999997
+Killer Whales Thread total consumes: 604.52
+Remain killer whales:3521
+====================================================================================================
+Killer Whales ThreadSeason: 58 begins
+Killer Whales ThreadSeason: 58 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 17
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 422.52
+Killer Whales Thread total consumes: 492.8850000000001
+Remain killer whales:3485
+====================================================================================================
+Killer Whales ThreadSeason: 59 begins
+Killer Whales ThreadSeason: 59 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 15
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 418.2
+Killer Whales Thread total consumes: 453.0500000000001
+Remain killer whales:3555
+====================================================================================================
+Killer Whales ThreadSeason: 60 begins
+Killer Whales ThreadSeason: 60 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 12 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 426.59999999999997
+Killer Whales Thread total consumes: 302.17500000000007
+Remain killer whales:3508
+====================================================================================================
+Killer Whales ThreadSeason: 61 begins
+Killer Whales ThreadSeason: 61 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 1 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 420.96
+Killer Whales Thread total consumes: 403.42
+Remain killer whales:3472
+====================================================================================================
+Killer Whales ThreadSeason: 62 begins
+Killer Whales ThreadSeason: 62 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 8 dies for hunger.
+Killer Whales Thread eat: 11
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 416.64
+Killer Whales Thread total consumes: 329.84000000000003
+Remain killer whales:3534
+====================================================================================================
+Killer Whales ThreadSeason: 63 begins
+Killer Whales ThreadSeason: 63 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 424.08
+Killer Whales Thread total consumes: 459.4200000000001
+Remain killer whales:3499
+====================================================================================================
+Killer Whales ThreadSeason: 64 begins
+Killer Whales ThreadSeason: 64 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 6 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 419.88
+Killer Whales Thread total consumes: 349.88500000000005
+Remain killer whales:3562
+====================================================================================================
+Killer Whales ThreadSeason: 65 begins
+Killer Whales ThreadSeason: 65 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 1 dies for hunger.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 427.44
+Killer Whales Thread total consumes: 409.63
+Remain killer whales:3526
+====================================================================================================
+Killer Whales ThreadSeason: 66 begins
+Killer Whales ThreadSeason: 66 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 423.12
+Killer Whales Thread total consumes: 458.37999999999994
+Remain killer whales:3491
+====================================================================================================
+Killer Whales ThreadSeason: 67 begins
+Killer Whales ThreadSeason: 67 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 418.91999999999996
+Killer Whales Thread total consumes: 453.7799999999999
+Remain killer whales:3560
+====================================================================================================
+Killer Whales ThreadSeason: 68 begins
+Killer Whales ThreadSeason: 68 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 10 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 427.2
+Killer Whales Thread total consumes: 320.40000000000003
+Remain killer whales:3515
+====================================================================================================
+Killer Whales ThreadSeason: 69 begins
+Killer Whales ThreadSeason: 69 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 8 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 421.8
+Killer Whales Thread total consumes: 333.92499999999995
+Remain killer whales:3472
+====================================================================================================
+Killer Whales ThreadSeason: 70 begins
+Killer Whales ThreadSeason: 70 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 15 dies for hunger.
+Killer Whales Thread eat: 11
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 416.64
+Killer Whales Thread total consumes: 260.35
+Remain killer whales:3526
+====================================================================================================
+Killer Whales ThreadSeason: 71 begins
+Killer Whales ThreadSeason: 71 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 12 dies for hunger.
+Killer Whales Thread eat: 13
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 423.12
+Killer Whales Thread total consumes: 299.71
+Remain killer whales:3479
+====================================================================================================
+Killer Whales ThreadSeason: 72 begins
+Killer Whales ThreadSeason: 72 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 2
+Killer Whales Thread total demands: 417.47999999999996
+Killer Whales Thread total consumes: 452.1099999999999
+Remain killer whales:3547
+====================================================================================================
+Killer Whales ThreadSeason: 73 begins
+Killer Whales ThreadSeason: 73 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 0 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 425.64
+Killer Whales Thread total consumes: 425.565
+Remain killer whales:3511
+====================================================================================================
+Killer Whales ThreadSeason: 74 begins
+Killer Whales ThreadSeason: 74 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 8 dies for hunger.
+Killer Whales Thread eat: 16
+Killer Whales Thread accidental death: 2
+Killer Whales Thread total demands: 421.32
+Killer Whales Thread total consumes: 333.46500000000003
+Remain killer whales:3466
+====================================================================================================
+Killer Whales ThreadSeason: 75 begins
+Killer Whales ThreadSeason: 75 ends
+Killer Whales: 34 dies, 103 reproduces.
+Killer Whales: 15 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 415.91999999999996
+Killer Whales Thread total consumes: 259.95
+Remain killer whales:3520
+====================================================================================================
+Killer Whales ThreadSeason: 76 begins
+Killer Whales ThreadSeason: 76 ends
+Killer Whales: 35 dies, 105 reproduces.
+Killer Whales: 7 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 422.4
+Killer Whales Thread total consumes: 352.0
+Remain killer whales:3478
+====================================================================================================
+Killer Whales ThreadSeason: 77 begins
+Killer Whales ThreadSeason: 77 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 3 dies for hunger.
+Killer Whales Thread eat: 14
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 417.35999999999996
+Killer Whales Thread total consumes: 382.49999999999994
+Remain killer whales:3544
+====================================================================================================
+Killer Whales ThreadSeason: 78 begins
+Killer Whales ThreadSeason: 78 ends
+Killer Whales: 35 dies, 106 reproduces.
+Killer Whales: 10 dies for hunger.
+Killer Whales Thread eat: 12
+Killer Whales Thread accidental death: 1
+Killer Whales Thread total demands: 425.28
+Killer Whales Thread total consumes: 318.905
+Remain killer whales:3498
+====================================================================================================
+Killer Whales ThreadSeason: 79 begins
+Killer Whales ThreadSeason: 79 ends
+Killer Whales: 34 dies, 104 reproduces.
+Killer Whales: 10 dies for hunger.
+Killer Whales Thread eat: 11
+Killer Whales Thread accidental death: 0
+Killer Whales Thread total demands: 419.76
+Killer Whales Thread total consumes: 314.8200000000001
+Remain killer whales:3558
 ====================================================================================================

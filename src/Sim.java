@@ -39,7 +39,7 @@ public class Sim {
         MainProc mp = new MainProc(0, 85, 100000000);
         KillerWhales kw = new KillerWhales(3000, 350, 0.03, 0.01);
         SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.002);
-        MarineMammals mm = new MarineMammals(20000, 20000, 0.03, 0.018);
+        MarineMammals mm = new MarineMammals(20000, 20000, 0.04, 0.018);
 
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
                 + mp.totalFood + ", Food Resource: " + mp.foodRes);
@@ -108,35 +108,35 @@ public class Sim {
                         double temp = now;
 
                         // Under construction
-//                        while (!mpengine.eventList.isEmpty()) {
-//	                        mpengine.eventHandler(mp, kw, sw, mm);
-//	                    }
-//
-//                        Event season1 = new seasonChange(temp + 90);
-//                        Event food = new foodGrow(temp + 90);
-//                        mpengine.eventList.add(season1);
-//                        mpengine.eventList.add(food);
-//                        mainProcPrint.println(threadName + ": Food grow at " + now);
-//
-//
-//                        if (Math.random() < 0.01) {
-//                           Event disaster = new naturalDisaster(temp + 90);
-//                           mpengine.eventList.add(disaster);
-//	                       mainProcPrint.println(threadName + ": Natural disaster at " + now);
-//
-//                        }
-//
-//                        if (temp % 360 == 0) {
-//                           Event humanHunt = new humanHunt(temp + 90);
-//                           mpengine.eventList.add(humanHunt);
-//	                       mainProcPrint.println(threadName + ": Human hunt event at " + now);
-//                        }
-//
-//                        if (Math.random() > 0.5) {
-//                           Event humanFish = new humanFish(temp + 90);
-//                           mpengine.eventList.add(humanFish);
-//	                       mainProcPrint.println(threadName + ": Human fish event at " + now);
-//                        }
+                        while (!mpengine.eventList.isEmpty()) {
+	                        mpengine.eventHandler(mp, kw, sw, mm);
+	                    }
+
+                        Event season1 = new seasonChange(temp + 90);
+                        Event food = new foodGrow(temp + 90);
+                        mpengine.eventList.add(season1);
+                        mpengine.eventList.add(food);
+                        mainProcPrint.println(threadName + ": Food grow at " + now);
+
+
+                        if (Math.random() < 0.01) {
+                           Event disaster = new naturalDisaster(temp + 90);
+                           mpengine.eventList.add(disaster);
+	                       mainProcPrint.println(threadName + ": Natural disaster at " + now);
+
+                        }
+
+                        if (temp % 360 == 0) {
+                           Event humanHunt = new humanHunt(temp + 90);
+                           mpengine.eventList.add(humanHunt);
+	                       mainProcPrint.println(threadName + ": Human hunt event at " + now);
+                        }
+
+                        if (Math.random() > 0.5) {
+                           Event humanFish = new humanFish(temp + 90);
+                           mpengine.eventList.add(humanFish);
+	                       mainProcPrint.println(threadName + ": Human fish event at " + now);
+                        }
                         now = temp + 90;
                     }
 
