@@ -21,7 +21,7 @@ public class Sim {
     private static CyclicBarrier endBarrier = new CyclicBarrier(4);
 
 
-    public static double timeLimit = 3600;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
+    public static double timeLimit = 7200;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
 
     public static void main(String[] args) {
         if (args.length  == 0) {
