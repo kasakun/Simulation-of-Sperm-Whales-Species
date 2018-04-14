@@ -22,7 +22,6 @@ public class Sim {
 
 
     public static double timeLimit = 7200;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
-
     public static void main(String[] args) {
         if (args.length  == 0) {
             System.out.println("Running by default 3600 days, 40 seasons.");
@@ -99,7 +98,6 @@ public class Sim {
                         while (!mpengine.eventList.isEmpty()) {
 	                        mpengine.eventHandler(mp, kw, sw, mm);
 	                    }
-
                         try {
                             System.out.println("Main Process: Start food Unit: " + mp.foodRes);
 
@@ -213,7 +211,7 @@ public class Sim {
                     killerWhalePrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
                     /**************************************** Season Begins *******************************************/
                     kw.food = 0.0;
-                    kw.demand = kw.number*0.12;
+                    kw.demand = kw.number*0.06;
 
                     while (!kwengine.eventList.isEmpty()) {
                         double temp = now;
@@ -261,7 +259,10 @@ public class Sim {
 //                            kw.reprorate = 0.02*((kw.demand - kw.food)/kw.demand);
                             int kwDie = (int)((kw.demand - kw.food)/kw.demand*kw.number);
                             kw.number -= kwDie;
-                            kw.number -= kwDie;
+                            if (kw.number<0){
+                                kw.number = 0;
+
+                            }
                             System.out.println(kw.name + ": " + kwDie + " dies for hunger.");
 
                             killerWhalePrint.println(kw.name + ": " + kwDie + " dies for hunger.");
@@ -269,7 +270,8 @@ public class Sim {
 //                        else {
 //                            kw.reprorate = 0.025*(1 + (kw.food - kw.demand)/kw.demand);
 //                        }
-
+                        if (kw.number<0)
+                            kw.number = 0;
                     } finally {
                         kw.numberl.unlock();
                     }
@@ -370,9 +372,9 @@ public class Sim {
                         if (sw.food < sw.demand ) {
 //                                sw.reprorate = 0.02*((sw.demand - sw.food)/sw.demand);
                             int swDie = (int)((sw.demand - sw.food)/sw.demand*sw.number);
-                            mm.number -= swDie;
-                            if (mm.number <= 0)
-                                mm.number = 0;
+                            sw.number -= swDie;
+                            if (sw.number <= 0)
+                                sw.number = 0;
                             System.out.println(sw.name + ": " + swDie + " dies for hunger.");
                             spermWhalePrint.println(sw.name + ": " + swDie + " dies for hunger.");
                         }
@@ -380,6 +382,8 @@ public class Sim {
 //                            if (sw.food != sw.demand)
 //                                sw.reprorate = 0.02*(1 + (sw.food - sw.demand)/sw.demand);
 //                        }
+                        if (sw.number <= 0)
+                            sw.number = 0;
 
                     } finally {
                         sw.numberl.unlock();
@@ -479,7 +483,7 @@ public class Sim {
                         if (mm.food < mm.demand) {
 //                            if (mm.food != mm.demand)
 //                                mm.reprorate = 0.03*((mm.demand - mm.food)/sw.demand);
-                            int mmDie= (int) ((mm.demand - mm.food)/mm.food*mm.number);
+                            int mmDie= (int) ((mm.demand - mm.food)/mm.demand*mm.number);
                             mm.number -= mmDie;
                             if (mm.number <= 0) mm.number = 0;
                             System.out.println(mm.name + ": " + mmDie + " dies for hunger.");
