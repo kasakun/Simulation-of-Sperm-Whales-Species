@@ -106,34 +106,34 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.totalFood = this.totalFood * 1.059 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
+        this.totalFood = this.totalFood * 1.059 * (((double)this.oceanTemp-85)/300 + 1) * curType.getRate(oceanCur);
         System.out.println("Main Proc: Food resource grow, current total food resource:" + this.totalFood);
         this.updateFood();
     }
 
     public void winterToSpring() {
-        this.oceanTemp += (int) (4 * Math.random() + 2);
+        this.oceanTemp += (int) (3 * Math.random() + 2);
         this.oceanCur = Math.random() > 0.5 ? 0 : 1;
         System.out.println("Main Proc: Season Change, current temperature:" + this.oceanTemp
                 + ", current ocean currents:" + this.oceanCur);
     }
 
     public void springToSummer() {
-        this.oceanTemp += (int) (4 * Math.random() + 3);
+        this.oceanTemp += (int) (3 * Math.random() + 3);
         this.oceanCur = 0;
         System.out.println("Main Proc: Season Change, current temperature:" + this.oceanTemp
                 + ", current ocean currents:" + this.oceanCur);
     }
 
     public void summerToFall() {
-        this.oceanTemp -= (int) (4 * Math.random() + 2);
+        this.oceanTemp -= (int) (3 * Math.random() + 2);
         this.oceanCur = Math.random() > 0.5 ? 0 : 1;
         System.out.println("Main Proc: Season Change, current temperature:" + this.oceanTemp
                 + ", current ocean currents:" + this.oceanCur);
     }
 
     public void fallToWinter() {
-        this.oceanTemp -= (int) (4 * Math.random() + 2);
+        this.oceanTemp -= (int) (3 * Math.random() + 2);
         this.oceanCur = 1;
         System.out.println("Main Proc: Season Change, current temperature:" + this.oceanTemp
                 + ", current ocean currents:" + this.oceanCur);
