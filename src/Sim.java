@@ -36,7 +36,7 @@ public class Sim {
             return;
         }
 
-        MainProc mp = new MainProc(0, 85, 100000000);
+        MainProc mp = new MainProc(0, 85, 27000000);
         KillerWhales kw = new KillerWhales(3000, 350, 0.03, 0.01);
         SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.002);
         MarineMammals mm = new MarineMammals(20000, 20000, 0.04, 0.018);
@@ -77,7 +77,7 @@ public class Sim {
 
                 while(timeHelper < timeLimit) {
                 	now = timeHelper;
-                    mp.foodRes = 2700000;
+                    // mp.foodRes = 2700000;
                     // Start Barrier
                     try{
                         startBarrier.await();
@@ -89,19 +89,7 @@ public class Sim {
                     mainProcPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
 
                     mp.foodResl.lock();
-                    try {
-                        System.out.println("Main Process: Start food Unit: " + mp.foodRes);
 
-                        mainProcPrint.println("Main Process: Start food Unit: " + mp.foodRes);
-
-                        System.out.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
-
-                        mainProcPrint.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
-
-
-                    } finally {
-                        mp.foodResl.unlock();
-                    }
                     // Season begins
                     /**************************************** Season Begins *******************************************/
                     while (now <= timeHelper) {
@@ -111,6 +99,22 @@ public class Sim {
                         while (!mpengine.eventList.isEmpty()) {
 	                        mpengine.eventHandler(mp, kw, sw, mm);
 	                    }
+
+                        try {
+                            System.out.println("Main Process: Start food Unit: " + mp.foodRes);
+
+                            mainProcPrint.println("Main Process: Start food Unit: " + mp.foodRes);
+                            
+                            mainProcPrint.println("Main Process: Start Total food Unit: " + mp.totalFood);
+
+                            System.out.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
+
+                            mainProcPrint.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
+
+
+                        } finally {
+                            mp.foodResl.unlock();
+                        }
 
                         Event season1 = new seasonChange(temp + 90);
                         Event food = new foodGrow(temp + 90);
@@ -154,6 +158,8 @@ public class Sim {
                         System.out.println("Main Process: End food Unit: " + mp.foodRes);
 
                         mainProcPrint.println("Main Process: End food Unit: " + mp.foodRes);
+
+                        mainProcPrint.println("Main Process: End Total food Unit: " + mp.totalFood);
 
                         System.out.println("Main Process: End Ocean Temperature: " + mp.oceanTemp);
 

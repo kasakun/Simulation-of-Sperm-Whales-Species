@@ -1,0 +1,723 @@
+Sperm Whales ThreadSeason: 0 begins
+Sperm Whales ThreadSeason: 0 ends
+Sperm Whales: 19 dies, 298 reproduces.
+Sperm Whales Thread eat: 82
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 700000.0
+Sperm Whales Thread total consumes: 756516.0
+Sperm Whales Thread num:10229
+====================================================================================================
+Sperm Whales ThreadSeason: 1 begins
+Sperm Whales ThreadSeason: 1 ends
+Sperm Whales: 20 dies, 304 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 714910.0
+Sperm Whales Thread total consumes: 761316.0
+Sperm Whales Thread num:10432
+====================================================================================================
+Sperm Whales ThreadSeason: 2 begins
+Sperm Whales ThreadSeason: 2 ends
+Sperm Whales: 20 dies, 311 reproduces.
+Sperm Whales Thread eat: 77
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 729120.0
+Sperm Whales Thread total consumes: 768441.0
+Sperm Whales Thread num:10673
+====================================================================================================
+Sperm Whales ThreadSeason: 3 begins
+Sperm Whales ThreadSeason: 3 ends
+Sperm Whales: 21 dies, 316 reproduces.
+Sperm Whales Thread eat: 86
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 747110.0
+Sperm Whales Thread total consumes: 834172.0
+Sperm Whales Thread num:10850
+====================================================================================================
+Sperm Whales ThreadSeason: 4 begins
+Sperm Whales ThreadSeason: 4 ends
+Sperm Whales: 21 dies, 323 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 758310.0
+Sperm Whales Thread total consumes: 808548.0
+Sperm Whales Thread num:11080
+====================================================================================================
+Sperm Whales ThreadSeason: 5 begins
+Sperm Whales ThreadSeason: 5 ends
+Sperm Whales: 21 dies, 328 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 775600.0
+Sperm Whales Thread total consumes: 833259.0
+Sperm Whales Thread num:11269
+====================================================================================================
+Sperm Whales ThreadSeason: 6 begins
+Sperm Whales ThreadSeason: 6 ends
+Sperm Whales: 22 dies, 335 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 786450.0
+Sperm Whales Thread total consumes: 838759.0
+Sperm Whales Thread num:11494
+====================================================================================================
+Sperm Whales ThreadSeason: 7 begins
+Sperm Whales ThreadSeason: 7 ends
+Sperm Whales: 22 dies, 339 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 804580.0
+Sperm Whales Thread total consumes: 859363.0
+Sperm Whales Thread num:11621
+====================================================================================================
+Sperm Whales ThreadSeason: 8 begins
+Sperm Whales ThreadSeason: 8 ends
+Sperm Whales: 23 dies, 347 reproduces.
+Sperm Whales Thread eat: 77
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 813470.0
+Sperm Whales Thread total consumes: 857247.0
+Sperm Whales Thread num:11907
+====================================================================================================
+Sperm Whales ThreadSeason: 9 begins
+Sperm Whales ThreadSeason: 9 ends
+Sperm Whales: 23 dies, 350 reproduces.
+Sperm Whales Thread eat: 87
+Sperm Whales Thread accidental death: 7
+Sperm Whales Thread total demands: 822710.0
+Sperm Whales Thread total consumes: 922446.0
+Sperm Whales Thread num:12001
+====================================================================================================
+Sperm Whales ThreadSeason: 10 begins
+Sperm Whales ThreadSeason: 10 ends
+Sperm Whales: 23 dies, 357 reproduces.
+Sperm Whales Thread eat: 76
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 837550.0
+Sperm Whales Thread total consumes: 869499.0
+Sperm Whales Thread num:12243
+====================================================================================================
+Sperm Whales ThreadSeason: 11 begins
+Sperm Whales ThreadSeason: 11 ends
+Sperm Whales: 24 dies, 363 reproduces.
+Sperm Whales Thread eat: 88
+Sperm Whales Thread accidental death: 8
+Sperm Whales Thread total demands: 848190.0
+Sperm Whales Thread total consumes: 956892.0
+Sperm Whales Thread num:12448
+====================================================================================================
+Sperm Whales ThreadSeason: 12 begins
+Sperm Whales ThreadSeason: 12 ends
+Sperm Whales: 24 dies, 370 reproduces.
+Sperm Whales Thread eat: 81
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 865060.0
+Sperm Whales Thread total consumes: 939002.0
+Sperm Whales Thread num:12700
+====================================================================================================
+Sperm Whales ThreadSeason: 13 begins
+Sperm Whales ThreadSeason: 13 ends
+Sperm Whales: 25 dies, 376 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 887740.0
+Sperm Whales Thread total consumes: 940772.0
+Sperm Whales Thread num:12891
+====================================================================================================
+Sperm Whales ThreadSeason: 14 begins
+Sperm Whales ThreadSeason: 14 ends
+Sperm Whales: 25 dies, 383 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 902370.0
+Sperm Whales Thread total consumes: 959124.0
+Sperm Whales Thread num:13138
+====================================================================================================
+Sperm Whales ThreadSeason: 15 begins
+Sperm Whales ThreadSeason: 15 ends
+Sperm Whales: 26 dies, 391 reproduces.
+Sperm Whales: 4629 dies for hunger.
+Sperm Whales Thread eat: 90
+Sperm Whales Thread accidental death: 7
+Sperm Whales Thread total demands: 919660.0
+Sperm Whales Thread total consumes: 456722.0
+Sperm Whales Thread num:8777
+====================================================================================================
+Sperm Whales ThreadSeason: 16 begins
+Sperm Whales ThreadSeason: 16 ends
+Sperm Whales: 17 dies, 261 reproduces.
+Sperm Whales Thread eat: 88
+Sperm Whales Thread accidental death: 9
+Sperm Whales Thread total demands: 611870.0
+Sperm Whales Thread total consumes: 681519.0
+Sperm Whales Thread num:8976
+====================================================================================================
+Sperm Whales ThreadSeason: 17 begins
+Sperm Whales ThreadSeason: 17 ends
+Sperm Whales: 17 dies, 266 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 628320.0
+Sperm Whales Thread total consumes: 670739.0
+Sperm Whales Thread num:9120
+====================================================================================================
+Sperm Whales ThreadSeason: 18 begins
+Sperm Whales ThreadSeason: 18 ends
+Sperm Whales: 18 dies, 271 reproduces.
+Sperm Whales Thread eat: 90
+Sperm Whales Thread accidental death: 9
+Sperm Whales Thread total demands: 633360.0
+Sperm Whales Thread total consumes: 723513.0
+Sperm Whales Thread num:9292
+====================================================================================================
+Sperm Whales ThreadSeason: 19 begins
+Sperm Whales ThreadSeason: 19 ends
+Sperm Whales: 18 dies, 275 reproduces.
+Sperm Whales Thread eat: 81
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 642880.0
+Sperm Whales Thread total consumes: 697773.0
+Sperm Whales Thread num:9437
+====================================================================================================
+Sperm Whales ThreadSeason: 20 begins
+Sperm Whales ThreadSeason: 20 ends
+Sperm Whales: 18 dies, 279 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 655550.0
+Sperm Whales Thread total consumes: 698193.0
+Sperm Whales Thread num:9568
+====================================================================================================
+Sperm Whales ThreadSeason: 21 begins
+Sperm Whales ThreadSeason: 21 ends
+Sperm Whales: 18 dies, 279 reproduces.
+Sperm Whales Thread eat: 84
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 662200.0
+Sperm Whales Thread total consumes: 727513.0
+Sperm Whales Thread num:9586
+====================================================================================================
+Sperm Whales ThreadSeason: 22 begins
+Sperm Whales ThreadSeason: 22 ends
+Sperm Whales: 18 dies, 281 reproduces.
+Sperm Whales Thread eat: 81
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 657160.0
+Sperm Whales Thread total consumes: 713344.0
+Sperm Whales Thread num:9647
+====================================================================================================
+Sperm Whales ThreadSeason: 23 begins
+Sperm Whales ThreadSeason: 23 ends
+Sperm Whales: 19 dies, 287 reproduces.
+Sperm Whales Thread eat: 75
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 674030.0
+Sperm Whales Thread total consumes: 700275.0
+Sperm Whales Thread num:9860
+====================================================================================================
+Sperm Whales ThreadSeason: 24 begins
+Sperm Whales ThreadSeason: 24 ends
+Sperm Whales: 19 dies, 292 reproduces.
+Sperm Whales Thread eat: 75
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 687680.0
+Sperm Whales Thread total consumes: 711832.0
+Sperm Whales Thread num:10024
+====================================================================================================
+Sperm Whales ThreadSeason: 25 begins
+Sperm Whales ThreadSeason: 25 ends
+Sperm Whales: 19 dies, 295 reproduces.
+Sperm Whales Thread eat: 75
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 701680.0
+Sperm Whales Thread total consumes: 725948.0
+Sperm Whales Thread num:10125
+====================================================================================================
+Sperm Whales ThreadSeason: 26 begins
+Sperm Whales ThreadSeason: 26 ends
+Sperm Whales: 19 dies, 298 reproduces.
+Sperm Whales Thread eat: 74
+Sperm Whales Thread accidental death: 0
+Sperm Whales Thread total demands: 708750.0
+Sperm Whales Thread total consumes: 727299.0
+Sperm Whales Thread num:10242
+====================================================================================================
+Sperm Whales ThreadSeason: 27 begins
+Sperm Whales ThreadSeason: 27 ends
+Sperm Whales: 20 dies, 303 reproduces.
+Sperm Whales Thread eat: 84
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 716940.0
+Sperm Whales Thread total consumes: 783107.0
+Sperm Whales Thread num:10393
+====================================================================================================
+Sperm Whales ThreadSeason: 28 begins
+Sperm Whales ThreadSeason: 28 ends
+Sperm Whales: 20 dies, 308 reproduces.
+Sperm Whales Thread eat: 75
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 719950.0
+Sperm Whales Thread total consumes: 750767.0
+Sperm Whales Thread num:10572
+====================================================================================================
+Sperm Whales ThreadSeason: 29 begins
+Sperm Whales ThreadSeason: 29 ends
+Sperm Whales: 20 dies, 307 reproduces.
+Sperm Whales Thread eat: 85
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 737520.0
+Sperm Whales Thread total consumes: 811159.0
+Sperm Whales Thread num:10553
+====================================================================================================
+Sperm Whales ThreadSeason: 30 begins
+Sperm Whales ThreadSeason: 30 ends
+Sperm Whales: 20 dies, 312 reproduces.
+Sperm Whales Thread eat: 86
+Sperm Whales Thread accidental death: 7
+Sperm Whales Thread total demands: 738710.0
+Sperm Whales Thread total consumes: 811613.0
+Sperm Whales Thread num:10694
+====================================================================================================
+Sperm Whales ThreadSeason: 31 begins
+Sperm Whales ThreadSeason: 31 ends
+Sperm Whales: 21 dies, 316 reproduces.
+Sperm Whales Thread eat: 82
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 748580.0
+Sperm Whales Thread total consumes: 806235.0
+Sperm Whales Thread num:10858
+====================================================================================================
+Sperm Whales ThreadSeason: 32 begins
+Sperm Whales ThreadSeason: 32 ends
+Sperm Whales: 21 dies, 318 reproduces.
+Sperm Whales Thread eat: 95
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 760060.0
+Sperm Whales Thread total consumes: 831189.0
+Sperm Whales Thread num:10915
+====================================================================================================
+Sperm Whales ThreadSeason: 33 begins
+Sperm Whales ThreadSeason: 33 ends
+Sperm Whales: 21 dies, 322 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 764050.0
+Sperm Whales Thread total consumes: 806867.0
+Sperm Whales Thread num:11057
+====================================================================================================
+Sperm Whales ThreadSeason: 34 begins
+Sperm Whales ThreadSeason: 34 ends
+Sperm Whales: 21 dies, 328 reproduces.
+Sperm Whales Thread eat: 77
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 772730.0
+Sperm Whales Thread total consumes: 810122.0
+Sperm Whales Thread num:11254
+====================================================================================================
+Sperm Whales ThreadSeason: 35 begins
+Sperm Whales ThreadSeason: 35 ends
+Sperm Whales: 22 dies, 331 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 787780.0
+Sperm Whales Thread total consumes: 829975.0
+Sperm Whales Thread num:11363
+====================================================================================================
+Sperm Whales ThreadSeason: 36 begins
+Sperm Whales ThreadSeason: 36 ends
+Sperm Whales: 22 dies, 335 reproduces.
+Sperm Whales Thread eat: 95
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 795410.0
+Sperm Whales Thread total consumes: 863297.0
+Sperm Whales Thread num:11509
+====================================================================================================
+Sperm Whales ThreadSeason: 37 begins
+Sperm Whales ThreadSeason: 37 ends
+Sperm Whales: 22 dies, 338 reproduces.
+Sperm Whales Thread eat: 83
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 797580.0
+Sperm Whales Thread total consumes: 868864.0
+Sperm Whales Thread num:11597
+====================================================================================================
+Sperm Whales ThreadSeason: 38 begins
+Sperm Whales ThreadSeason: 38 ends
+Sperm Whales: 22 dies, 342 reproduces.
+Sperm Whales Thread eat: 82
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 811790.0
+Sperm Whales Thread total consumes: 880442.0
+Sperm Whales Thread num:11751
+====================================================================================================
+Sperm Whales ThreadSeason: 39 begins
+Sperm Whales ThreadSeason: 39 ends
+Sperm Whales: 23 dies, 349 reproduces.
+Sperm Whales Thread eat: 81
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 821310.0
+Sperm Whales Thread total consumes: 886033.0
+Sperm Whales Thread num:11983
+====================================================================================================
+Sperm Whales ThreadSeason: 40 begins
+Sperm Whales ThreadSeason: 40 ends
+Sperm Whales: 23 dies, 354 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 837550.0
+Sperm Whales Thread total consumes: 885136.0
+Sperm Whales Thread num:12132
+====================================================================================================
+Sperm Whales ThreadSeason: 41 begins
+Sperm Whales ThreadSeason: 41 ends
+Sperm Whales: 23 dies, 355 reproduces.
+Sperm Whales Thread eat: 83
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 835730.0
+Sperm Whales Thread total consumes: 901748.0
+Sperm Whales Thread num:12193
+====================================================================================================
+Sperm Whales ThreadSeason: 42 begins
+Sperm Whales ThreadSeason: 42 ends
+Sperm Whales: 24 dies, 362 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 852250.0
+Sperm Whales Thread total consumes: 906224.0
+Sperm Whales Thread num:12419
+====================================================================================================
+Sperm Whales ThreadSeason: 43 begins
+Sperm Whales ThreadSeason: 43 ends
+Sperm Whales: 24 dies, 368 reproduces.
+Sperm Whales: 151 dies for hunger.
+Sperm Whales Thread eat: 95
+Sperm Whales Thread accidental death: 7
+Sperm Whales Thread total demands: 861770.0
+Sperm Whales Thread total consumes: 846664.0
+Sperm Whales Thread num:12461
+====================================================================================================
+Sperm Whales ThreadSeason: 44 begins
+Sperm Whales ThreadSeason: 44 ends
+Sperm Whales: 24 dies, 367 reproduces.
+Sperm Whales Thread eat: 76
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 869750.0
+Sperm Whales Thread total consumes: 910384.0
+Sperm Whales Thread num:12587
+====================================================================================================
+Sperm Whales ThreadSeason: 45 begins
+Sperm Whales ThreadSeason: 45 ends
+Sperm Whales: 24 dies, 373 reproduces.
+Sperm Whales Thread eat: 74
+Sperm Whales Thread accidental death: 0
+Sperm Whales Thread total demands: 881090.0
+Sperm Whales Thread total consumes: 908777.0
+Sperm Whales Thread num:12798
+====================================================================================================
+Sperm Whales ThreadSeason: 46 begins
+Sperm Whales ThreadSeason: 46 ends
+Sperm Whales: 25 dies, 376 reproduces.
+Sperm Whales: 2559 dies for hunger.
+Sperm Whales Thread eat: 93
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 895860.0
+Sperm Whales Thread total consumes: 639866.0
+Sperm Whales Thread num:10355
+====================================================================================================
+Sperm Whales ThreadSeason: 47 begins
+Sperm Whales ThreadSeason: 47 ends
+Sperm Whales: 20 dies, 304 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 724850.0
+Sperm Whales Thread total consumes: 766217.0
+Sperm Whales Thread num:10438
+====================================================================================================
+Sperm Whales ThreadSeason: 48 begins
+Sperm Whales ThreadSeason: 48 ends
+Sperm Whales: 20 dies, 307 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 730660.0
+Sperm Whales Thread total consumes: 777240.0
+Sperm Whales Thread num:10524
+====================================================================================================
+Sperm Whales ThreadSeason: 49 begins
+Sperm Whales ThreadSeason: 49 ends
+Sperm Whales: 20 dies, 303 reproduces.
+Sperm Whales Thread eat: 86
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 736680.0
+Sperm Whales Thread total consumes: 806942.0
+Sperm Whales Thread num:10411
+====================================================================================================
+Sperm Whales ThreadSeason: 50 begins
+Sperm Whales ThreadSeason: 50 ends
+Sperm Whales: 20 dies, 302 reproduces.
+Sperm Whales Thread eat: 75
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 728770.0
+Sperm Whales Thread total consumes: 755376.0
+Sperm Whales Thread num:10350
+====================================================================================================
+Sperm Whales ThreadSeason: 51 begins
+Sperm Whales ThreadSeason: 51 ends
+Sperm Whales: 20 dies, 301 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 721980.0
+Sperm Whales Thread total consumes: 756592.0
+Sperm Whales Thread num:10341
+====================================================================================================
+Sperm Whales ThreadSeason: 52 begins
+Sperm Whales ThreadSeason: 52 ends
+Sperm Whales: 20 dies, 304 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 723870.0
+Sperm Whales Thread total consumes: 776826.0
+Sperm Whales Thread num:10442
+====================================================================================================
+Sperm Whales ThreadSeason: 53 begins
+Sperm Whales ThreadSeason: 53 ends
+Sperm Whales: 20 dies, 302 reproduces.
+Sperm Whales Thread eat: 83
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 730940.0
+Sperm Whales Thread total consumes: 786685.0
+Sperm Whales Thread num:10349
+====================================================================================================
+Sperm Whales ThreadSeason: 54 begins
+Sperm Whales ThreadSeason: 54 ends
+Sperm Whales: 20 dies, 304 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 719390.0
+Sperm Whales Thread total consumes: 772730.0
+Sperm Whales Thread num:10450
+====================================================================================================
+Sperm Whales ThreadSeason: 55 begins
+Sperm Whales ThreadSeason: 55 ends
+Sperm Whales: 20 dies, 306 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 730240.0
+Sperm Whales Thread total consumes: 766090.0
+Sperm Whales Thread num:10500
+====================================================================================================
+Sperm Whales ThreadSeason: 56 begins
+Sperm Whales ThreadSeason: 56 ends
+Sperm Whales: 20 dies, 306 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 735000.0
+Sperm Whales Thread total consumes: 780726.0
+Sperm Whales Thread num:10513
+====================================================================================================
+Sperm Whales ThreadSeason: 57 begins
+Sperm Whales ThreadSeason: 57 ends
+Sperm Whales: 20 dies, 306 reproduces.
+Sperm Whales Thread eat: 75
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 735910.0
+Sperm Whales Thread total consumes: 761635.0
+Sperm Whales Thread num:10497
+====================================================================================================
+Sperm Whales ThreadSeason: 58 begins
+Sperm Whales ThreadSeason: 58 ends
+Sperm Whales: 20 dies, 307 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 734790.0
+Sperm Whales Thread total consumes: 787135.0
+Sperm Whales Thread num:10547
+====================================================================================================
+Sperm Whales ThreadSeason: 59 begins
+Sperm Whales ThreadSeason: 59 ends
+Sperm Whales: 20 dies, 308 reproduces.
+Sperm Whales Thread eat: 76
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 738290.0
+Sperm Whales Thread total consumes: 766959.0
+Sperm Whales Thread num:10564
+====================================================================================================
+Sperm Whales ThreadSeason: 60 begins
+Sperm Whales ThreadSeason: 60 ends
+Sperm Whales: 20 dies, 308 reproduces.
+Sperm Whales Thread eat: 86
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 739480.0
+Sperm Whales Thread total consumes: 819958.0
+Sperm Whales Thread num:10576
+====================================================================================================
+Sperm Whales ThreadSeason: 61 begins
+Sperm Whales ThreadSeason: 61 ends
+Sperm Whales: 20 dies, 304 reproduces.
+Sperm Whales Thread eat: 81
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 740320.0
+Sperm Whales Thread total consumes: 795221.0
+Sperm Whales Thread num:10430
+====================================================================================================
+Sperm Whales ThreadSeason: 62 begins
+Sperm Whales ThreadSeason: 62 ends
+Sperm Whales: 20 dies, 306 reproduces.
+Sperm Whales Thread eat: 86
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 730100.0
+Sperm Whales Thread total consumes: 808896.0
+Sperm Whales Thread num:10494
+====================================================================================================
+Sperm Whales ThreadSeason: 63 begins
+Sperm Whales ThreadSeason: 63 ends
+Sperm Whales: 20 dies, 309 reproduces.
+Sperm Whales Thread eat: 77
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 721980.0
+Sperm Whales Thread total consumes: 763165.0
+Sperm Whales Thread num:10601
+====================================================================================================
+Sperm Whales ThreadSeason: 64 begins
+Sperm Whales ThreadSeason: 64 ends
+Sperm Whales: 20 dies, 311 reproduces.
+Sperm Whales Thread eat: 82
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 742070.0
+Sperm Whales Thread total consumes: 806577.0
+Sperm Whales Thread num:10690
+====================================================================================================
+Sperm Whales ThreadSeason: 65 begins
+Sperm Whales ThreadSeason: 65 ends
+Sperm Whales: 20 dies, 312 reproduces.
+Sperm Whales Thread eat: 80
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 748300.0
+Sperm Whales Thread total consumes: 799831.0
+Sperm Whales Thread num:10694
+====================================================================================================
+Sperm Whales ThreadSeason: 66 begins
+Sperm Whales ThreadSeason: 66 ends
+Sperm Whales: 20 dies, 310 reproduces.
+Sperm Whales Thread eat: 86
+Sperm Whales Thread accidental death: 6
+Sperm Whales Thread total demands: 748580.0
+Sperm Whales Thread total consumes: 819029.0
+Sperm Whales Thread num:10654
+====================================================================================================
+Sperm Whales ThreadSeason: 67 begins
+Sperm Whales ThreadSeason: 67 ends
+Sperm Whales: 20 dies, 310 reproduces.
+Sperm Whales Thread eat: 85
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 744520.0
+Sperm Whales Thread total consumes: 818767.0
+Sperm Whales Thread num:10651
+====================================================================================================
+Sperm Whales ThreadSeason: 68 begins
+Sperm Whales ThreadSeason: 68 ends
+Sperm Whales: 20 dies, 311 reproduces.
+Sperm Whales Thread eat: 77
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 740530.0
+Sperm Whales Thread total consumes: 768127.0
+Sperm Whales Thread num:10670
+====================================================================================================
+Sperm Whales ThreadSeason: 69 begins
+Sperm Whales ThreadSeason: 69 ends
+Sperm Whales: 20 dies, 311 reproduces.
+Sperm Whales Thread eat: 76
+Sperm Whales Thread accidental death: 1
+Sperm Whales Thread total demands: 739480.0
+Sperm Whales Thread total consumes: 768391.0
+Sperm Whales Thread num:10674
+====================================================================================================
+Sperm Whales ThreadSeason: 70 begins
+Sperm Whales ThreadSeason: 70 ends
+Sperm Whales: 20 dies, 312 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 743400.0
+Sperm Whales Thread total consumes: 783234.0
+Sperm Whales Thread num:10694
+====================================================================================================
+Sperm Whales ThreadSeason: 71 begins
+Sperm Whales ThreadSeason: 71 ends
+Sperm Whales: 20 dies, 313 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 748580.0
+Sperm Whales Thread total consumes: 784587.0
+Sperm Whales Thread num:10751
+====================================================================================================
+Sperm Whales ThreadSeason: 72 begins
+Sperm Whales ThreadSeason: 72 ends
+Sperm Whales: 20 dies, 314 reproduces.
+Sperm Whales Thread eat: 88
+Sperm Whales Thread accidental death: 7
+Sperm Whales Thread total demands: 752570.0
+Sperm Whales Thread total consumes: 839646.0
+Sperm Whales Thread num:10786
+====================================================================================================
+Sperm Whales ThreadSeason: 73 begins
+Sperm Whales ThreadSeason: 73 ends
+Sperm Whales: 21 dies, 315 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 744940.0
+Sperm Whales Thread total consumes: 789085.0
+Sperm Whales Thread num:10814
+====================================================================================================
+Sperm Whales ThreadSeason: 74 begins
+Sperm Whales ThreadSeason: 74 ends
+Sperm Whales: 21 dies, 319 reproduces.
+Sperm Whales Thread eat: 84
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 756980.0
+Sperm Whales Thread total consumes: 830929.0
+Sperm Whales Thread num:10945
+====================================================================================================
+Sperm Whales ThreadSeason: 75 begins
+Sperm Whales ThreadSeason: 75 ends
+Sperm Whales: 21 dies, 321 reproduces.
+Sperm Whales Thread eat: 84
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 766150.0
+Sperm Whales Thread total consumes: 836653.0
+Sperm Whales Thread num:11024
+====================================================================================================
+Sperm Whales ThreadSeason: 76 begins
+Sperm Whales ThreadSeason: 76 ends
+Sperm Whales: 21 dies, 324 reproduces.
+Sperm Whales Thread eat: 78
+Sperm Whales Thread accidental death: 2
+Sperm Whales Thread total demands: 769160.0
+Sperm Whales Thread total consumes: 814341.0
+Sperm Whales Thread num:11127
+====================================================================================================
+Sperm Whales ThreadSeason: 77 begins
+Sperm Whales ThreadSeason: 77 ends
+Sperm Whales: 21 dies, 322 reproduces.
+Sperm Whales Thread eat: 82
+Sperm Whales Thread accidental death: 4
+Sperm Whales Thread total demands: 766150.0
+Sperm Whales Thread total consumes: 828782.0
+Sperm Whales Thread num:11062
+====================================================================================================
+Sperm Whales ThreadSeason: 78 begins
+Sperm Whales ThreadSeason: 78 ends
+Sperm Whales: 21 dies, 325 reproduces.
+Sperm Whales Thread eat: 79
+Sperm Whales Thread accidental death: 3
+Sperm Whales Thread total demands: 760480.0
+Sperm Whales Thread total consumes: 814674.0
+Sperm Whales Thread num:11165
+====================================================================================================
+Sperm Whales ThreadSeason: 79 begins
+Sperm Whales ThreadSeason: 79 ends
+Sperm Whales: 21 dies, 328 reproduces.
+Sperm Whales Thread eat: 82
+Sperm Whales Thread accidental death: 5
+Sperm Whales Thread total demands: 781550.0
+Sperm Whales Thread total consumes: 848316.0
+Sperm Whales Thread num:11269
+====================================================================================================

@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 // import java.io.*;
 
 enum curType {
-    warmCurrents("warm currents", 1.05), coldWaterCurrents("cold currents", 0.95);
+    warmCurrents("warm currents", 1.03), coldWaterCurrents("cold currents", 0.97);
     private final String name;
     private final double rate;
     private curType(String name, double rate) {
@@ -62,14 +62,14 @@ public class MainProc {
 
     private void updateFood() {
         this.foodRes = this.totalFood / 10;
-        this.totalFood = this.totalFood - this.foodRes;
+        this.totalFood = this.totalFood * 0.9;
     }
 
     public void huntWhale(SpermWhales sw) {
         if (Math.random() > 0.5) {
             sw.numberl.lock();
             try {
-                sw.number = sw.number - 50;
+                sw.number = sw.number - 30;
                 System.out.println("Main Proc: Hunts 50 sperm whale. Remain sperm whales:" + sw.number);
             } finally {
                 sw.numberl.unlock();
@@ -93,11 +93,11 @@ public class MainProc {
         }
         // writeLog("log.txt", "hi");
         // writeLog("log.txt", "hihi");
-        this.updateFood();
+        // this.updateFood();
     }
 
     public void naturalDisaster() {
-        this.oceanTemp = (int) ((0.8 + 0.4 * Math.random()) * this.oceanTemp);
+        this.oceanTemp = (int) ((0.9 + 0.2 * Math.random()) * this.oceanTemp);
         if (Math.random() > 0.5) {
             oceanCur = 1 - oceanCur;
         }
@@ -106,7 +106,7 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.totalFood = this.totalFood * 1.12 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
+        this.totalFood = this.totalFood * 1.059 * (((double)this.oceanTemp-85)/200 + 1) * curType.getRate(oceanCur);
         System.out.println("Main Proc: Food resource grow, current total food resource:" + this.totalFood);
         this.updateFood();
     }
