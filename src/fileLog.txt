@@ -1,105 +1,105 @@
-At year: 1910 hunt 43sperm whales
-At year: 1911 hunt 182sperm whales
-At year: 1912 hunt 547sperm whales
-At year: 1913 hunt 397sperm whales
-At year: 1914 hunt 722sperm whales
-At year: 1915 hunt 828sperm whales
-At year: 1916 hunt 1012sperm whales
-At year: 1917 hunt 385sperm whales
-At year: 1918 hunt 909sperm whales
-At year: 1919 hunt 1087sperm whales
-At year: 1920 hunt 749sperm whales
-At year: 1921 hunt 751sperm whales
-At year: 1922 hunt 820sperm whales
-At year: 1923 hunt 599sperm whales
-At year: 1924 hunt 950sperm whales
-At year: 1925 hunt 1439sperm whales
-At year: 1926 hunt 1591sperm whales
-At year: 1927 hunt 1316sperm whales
-At year: 1928 hunt 1804sperm whales
-At year: 1929 hunt 1862sperm whales
-At year: 1930 hunt 1212sperm whales
-At year: 1931 hunt 517sperm whales
-At year: 1932 hunt 634sperm whales
-At year: 1933 hunt 1242sperm whales
-At year: 1934 hunt 1860sperm whales
-At year: 1935 hunt 2255sperm whales
-At year: 1936 hunt 4880sperm whales
-At year: 1937 hunt 7197sperm whales
-At year: 1938 hunt 3734sperm whales
-At year: 1939 hunt 5500sperm whales
-At year: 1940 hunt 4671sperm whales
-At year: 1941 hunt 5565sperm whales
-At year: 1942 hunt 4992sperm whales
-At year: 1943 hunt 5344sperm whales
-At year: 1944 hunt 2291sperm whales
-At year: 1945 hunt 1656sperm whales
-At year: 1946 hunt 3425sperm whales
-At year: 1947 hunt 7446sperm whales
-At year: 1948 hunt 9780sperm whales
-At year: 1949 hunt 8901sperm whales
-At year: 1950 hunt 8186sperm whales
-At year: 1951 hunt 18264sperm whales
-At year: 1952 hunt 11526sperm whales
-At year: 1953 hunt 8317sperm whales
-At year: 1954 hunt 12582sperm whales
-At year: 1955 hunt 15593sperm whales
-At year: 1956 hunt 18590sperm whales
-At year: 1957 hunt 19156sperm whales
-At year: 1958 hunt 21846sperm whales
-At year: 1959 hunt 21298sperm whales
-At year: 1960 hunt 20244sperm whales
-At year: 1961 hunt 21130sperm whales
-At year: 1962 hunt 23245sperm whales
-At year: 1963 hunt 27858sperm whales
-At year: 1964 hunt 29255sperm whales
-At year: 1965 hunt 25548sperm whales
-At year: 1966 hunt 27378sperm whales
-At year: 1967 hunt 25921sperm whales
-At year: 1968 hunt 24080sperm whales
-At year: 1969 hunt 24142sperm whales
-At year: 1970 hunt 25830sperm whales
-At year: 1971 hunt 24sperm whales
-At year: 1972 hunt 6sperm whales
-At year: 1973 hunt 15sperm whales
-At year: 1974 hunt 21421sperm whales
-At year: 1975 hunt 21189sperm whales
-At year: 1976 hunt 17353sperm whales
-At year: 1977 hunt 12219sperm whales
-At year: 1978 hunt 10971sperm whales
-At year: 1979 hunt 8554sperm whales
-At year: 1980 hunt 2092sperm whales
-At year: 1981 hunt 1452sperm whales
-At year: 1982 hunt 621sperm whales
-At year: 1983 hunt 414sperm whales
-At year: 1984 hunt 463sperm whales
-At year: 1985 hunt 400sperm whales
-At year: 1986 hunt 200sperm whales
-At year: 1987 hunt 200sperm whales
-At year: 1988 hunt 0sperm whales
-At year: 1989 hunt 0sperm whales
-At year: 1990 hunt 0sperm whales
-At year: 1991 hunt 0sperm whales
-At year: 1992 hunt 0sperm whales
-At year: 1993 hunt 0sperm whales
-At year: 1994 hunt 0sperm whales
-At year: 1995 hunt 0sperm whales
-At year: 1996 hunt 0sperm whales
-At year: 1997 hunt 0sperm whales
-At year: 1998 hunt 0sperm whales
-At year: 1999 hunt 0sperm whales
-At year: 2000 hunt 1123sperm whales
-At year: 2001 hunt 1249sperm whales
-At year: 2002 hunt 1374sperm whales
-At year: 2003 hunt 1479sperm whales
-At year: 2004 hunt 1370sperm whales
-At year: 2005 hunt 1524sperm whales
-At year: 2006 hunt 1845sperm whales
-At year: 2007 hunt 1549sperm whales
-At year: 2008 hunt 1456sperm whales
-At year: 2009 hunt 1594sperm whales
-At year: 2010 hunt 1360sperm whales
-At year: 2011 hunt 1098sperm whales
-At year: 2012 hunt 1122sperm whales
-At year: 2013 hunt 1020sperm whales
-Total year count104
+At year: 1910 hunt 43 sperm whales
+At year: 1911 hunt 182 sperm whales
+At year: 1912 hunt 547 sperm whales
+At year: 1913 hunt 397 sperm whales
+At year: 1914 hunt 722 sperm whales
+At year: 1915 hunt 828 sperm whales
+At year: 1916 hunt 1012 sperm whales
+At year: 1917 hunt 385 sperm whales
+At year: 1918 hunt 909 sperm whales
+At year: 1919 hunt 1087 sperm whales
+At year: 1920 hunt 749 sperm whales
+At year: 1921 hunt 751 sperm whales
+At year: 1922 hunt 820 sperm whales
+At year: 1923 hunt 599 sperm whales
+At year: 1924 hunt 950 sperm whales
+At year: 1925 hunt 1439 sperm whales
+At year: 1926 hunt 1591 sperm whales
+At year: 1927 hunt 1316 sperm whales
+At year: 1928 hunt 1804 sperm whales
+At year: 1929 hunt 1862 sperm whales
+At year: 1930 hunt 1212 sperm whales
+At year: 1931 hunt 517 sperm whales
+At year: 1932 hunt 634 sperm whales
+At year: 1933 hunt 1242 sperm whales
+At year: 1934 hunt 1860 sperm whales
+At year: 1935 hunt 2255 sperm whales
+At year: 1936 hunt 4880 sperm whales
+At year: 1937 hunt 7197 sperm whales
+At year: 1938 hunt 3734 sperm whales
+At year: 1939 hunt 5500 sperm whales
+At year: 1940 hunt 4671 sperm whales
+At year: 1941 hunt 5565 sperm whales
+At year: 1942 hunt 4992 sperm whales
+At year: 1943 hunt 5344 sperm whales
+At year: 1944 hunt 2291 sperm whales
+At year: 1945 hunt 1656 sperm whales
+At year: 1946 hunt 3425 sperm whales
+At year: 1947 hunt 7446 sperm whales
+At year: 1948 hunt 9780 sperm whales
+At year: 1949 hunt 8901 sperm whales
+At year: 1950 hunt 8186 sperm whales
+At year: 1951 hunt 18264 sperm whales
+At year: 1952 hunt 11526 sperm whales
+At year: 1953 hunt 8317 sperm whales
+At year: 1954 hunt 12582 sperm whales
+At year: 1955 hunt 15593 sperm whales
+At year: 1956 hunt 18590 sperm whales
+At year: 1957 hunt 19156 sperm whales
+At year: 1958 hunt 21846 sperm whales
+At year: 1959 hunt 21298 sperm whales
+At year: 1960 hunt 20244 sperm whales
+At year: 1961 hunt 21130 sperm whales
+At year: 1962 hunt 23245 sperm whales
+At year: 1963 hunt 27858 sperm whales
+At year: 1964 hunt 29255 sperm whales
+At year: 1965 hunt 25548 sperm whales
+At year: 1966 hunt 27378 sperm whales
+At year: 1967 hunt 25921 sperm whales
+At year: 1968 hunt 24080 sperm whales
+At year: 1969 hunt 24142 sperm whales
+At year: 1970 hunt 25830 sperm whales
+At year: 1971 hunt 24 sperm whales
+At year: 1972 hunt 6 sperm whales
+At year: 1973 hunt 15 sperm whales
+At year: 1974 hunt 21421 sperm whales
+At year: 1975 hunt 21189 sperm whales
+At year: 1976 hunt 17353 sperm whales
+At year: 1977 hunt 12219 sperm whales
+At year: 1978 hunt 10971 sperm whales
+At year: 1979 hunt 8554 sperm whales
+At year: 1980 hunt 2092 sperm whales
+At year: 1981 hunt 1452 sperm whales
+At year: 1982 hunt 621 sperm whales
+At year: 1983 hunt 414 sperm whales
+At year: 1984 hunt 463 sperm whales
+At year: 1985 hunt 400 sperm whales
+At year: 1986 hunt 200 sperm whales
+At year: 1987 hunt 200 sperm whales
+At year: 1988 hunt 0 sperm whales
+At year: 1989 hunt 0 sperm whales
+At year: 1990 hunt 0 sperm whales
+At year: 1991 hunt 0 sperm whales
+At year: 1992 hunt 0 sperm whales
+At year: 1993 hunt 0 sperm whales
+At year: 1994 hunt 0 sperm whales
+At year: 1995 hunt 0 sperm whales
+At year: 1996 hunt 0 sperm whales
+At year: 1997 hunt 0 sperm whales
+At year: 1998 hunt 0 sperm whales
+At year: 1999 hunt 0 sperm whales
+At year: 2000 hunt 1123 sperm whales
+At year: 2001 hunt 1249 sperm whales
+At year: 2002 hunt 1374 sperm whales
+At year: 2003 hunt 1479 sperm whales
+At year: 2004 hunt 1370 sperm whales
+At year: 2005 hunt 1524 sperm whales
+At year: 2006 hunt 1845 sperm whales
+At year: 2007 hunt 1549 sperm whales
+At year: 2008 hunt 1456 sperm whales
+At year: 2009 hunt 1594 sperm whales
+At year: 2010 hunt 1360 sperm whales
+At year: 2011 hunt 1098 sperm whales
+At year: 2012 hunt 1122 sperm whales
+At year: 2013 hunt 1020 sperm whales
+Total year count 104

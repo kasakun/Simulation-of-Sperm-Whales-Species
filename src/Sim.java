@@ -186,6 +186,12 @@ public class Sim {
 	                       mainProcPrint.println(threadName + ": Human hunt event at " + now);
                         }
 
+                        if (temp % 360 == 90 && fisheryLevel > 1) {
+                           Event humanHunt = new humanHunt(temp + 90);
+                           mpengine.eventList.add(humanHunt);
+                           mainProcPrint.println(threadName + ": Human hunt event at " + now);
+                        }
+
                         if (Math.random() > 0.5) {
                            Event humanFish = new humanFish(temp + 90);
                            mpengine.eventList.add(humanFish);
