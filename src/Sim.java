@@ -27,7 +27,7 @@ public class Sim {
     private static CyclicBarrier endBarrier = new CyclicBarrier(4);
 
 
-    public static double timeLimit = 3600;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
+    public static double timeLimit = 36000;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
     public static int fisheryLevel = 0;
     public static String fileName;
 
@@ -180,7 +180,7 @@ public class Sim {
                             mainProcPrint.println(threadName + ": Human hunt event at " + now);
                         }
 
-                        if (Math.random() > 0.5) {
+                        if (Math.random() > 0.1) {
                             Event humanFish = new humanFish(temp + 90);
                             mpengine.eventList.add(humanFish);
                             mainProcPrint.println(threadName + ": Human fish event at " + now);
@@ -356,7 +356,7 @@ public class Sim {
                 double timeHelper = 0.0;
                 double reprorate;
 
-                int K = 10000;
+                int K = 20000;
 
                 FileOutputStream spermWhaleLog = null;
                 try {
