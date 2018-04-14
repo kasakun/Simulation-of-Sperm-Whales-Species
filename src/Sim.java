@@ -9,6 +9,12 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.io.File;  
+import java.io.BufferedReader;  
+import java.io.FileReader; 
+import java.util.List;
+import java.util.Map;
+import java.util.HashMap;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -22,14 +28,18 @@ public class Sim {
 
 
     public static double timeLimit = 7200;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
+    public static int fisheryLevel = 0;
+    public static String fileName;
 
     public static void main(String[] args) {
         if (args.length  == 0) {
             System.out.println("Running by default 3600 days, 40 seasons.");
         }
-        else if (args.length == 1) {
-            System.out.println("Running by " + args[0] + " days, " + (Integer.parseInt(args[0])/90 + 1) + " seasons.");
-            timeLimit = Integer.parseInt(args[0]);
+        else if (args.length == 2) {
+            // System.out.println("Running by " + args[0] + " days, " + (Integer.parseInt(args[0])/90 + 1) + " seasons.");
+            // timeLimit = Integer.parseInt(args[0]);
+            fileName = args[0];
+            fisheryLevel = Integer.parseInt(args[1]);
         }
         else {
             System.out.println("Please input the correct number of days.");
@@ -40,6 +50,46 @@ public class Sim {
         KillerWhales kw = new KillerWhales(3000, 350, 0.03, 0.01);
         SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.002);
         MarineMammals mm = new MarineMammals(20000, 20000, 0.04, 0.018);
+
+        FileOutputStream fileLog = null;
+        try {
+            fileLog = new FileOutputStream("fileLog.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        PrintStream filePrint = new PrintStream(fileLog);
+        int countYear = 0;
+        File file = new File(fileName);
+        BufferedReader br = null;
+        try
+        {
+            br = new BufferedReader(new FileReader(file));
+        } catch (FileNotFoundException e)
+        {
+            filePrint.println("File not found");
+        }
+        String line = "";
+        try {
+            Map<Integer, Integer> allData = new HashMap<>();
+            while ((line = br.readLine()) != null)
+            {
+                countYear++;
+                // filePrint.println(line);
+                String[] linedata = line.split(",");
+                // for (String ss : linedata) {
+                //     filePrint.println(ss);
+                // }
+                int thisYear = Integer.parseInt(linedata[0]);
+                int huntNum = Integer.parseInt(linedata[1]);
+                allData.put(thisYear, huntNum);
+                filePrint.println("At year: " + thisYear + " hunt " + huntNum + " sperm whales");
+            }
+        } catch (IOException e)
+        {
+            filePrint.println("File not found");
+        }
+        filePrint.println("Total year count " + countYear);
+        timeLimit = countYear * 360;
 
         System.out.println("Ocean Current: Type" + mp.oceanCur + ", Ocean Temp: " + mp.oceanTemp + "F, Total Food: "
                 + mp.totalFood + ", Food Resource: " + mp.foodRes);
