@@ -129,31 +129,20 @@ public class Sim {
                 	now = timeHelper;
                     // mp.foodRes = 2700000;
                     // Start Barrier
-                    try{
-                        startBarrier.await();
-                    } catch (Exception ex) {
-                        Thread.currentThread().interrupt();
-                    }
-
-                    System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
-                    mainProcPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
-
+                    /************************************/
                     mp.foodResl.lock();
-
-                    // Season begins
-                    /**************************************** Season Begins *******************************************/
                     while (now <= timeHelper) {
                         double temp = now;
 
                         // Under construction
                         while (!mpengine.eventList.isEmpty()) {
-	                        mpengine.eventHandler(mp, kw, sw, mm);
-	                    }
+                            mpengine.eventHandler(mp, kw, sw, mm);
+                        }
                         try {
                             System.out.println("Main Process: Start food Unit: " + mp.foodRes);
 
                             mainProcPrint.println("Main Process: Start food Unit: " + mp.foodRes);
-                            
+
                             mainProcPrint.println("Main Process: Start Total food Unit: " + mp.totalFood);
 
                             System.out.println("Main Process: Start Ocean Temperature: " + mp.oceanTemp);
@@ -173,31 +162,44 @@ public class Sim {
 
 
                         if (Math.random() < 0.01) {
-                           Event disaster = new naturalDisaster(temp + 90);
-                           mpengine.eventList.add(disaster);
-	                       mainProcPrint.println(threadName + ": Natural disaster at " + now);
+                            Event disaster = new naturalDisaster(temp + 90);
+                            mpengine.eventList.add(disaster);
+                            mainProcPrint.println(threadName + ": Natural disaster at " + now);
 
                         }
 
                         if (temp % 360 == 0) {
-                           Event humanHunt = new humanHunt(temp + 90);
-                           mpengine.eventList.add(humanHunt);
-	                       mainProcPrint.println(threadName + ": Human hunt event at " + now);
+                            Event humanHunt = new humanHunt(temp + 90);
+                            mpengine.eventList.add(humanHunt);
+                            mainProcPrint.println(threadName + ": Human hunt event at " + now);
                         }
 
                         if (temp % 360 == 90 && fisheryLevel > 1) {
-                           Event humanHunt = new humanHunt(temp + 90);
-                           mpengine.eventList.add(humanHunt);
-                           mainProcPrint.println(threadName + ": Human hunt event at " + now);
+                            Event humanHunt = new humanHunt(temp + 90);
+                            mpengine.eventList.add(humanHunt);
+                            mainProcPrint.println(threadName + ": Human hunt event at " + now);
                         }
 
                         if (Math.random() > 0.5) {
-                           Event humanFish = new humanFish(temp + 90);
-                           mpengine.eventList.add(humanFish);
-	                       mainProcPrint.println(threadName + ": Human fish event at " + now);
+                            Event humanFish = new humanFish(temp + 90);
+                            mpengine.eventList.add(humanFish);
+                            mainProcPrint.println(threadName + ": Human fish event at " + now);
                         }
                         now = temp + 90;
                     }
+                    /*****************************************************************/
+                    try{
+                        startBarrier.await();
+                    } catch (Exception ex) {
+                        Thread.currentThread().interrupt();
+                    }
+
+                    System.out.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
+                    mainProcPrint.println(threadName + "Season: " + (int)(timeHelper/90) + " begins");
+
+                    // Season begins
+                    /**************************************** Season Begins *******************************************/
+
 
                     /**************************************** Season Ends *********************************************/
                     try{
@@ -399,9 +401,12 @@ public class Sim {
                         if (now < 90) {
                             now = Math.random()*2 + temp;
                             Event eat = new SpermWhalesEat(now);
-                            eatcounter++;
-                            if (sw.food < sw.demand*1.02)
+
+                            if (sw.food < sw.demand*1.02) {
+                                eatcounter++;
                                 swengine.eventList.add(eat);
+                            }
+
                         }
                     }
 
@@ -427,7 +432,6 @@ public class Sim {
 
                         // Calculate death for hunger
                         if (sw.food < sw.demand ) {
-//                                sw.reprorate = 0.02*((sw.demand - sw.food)/sw.demand);
                             int swDie = (int)((sw.demand - sw.food)/sw.demand*sw.number);
                             sw.number -= swDie;
                             if (sw.number <= 0)
@@ -435,10 +439,6 @@ public class Sim {
                             System.out.println(sw.name + ": " + swDie + " dies for hunger.");
                             spermWhalePrint.println(sw.name + ": " + swDie + " dies for hunger.");
                         }
-//                        else {
-//                            if (sw.food != sw.demand)
-//                                sw.reprorate = 0.02*(1 + (sw.food - sw.demand)/sw.demand);
-//                        }
                         if (sw.number <= 0)
                             sw.number = 0;
 
@@ -504,18 +504,19 @@ public class Sim {
                         if (now < 90) {
                             now = Math.random()*2 + temp;
                             Event eatTemp = new MarineMammalsEat(now);
-                            ++eatcounter;
-                            if (mm.food < mm.demand*1.05)
-                                mmengine.eventList.add(eatTemp);
-                        }
 
+                            if (mm.food < mm.demand*1.05) {
+                                ++eatcounter;
+                                mmengine.eventList.add(eatTemp);
+                            }
+
+                        }
                         if (Math.random() > 0.95 && now < 90) {
                             now = Math.random()*2 +  temp;
                             Event deathTemp = new MarineMammalsDeath(now);
                             ++deathcounter;
                             mmengine.eventList.add(deathTemp);
                         }
-
                     }
                     /**************************************** Season Ends *********************************************/
                     try{
