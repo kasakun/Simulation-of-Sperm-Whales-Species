@@ -1,703 +1,432 @@
 Main Process ThreadSeason: 0 begins
-Main Process: Start food Unit: 2440218.0
-Main Process: Start Ocean Temperature: 85
+Main Process: Start food Unit: 2700000.0
+Main Process: Start Total food Unit: 2.7E7
+Main Process: Start Ocean Temperature: 88
 Main Process Thread: Food grow at 0.0
 Main Process Thread: Human hunt event at 0.0
 Main Process ThreadSeason: 0 ends
-Main Process: End food Unit: 403134.0
-Main Process: End Ocean Temperature: 90
+Main Process: End food Unit: 484432.0
+Main Process: End Total food Unit: 2.7E7
+Main Process: End Ocean Temperature: 88
 ====================================================================================================
 Main Process ThreadSeason: 1 begins
-Main Process: Start food Unit: 2210180.0
-Main Process: Start Ocean Temperature: 90
+Main Process: Start food Unit: 3270456.0000000005
+Main Process: Start Total food Unit: 2.9434104000000004E7
+Main Process: Start Ocean Temperature: 91
 Main Process Thread: Food grow at 90.0
-Main Process Thread: Human fish event at 90.0
 Main Process ThreadSeason: 1 ends
-Main Process: End food Unit: 1.0650703000000002E7
-Main Process: End Ocean Temperature: 93
-====================================================================================================
-Main Process ThreadSeason: 2 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 93
-Main Process Thread: Food grow at 180.0
-Main Process ThreadSeason: 2 ends
-Main Process: End food Unit: 8486550.374080002
+Main Process: End food Unit: 816528.0000000005
+Main Process: End Total food Unit: 2.9434104000000004E7
 Main Process: End Ocean Temperature: 91
 ====================================================================================================
+Main Process ThreadSeason: 2 begins
+Main Process: Start food Unit: 3147447.608928
+Main Process: Start Total food Unit: 2.8327028480352003E7
+Main Process: Start Ocean Temperature: 86
+Main Process Thread: Food grow at 180.0
+Main Process Thread: Human fish event at 180.0
+Main Process ThreadSeason: 2 ends
+Main Process: End food Unit: 906031.6089280001
+Main Process: End Total food Unit: 2.8327028480352003E7
+Main Process: End Ocean Temperature: 86
+====================================================================================================
 Main Process ThreadSeason: 3 begins
-Main Process: Start food Unit: 2379296.0
-Main Process: Start Ocean Temperature: 91
+Main Process: Start food Unit: 2685470.284805723
+Main Process: Start Total food Unit: 2.4169232563251507E7
+Main Process: Start Ocean Temperature: 83
 Main Process Thread: Food grow at 270.0
 Main Process ThreadSeason: 3 ends
-Main Process: End food Unit: 8570274.559393201
-Main Process: End Ocean Temperature: 87
+Main Process: End food Unit: 625904.284805723
+Main Process: End Total food Unit: 2.4169232563251507E7
+Main Process: End Ocean Temperature: 83
 ====================================================================================================
 Main Process ThreadSeason: 4 begins
-Main Process: Start food Unit: 2184613.0
+Main Process: Start food Unit: 2870724.7669327618
+Main Process: Start Total food Unit: 2.5836522902394854E7
 Main Process: Start Ocean Temperature: 87
 Main Process Thread: Food grow at 360.0
 Main Process Thread: Human hunt event at 360.0
 Main Process ThreadSeason: 4 ends
-Main Process: End food Unit: 8557358.702073177
-Main Process: End Ocean Temperature: 91
+Main Process: End food Unit: 675608.7669327618
+Main Process: End Total food Unit: 2.5836522902394854E7
+Main Process: End Ocean Temperature: 87
 ====================================================================================================
 Main Process ThreadSeason: 5 begins
-Main Process: Start food Unit: 2173650.0
-Main Process: Start Ocean Temperature: 91
+Main Process: Start food Unit: 3159910.0970545006
+Main Process: Start Total food Unit: 2.8439190873490505E7
+Main Process: Start Ocean Temperature: 93
 Main Process Thread: Food grow at 450.0
+Main Process Thread: Human fish event at 450.0
 Main Process ThreadSeason: 5 ends
-Main Process: End food Unit: 9686534.957610708
-Main Process: End Ocean Temperature: 97
+Main Process: End food Unit: 944290.0970545006
+Main Process: End Total food Unit: 2.8439190873490505E7
+Main Process: End Ocean Temperature: 93
 ====================================================================================================
 Main Process ThreadSeason: 6 begins
-Main Process: Start food Unit: 2677558.0
-Main Process: Start Ocean Temperature: 97
+Main Process: Start food Unit: 2666895.5340716215
+Main Process: Start Total food Unit: 2.4002059806644596E7
+Main Process: Start Ocean Temperature: 89
 Main Process Thread: Food grow at 540.0
-Main Process Thread: Natural disaster at 540.0
+Main Process Thread: Human fish event at 540.0
 Main Process ThreadSeason: 6 ends
-Main Process: End food Unit: 9089016.399943296
-Main Process: End Ocean Temperature: 92
+Main Process: End food Unit: 418684.5340716215
+Main Process: End Total food Unit: 2.4002059806644596E7
+Main Process: End Ocean Temperature: 89
 ====================================================================================================
 Main Process ThreadSeason: 7 begins
-Main Process: Start food Unit: 2679267.0
-Main Process: Start Ocean Temperature: 92
+Main Process: Start food Unit: 2297077.797024985
+Main Process: Start Total food Unit: 2.0673700173224866E7
+Main Process: Start Ocean Temperature: 87
 Main Process Thread: Food grow at 630.0
 Main Process Thread: Human fish event at 630.0
 Main Process ThreadSeason: 7 ends
-Main Process: End food Unit: 1.0834030368924987E7
-Main Process: End Ocean Temperature: 103
+Main Process: End food Unit: 40275.797024984844
+Main Process: End Total food Unit: 2.0673700173224866E7
+Main Process: End Ocean Temperature: 87
 ====================================================================================================
 Main Process ThreadSeason: 8 begins
-Main Process: Start food Unit: 2574020.0
-Main Process: Start Ocean Temperature: 103
+Main Process: Start food Unit: 2049003.5020885933
+Main Process: Start Total food Unit: 1.8441031518797338E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 720.0
 Main Process Thread: Human hunt event at 720.0
 Main Process Thread: Human fish event at 720.0
 Main Process ThreadSeason: 8 ends
-Main Process: End food Unit: 1.0303109690703684E7
-Main Process: End Ocean Temperature: 107
+Main Process: End food Unit: 953747.5020885933
+Main Process: End Total food Unit: 1.8441031518797338E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 9 begins
-Main Process: Start food Unit: 2595492.0
-Main Process: Start Ocean Temperature: 107
+Main Process: Start food Unit: 2003745.9059827428
+Main Process: Start Total food Unit: 1.8033713153844684E7
+Main Process: Start Ocean Temperature: 96
 Main Process Thread: Food grow at 810.0
+Main Process Thread: Human fish event at 810.0
 Main Process ThreadSeason: 9 ends
-Main Process: End food Unit: 1.1072475249083882E7
-Main Process: End Ocean Temperature: 112
+Main Process: End food Unit: 994584.9059827428
+Main Process: End Total food Unit: 1.8033713153844684E7
+Main Process: End Ocean Temperature: 96
 ====================================================================================================
 Main Process ThreadSeason: 10 begins
-Main Process: Start food Unit: 2552843.0
-Main Process: Start Ocean Temperature: 112
+Main Process: Start food Unit: 1975492.2872100237
+Main Process: Start Total food Unit: 1.7779430584890213E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 900.0
+Main Process Thread: Human fish event at 900.0
 Main Process ThreadSeason: 10 ends
-Main Process: End food Unit: 1.3254705283909727E7
-Main Process: End Ocean Temperature: 107
+Main Process: End food Unit: 606629.2872100237
+Main Process: End Total food Unit: 1.7779430584890213E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 11 begins
-Main Process: Start food Unit: 2657668.0
-Main Process: Start Ocean Temperature: 107
+Main Process: Start food Unit: 1728096.646901223
+Main Process: Start Total food Unit: 1.5552869822111007E7
+Main Process: Start Ocean Temperature: 88
 Main Process Thread: Food grow at 990.0
+Main Process Thread: Natural disaster at 990.0
 Main Process ThreadSeason: 11 ends
-Main Process: End food Unit: 1.4042720592339149E7
-Main Process: End Ocean Temperature: 105
+Main Process: End food Unit: 456643.6469012231
+Main Process: End Total food Unit: 1.5552869822111007E7
+Main Process: End Ocean Temperature: 88
 ====================================================================================================
 Main Process ThreadSeason: 12 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 105
+Main Process: Start food Unit: 1893033.1032680632
+Main Process: Start Total food Unit: 1.7037297929412566E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 1080.0
 Main Process Thread: Human hunt event at 1080.0
-Main Process Thread: Human fish event at 1080.0
 Main Process ThreadSeason: 12 ends
-Main Process: End food Unit: 1.5067602252654724E7
-Main Process: End Ocean Temperature: 108
+Main Process: End food Unit: 591692.1032680632
+Main Process: End Total food Unit: 1.7037297929412566E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 13 begins
-Main Process: Start food Unit: 967509.0
-Main Process: Start Ocean Temperature: 108
+Main Process: Start food Unit: 2123801.4106888534
+Main Process: Start Total food Unit: 1.9114212696199678E7
+Main Process: Start Ocean Temperature: 97
 Main Process Thread: Food grow at 1170.0
 Main Process Thread: Human fish event at 1170.0
 Main Process ThreadSeason: 13 ends
-Main Process: End food Unit: 1.8180402211870126E7
-Main Process: End Ocean Temperature: 111
+Main Process: End food Unit: 613637.4106888534
+Main Process: End Total food Unit: 1.9114212696199678E7
+Main Process: End Ocean Temperature: 97
 ====================================================================================================
 Main Process ThreadSeason: 14 begins
-Main Process: Start food Unit: 2510602.0
-Main Process: Start Ocean Temperature: 111
+Main Process: Start food Unit: 1881807.2435602783
+Main Process: Start Total food Unit: 1.6936265192042507E7
+Main Process: Start Ocean Temperature: 93
 Main Process Thread: Food grow at 1260.0
 Main Process Thread: Human fish event at 1260.0
 Main Process ThreadSeason: 14 ends
-Main Process: End food Unit: 1.7583626817338303E7
-Main Process: End Ocean Temperature: 107
+Main Process: End food Unit: 1295246.2435602783
+Main Process: End Total food Unit: 1.6936265192042507E7
+Main Process: End Ocean Temperature: 93
 ====================================================================================================
 Main Process ThreadSeason: 15 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 107
+Main Process: Start food Unit: 1654253.0898857904
+Main Process: Start Total food Unit: 1.4888277808972113E7
+Main Process: Start Ocean Temperature: 89
 Main Process Thread: Food grow at 1350.0
+Main Process Thread: Human fish event at 1350.0
 Main Process ThreadSeason: 15 ends
-Main Process: End food Unit: 1.641190250088033E7
-Main Process: End Ocean Temperature: 105
+Main Process: End food Unit: 509088.08988579037
+Main Process: End Total food Unit: 1.4888277808972113E7
+Main Process: End Ocean Temperature: 89
 ====================================================================================================
 Main Process ThreadSeason: 16 begins
-Main Process: Start food Unit: 2459861.0
-Main Process: Start Ocean Temperature: 105
+Main Process: Start food Unit: 1457566.873257577
+Main Process: Start Total food Unit: 1.3118101859318191E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 1440.0
 Main Process Thread: Human hunt event at 1440.0
 Main Process ThreadSeason: 16 ends
-Main Process: End food Unit: 2.026639959689821E7
-Main Process: End Ocean Temperature: 110
+Main Process: End food Unit: 442497.87325757695
+Main Process: End Total food Unit: 1.3118101859318191E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 17 begins
-Main Process: Start food Unit: 2048482.0
-Main Process: Start Ocean Temperature: 110
+Main Process: Start food Unit: 1635250.1053751686
+Main Process: Start Total food Unit: 1.4717250948376518E7
+Main Process: Start Ocean Temperature: 97
 Main Process Thread: Food grow at 1530.0
 Main Process ThreadSeason: 17 ends
-Main Process: End food Unit: 2.5784564271901846E7
-Main Process: End Ocean Temperature: 114
+Main Process: End food Unit: 490478.1053751686
+Main Process: End Total food Unit: 1.4717250948376518E7
+Main Process: End Ocean Temperature: 97
 ====================================================================================================
 Main Process ThreadSeason: 18 begins
-Main Process: Start food Unit: 2420092.0
-Main Process: Start Ocean Temperature: 114
+Main Process: Start food Unit: 1791324.9164325963
+Main Process: Start Total food Unit: 1.6121924247893367E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 1620.0
 Main Process ThreadSeason: 18 ends
-Main Process: End food Unit: 2.737989625579559E7
-Main Process: End Ocean Temperature: 112
+Main Process: End food Unit: 432794.9164325963
+Main Process: End Total food Unit: 1.6121924247893367E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 19 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 112
+Main Process: Start food Unit: 1732526.467375613
+Main Process: Start Total food Unit: 1.5592738206380516E7
+Main Process: Start Ocean Temperature: 87
 Main Process Thread: Food grow at 1710.0
 Main Process Thread: Human fish event at 1710.0
 Main Process ThreadSeason: 19 ends
-Main Process: End food Unit: 2.936769905936859E7
-Main Process: End Ocean Temperature: 110
+Main Process: End food Unit: 306139.46737561305
+Main Process: End Total food Unit: 1.5592738206380516E7
+Main Process: End Ocean Temperature: 87
 ====================================================================================================
 Main Process ThreadSeason: 20 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 110
+Main Process: Start food Unit: 1530489.625909073
+Main Process: Start Total food Unit: 1.3774406633181658E7
+Main Process: Start Ocean Temperature: 90
 Main Process Thread: Food grow at 1800.0
 Main Process Thread: Human hunt event at 1800.0
+Main Process Thread: Human fish event at 1800.0
 Main Process ThreadSeason: 20 ends
-Main Process: End food Unit: 2.79511696746445E7
-Main Process: End Ocean Temperature: 113
+Main Process: End food Unit: -4655.3740909269545
+Main Process: End Total food Unit: 1.3774406633181658E7
+Main Process: End Ocean Temperature: 90
 ====================================================================================================
 Main Process ThreadSeason: 21 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 113
+Main Process: Start food Unit: 1503469.0587917315
+Main Process: Start Total food Unit: 1.3531221529125582E7
+Main Process: Start Ocean Temperature: 96
 Main Process Thread: Food grow at 1890.0
+Main Process Thread: Human fish event at 1890.0
 Main Process ThreadSeason: 21 ends
-Main Process: End food Unit: 3.6848930818264954E7
-Main Process: End Ocean Temperature: 118
+Main Process: End food Unit: 718833.0587917315
+Main Process: End Total food Unit: 1.3531221529125582E7
+Main Process: End Ocean Temperature: 96
 ====================================================================================================
 Main Process ThreadSeason: 22 begins
-Main Process: Start food Unit: 2618390.0
-Main Process: Start Ocean Temperature: 118
+Main Process: Start food Unit: 1330351.4332232953
+Main Process: Start Total food Unit: 1.1973162899009656E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 1980.0
 Main Process ThreadSeason: 22 ends
-Main Process: End food Unit: 3.85530868055104E7
-Main Process: End Ocean Temperature: 113
+Main Process: End food Unit: 639590.4332232953
+Main Process: End Total food Unit: 1.1973162899009656E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 23 begins
-Main Process: Start food Unit: 2578788.0
-Main Process: Start Ocean Temperature: 113
+Main Process: Start food Unit: 1305793.145765993
+Main Process: Start Total food Unit: 1.1752138311893936E7
+Main Process: Start Ocean Temperature: 90
 Main Process Thread: Food grow at 2070.0
 Main Process Thread: Human fish event at 2070.0
 Main Process ThreadSeason: 23 ends
-Main Process: End food Unit: 4.15309173300588E7
-Main Process: End Ocean Temperature: 108
+Main Process: End food Unit: 650508.145765993
+Main Process: End Total food Unit: 1.1752138311893936E7
+Main Process: End Ocean Temperature: 90
 ====================================================================================================
 Main Process ThreadSeason: 24 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 108
+Main Process: Start food Unit: 1293600.1716880884
+Main Process: Start Total food Unit: 1.1642401545192795E7
+Main Process: Start Ocean Temperature: 93
 Main Process Thread: Food grow at 2160.0
 Main Process Thread: Human hunt event at 2160.0
-Main Process Thread: Human fish event at 2160.0
 Main Process ThreadSeason: 24 ends
-Main Process: End food Unit: 3.996711915363511E7
-Main Process: End Ocean Temperature: 110
+Main Process: End food Unit: 490033.17168808845
+Main Process: End Total food Unit: 1.1642401545192795E7
+Main Process: End Ocean Temperature: 93
 ====================================================================================================
 Main Process ThreadSeason: 25 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 110
+Main Process: Start food Unit: 1451295.2070175533
+Main Process: Start Total food Unit: 1.3061656863157978E7
+Main Process: Start Ocean Temperature: 97
 Main Process Thread: Food grow at 2250.0
 Main Process Thread: Human fish event at 2250.0
 Main Process ThreadSeason: 25 ends
-Main Process: End food Unit: 4.395672408817866E7
-Main Process: End Ocean Temperature: 115
+Main Process: End food Unit: 662881.2070175533
+Main Process: End Total food Unit: 1.3061656863157978E7
+Main Process: End Ocean Temperature: 97
 ====================================================================================================
 Main Process ThreadSeason: 26 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 115
+Main Process: Start food Unit: 1451568.0505164727
+Main Process: Start Total food Unit: 1.3064112454648253E7
+Main Process: Start Ocean Temperature: 95
 Main Process Thread: Food grow at 2340.0
-Main Process Thread: Human fish event at 2340.0
 Main Process ThreadSeason: 26 ends
-Main Process: End food Unit: 4.3075175489780925E7
-Main Process: End Ocean Temperature: 113
+Main Process: End food Unit: 638652.0505164727
+Main Process: End Total food Unit: 1.3064112454648253E7
+Main Process: End Ocean Temperature: 95
 ====================================================================================================
 Main Process ThreadSeason: 27 begins
-Main Process: Start food Unit: 2677090.0
-Main Process: Start Ocean Temperature: 113
+Main Process: Start food Unit: 1438672.3199556842
+Main Process: Start Total food Unit: 1.2948050879601158E7
+Main Process: Start Ocean Temperature: 92
 Main Process Thread: Food grow at 2430.0
 Main Process Thread: Human fish event at 2430.0
 Main Process ThreadSeason: 27 ends
-Main Process: End food Unit: 4.182034816452183E7
-Main Process: End Ocean Temperature: 111
+Main Process: End food Unit: 859059.3199556842
+Main Process: End Total food Unit: 1.2948050879601158E7
+Main Process: End Ocean Temperature: 92
 ====================================================================================================
 Main Process ThreadSeason: 28 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 111
+Main Process: Start food Unit: 1438942.790351836
+Main Process: Start Total food Unit: 1.2950485113166524E7
+Main Process: Start Ocean Temperature: 95
 Main Process Thread: Food grow at 2520.0
 Main Process Thread: Human hunt event at 2520.0
-Main Process Thread: Human fish event at 2520.0
 Main Process ThreadSeason: 28 ends
-Main Process: End food Unit: 4.4828966660137676E7
-Main Process: End Ocean Temperature: 114
+Main Process: End food Unit: 688982.790351836
+Main Process: End Total food Unit: 1.2950485113166524E7
+Main Process: End Ocean Temperature: 95
 ====================================================================================================
 Main Process ThreadSeason: 29 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 114
+Main Process: Start food Unit: 1629585.4427599704
+Main Process: Start Total food Unit: 1.4666268984839734E7
+Main Process: Start Ocean Temperature: 99
 Main Process Thread: Food grow at 2610.0
 Main Process Thread: Human fish event at 2610.0
 Main Process ThreadSeason: 29 ends
-Main Process: End food Unit: 5.0525813957328394E7
-Main Process: End Ocean Temperature: 120
+Main Process: End food Unit: 1334437.4427599704
+Main Process: End Total food Unit: 1.4666268984839734E7
+Main Process: End Ocean Temperature: 99
 ====================================================================================================
 Main Process ThreadSeason: 30 begins
-Main Process: Start food Unit: 1498372.0
-Main Process: Start Ocean Temperature: 120
+Main Process: Start food Unit: 1481686.223477607
+Main Process: Start Total food Unit: 1.333517601129846E7
+Main Process: Start Ocean Temperature: 96
 Main Process Thread: Food grow at 2700.0
-Main Process Thread: Human fish event at 2700.0
 Main Process ThreadSeason: 30 ends
-Main Process: End food Unit: 5.676909933841964E7
-Main Process: End Ocean Temperature: 115
+Main Process: End food Unit: 673328.2234776069
+Main Process: End Total food Unit: 1.333517601129846E7
+Main Process: End Ocean Temperature: 96
 ====================================================================================================
 Main Process ThreadSeason: 31 begins
-Main Process: Start food Unit: 2354318.0
-Main Process: Start Ocean Temperature: 115
+Main Process: Start food Unit: 1475617.2367062427
+Main Process: Start Total food Unit: 1.3280555130356185E7
+Main Process: Start Ocean Temperature: 93
 Main Process Thread: Food grow at 2790.0
 Main Process ThreadSeason: 31 ends
-Main Process: End food Unit: 5.454807436546457E7
-Main Process: End Ocean Temperature: 112
+Main Process: End food Unit: 723795.2367062427
+Main Process: End Total food Unit: 1.3280555130356185E7
+Main Process: End Ocean Temperature: 93
 ====================================================================================================
 Main Process ThreadSeason: 32 begins
-Main Process: Start food Unit: 686848.0
-Main Process: Start Ocean Temperature: 112
+Main Process: Start food Unit: 1490768.8744927426
+Main Process: Start Total food Unit: 1.3416919870434683E7
+Main Process: Start Ocean Temperature: 96
 Main Process Thread: Food grow at 2880.0
 Main Process Thread: Human hunt event at 2880.0
 Main Process Thread: Human fish event at 2880.0
 Main Process ThreadSeason: 32 ends
-Main Process: End food Unit: 6.20638480485842E7
-Main Process: End Ocean Temperature: 115
+Main Process: End food Unit: 865372.8744927426
+Main Process: End Total food Unit: 1.3416919870434683E7
+Main Process: End Ocean Temperature: 96
 ====================================================================================================
 Main Process ThreadSeason: 33 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 115
+Main Process: Start food Unit: 1533650.5430137515
+Main Process: Start Total food Unit: 1.3802854887123764E7
+Main Process: Start Ocean Temperature: 101
 Main Process Thread: Food grow at 2970.0
 Main Process ThreadSeason: 33 ends
-Main Process: End food Unit: 6.728378006529805E7
-Main Process: End Ocean Temperature: 119
+Main Process: End food Unit: 747185.5430137515
+Main Process: End Total food Unit: 1.3802854887123764E7
+Main Process: End Ocean Temperature: 101
 ====================================================================================================
 Main Process ThreadSeason: 34 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 119
+Main Process: Start food Unit: 1556741.1855893666
+Main Process: Start Total food Unit: 1.4010670670304298E7
+Main Process: Start Ocean Temperature: 97
 Main Process Thread: Food grow at 3060.0
 Main Process Thread: Human fish event at 3060.0
 Main Process ThreadSeason: 34 ends
-Main Process: End food Unit: 7.502775524088612E7
-Main Process: End Ocean Temperature: 117
+Main Process: End food Unit: 1110889.1855893666
+Main Process: End Total food Unit: 1.4010670670304298E7
+Main Process: End Ocean Temperature: 97
 ====================================================================================================
 Main Process ThreadSeason: 35 begins
-Main Process: Start food Unit: 2655021.0
-Main Process: Start Ocean Temperature: 117
+Main Process: Start food Unit: 1402036.6054408147
+Main Process: Start Total food Unit: 1.2618329448967334E7
+Main Process: Start Ocean Temperature: 94
 Main Process Thread: Food grow at 3150.0
 Main Process ThreadSeason: 35 ends
-Main Process: End food Unit: 7.433488446152207E7
-Main Process: End Ocean Temperature: 115
+Main Process: End food Unit: 641629.6054408147
+Main Process: End Total food Unit: 1.2618329448967334E7
+Main Process: End Ocean Temperature: 94
 ====================================================================================================
 Main Process ThreadSeason: 36 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 115
+Main Process: Start food Unit: 1572950.4757904722
+Main Process: Start Total food Unit: 1.415655428211425E7
+Main Process: Start Ocean Temperature: 97
 Main Process Thread: Food grow at 3240.0
 Main Process Thread: Human hunt event at 3240.0
 Main Process Thread: Human fish event at 3240.0
 Main Process ThreadSeason: 36 ends
-Main Process: End food Unit: 9.188399982163897E7
-Main Process: End Ocean Temperature: 117
+Main Process: End food Unit: 812217.4757904722
+Main Process: End Total food Unit: 1.415655428211425E7
+Main Process: End Ocean Temperature: 97
 ====================================================================================================
 Main Process ThreadSeason: 37 begins
-Main Process: Start food Unit: 2499324.0
-Main Process: Start Ocean Temperature: 117
+Main Process: Start food Unit: 1583557.2951689102
+Main Process: Start Total food Unit: 1.4252015656520192E7
+Main Process: Start Ocean Temperature: 100
 Main Process Thread: Food grow at 3330.0
 Main Process ThreadSeason: 37 ends
-Main Process: End food Unit: 1.0339772472606546E8
-Main Process: End Ocean Temperature: 122
+Main Process: End food Unit: 782368.2951689102
+Main Process: End Total food Unit: 1.4252015656520192E7
+Main Process: End Ocean Temperature: 100
 ====================================================================================================
 Main Process ThreadSeason: 38 begins
-Main Process: Start food Unit: 2190475.0
-Main Process: Start Ocean Temperature: 122
+Main Process: Start food Unit: 1592235.189146436
+Main Process: Start Total food Unit: 1.4330116702317923E7
+Main Process: Start Ocean Temperature: 95
 Main Process Thread: Food grow at 3420.0
-Main Process Thread: Human fish event at 3420.0
 Main Process ThreadSeason: 38 ends
-Main Process: End food Unit: 1.2898736261215517E8
-Main Process: End Ocean Temperature: 119
+Main Process: End food Unit: 890499.189146436
+Main Process: End Total food Unit: 1.4330116702317923E7
+Main Process: End Ocean Temperature: 95
 ====================================================================================================
 Main Process ThreadSeason: 39 begins
-Main Process: Start food Unit: 2669506.0
-Main Process: Start Ocean Temperature: 119
+Main Process: Start food Unit: 1562842.5275547928
+Main Process: Start Total food Unit: 1.4065582747993134E7
+Main Process: Start Ocean Temperature: 90
 Main Process Thread: Food grow at 3510.0
 Main Process Thread: Human fish event at 3510.0
 Main Process ThreadSeason: 39 ends
-Main Process: End food Unit: 1.269130402538673E8
-Main Process: End Ocean Temperature: 114
-====================================================================================================
-Main Process ThreadSeason: 40 begins
-Main Process: Start food Unit: 2334628.0
-Main Process: Start Ocean Temperature: 114
-Main Process Thread: Food grow at 3600.0
-Main Process Thread: Human hunt event at 3600.0
-Main Process Thread: Human fish event at 3600.0
-Main Process ThreadSeason: 40 ends
-Main Process: End food Unit: 1.2821230570774296E8
-Main Process: End Ocean Temperature: 119
-====================================================================================================
-Main Process ThreadSeason: 41 begins
-Main Process: Start food Unit: 2670016.0
-Main Process: Start Ocean Temperature: 119
-Main Process Thread: Food grow at 3690.0
-Main Process Thread: Human fish event at 3690.0
-Main Process ThreadSeason: 41 ends
-Main Process: End food Unit: 1.4563108371531948E8
-Main Process: End Ocean Temperature: 123
-====================================================================================================
-Main Process ThreadSeason: 42 begins
-Main Process: Start food Unit: 2639084.0
-Main Process: Start Ocean Temperature: 123
-Main Process Thread: Food grow at 3780.0
-Main Process Thread: Human fish event at 3780.0
-Main Process ThreadSeason: 42 ends
-Main Process: End food Unit: 1.4035520997584146E8
-Main Process: End Ocean Temperature: 120
-====================================================================================================
-Main Process ThreadSeason: 43 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 120
-Main Process Thread: Food grow at 3870.0
-Main Process Thread: Human fish event at 3870.0
-Main Process ThreadSeason: 43 ends
-Main Process: End food Unit: 1.4040235071355027E8
-Main Process: End Ocean Temperature: 117
-====================================================================================================
-Main Process ThreadSeason: 44 begins
-Main Process: Start food Unit: 2473226.0
-Main Process: Start Ocean Temperature: 117
-Main Process Thread: Food grow at 3960.0
-Main Process Thread: Human hunt event at 3960.0
-Main Process ThreadSeason: 44 ends
-Main Process: End food Unit: 1.5898029373525026E8
-Main Process: End Ocean Temperature: 122
-====================================================================================================
-Main Process ThreadSeason: 45 begins
-Main Process: Start food Unit: 2684702.0
-Main Process: Start Ocean Temperature: 122
-Main Process Thread: Food grow at 4050.0
-Main Process Thread: Human fish event at 4050.0
-Main Process ThreadSeason: 45 ends
-Main Process: End food Unit: 2.033750679672256E8
-Main Process: End Ocean Temperature: 126
-====================================================================================================
-Main Process ThreadSeason: 46 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 126
-Main Process Thread: Food grow at 4140.0
-Main Process Thread: Human fish event at 4140.0
-Main Process ThreadSeason: 46 ends
-Main Process: End food Unit: 2.3080282077046552E8
-Main Process: End Ocean Temperature: 123
-====================================================================================================
-Main Process ThreadSeason: 47 begins
-Main Process: Start food Unit: 2644060.0
-Main Process: Start Ocean Temperature: 123
-Main Process Thread: Food grow at 4230.0
-Main Process Thread: Human fish event at 4230.0
-Main Process ThreadSeason: 47 ends
-Main Process: End food Unit: 2.3292381706688267E8
-Main Process: End Ocean Temperature: 119
-====================================================================================================
-Main Process ThreadSeason: 48 begins
-Main Process: Start food Unit: 2628985.0
-Main Process: Start Ocean Temperature: 119
-Main Process Thread: Food grow at 4320.0
-Main Process Thread: Human hunt event at 4320.0
-Main Process ThreadSeason: 48 ends
-Main Process: End food Unit: 2.368012968357057E8
-Main Process: End Ocean Temperature: 121
-====================================================================================================
-Main Process ThreadSeason: 49 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 121
-Main Process Thread: Food grow at 4410.0
-Main Process ThreadSeason: 49 ends
-Main Process: End food Unit: 3.042352867248982E8
-Main Process: End Ocean Temperature: 127
-====================================================================================================
-Main Process ThreadSeason: 50 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 127
-Main Process Thread: Food grow at 4500.0
-Main Process ThreadSeason: 50 ends
-Main Process: End food Unit: 3.8547876345438266E8
-Main Process: End Ocean Temperature: 124
-====================================================================================================
-Main Process ThreadSeason: 51 begins
-Main Process: Start food Unit: 2269417.0
-Main Process: Start Ocean Temperature: 124
-Main Process Thread: Food grow at 4590.0
-Main Process Thread: Human fish event at 4590.0
-Main Process ThreadSeason: 51 ends
-Main Process: End food Unit: 4.381020504686055E8
-Main Process: End Ocean Temperature: 122
-====================================================================================================
-Main Process ThreadSeason: 52 begins
-Main Process: Start food Unit: -23080.0
-Main Process: Start Ocean Temperature: 122
-Main Process Thread: Food grow at 4680.0
-Main Process Thread: Human hunt event at 4680.0
-Main Process Thread: Human fish event at 4680.0
-Main Process ThreadSeason: 52 ends
-Main Process: End food Unit: 4.577527848747093E8
-Main Process: End Ocean Temperature: 126
-====================================================================================================
-Main Process ThreadSeason: 53 begins
-Main Process: Start food Unit: 2058948.0
-Main Process: Start Ocean Temperature: 126
-Main Process Thread: Food grow at 4770.0
-Main Process Thread: Human fish event at 4770.0
-Main Process ThreadSeason: 53 ends
-Main Process: End food Unit: 5.3403914309511137E8
-Main Process: End Ocean Temperature: 131
-====================================================================================================
-Main Process ThreadSeason: 54 begins
-Main Process: Start food Unit: 2248162.0
-Main Process: Start Ocean Temperature: 131
-Main Process Thread: Food grow at 4860.0
-Main Process ThreadSeason: 54 ends
-Main Process: End food Unit: 5.915145077108661E8
-Main Process: End Ocean Temperature: 127
-====================================================================================================
-Main Process ThreadSeason: 55 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 127
-Main Process Thread: Food grow at 4950.0
-Main Process ThreadSeason: 55 ends
-Main Process: End food Unit: 6.710042699225997E8
-Main Process: End Ocean Temperature: 122
-====================================================================================================
-Main Process ThreadSeason: 56 begins
-Main Process: Start food Unit: 2614145.0
-Main Process: Start Ocean Temperature: 122
-Main Process Thread: Food grow at 5040.0
-Main Process Thread: Human hunt event at 5040.0
-Main Process ThreadSeason: 56 ends
-Main Process: End food Unit: 7.780367544617965E8
-Main Process: End Ocean Temperature: 127
-====================================================================================================
-Main Process ThreadSeason: 57 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 127
-Main Process Thread: Food grow at 5130.0
-Main Process ThreadSeason: 57 ends
-Main Process: End food Unit: 1.0094250052717578E9
-Main Process: End Ocean Temperature: 130
-====================================================================================================
-Main Process ThreadSeason: 58 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 130
-Main Process Thread: Food grow at 5220.0
-Main Process ThreadSeason: 58 ends
-Main Process: End food Unit: 1.1747445754980102E9
-Main Process: End Ocean Temperature: 128
-====================================================================================================
-Main Process ThreadSeason: 59 begins
-Main Process: Start food Unit: 2675982.0
-Main Process: Start Ocean Temperature: 128
-Main Process Thread: Food grow at 5310.0
-Main Process ThreadSeason: 59 ends
-Main Process: End food Unit: 1.344899634748629E9
-Main Process: End Ocean Temperature: 124
-====================================================================================================
-Main Process ThreadSeason: 60 begins
-Main Process: Start food Unit: 2623378.0
-Main Process: Start Ocean Temperature: 124
-Main Process Thread: Food grow at 5400.0
-Main Process Thread: Human hunt event at 5400.0
-Main Process Thread: Human fish event at 5400.0
-Main Process ThreadSeason: 60 ends
-Main Process: End food Unit: 1.7374964912657223E9
-Main Process: End Ocean Temperature: 129
-====================================================================================================
-Main Process ThreadSeason: 61 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 129
-Main Process Thread: Food grow at 5490.0
-Main Process ThreadSeason: 61 ends
-Main Process: End food Unit: 2.0447257510665936E9
-Main Process: End Ocean Temperature: 132
-====================================================================================================
-Main Process ThreadSeason: 62 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 132
-Main Process Thread: Food grow at 5580.0
-Main Process Thread: Human fish event at 5580.0
-Main Process ThreadSeason: 62 ends
-Main Process: End food Unit: 2.6191421421244764E9
-Main Process: End Ocean Temperature: 127
-====================================================================================================
-Main Process ThreadSeason: 63 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 127
-Main Process Thread: Food grow at 5670.0
-Main Process ThreadSeason: 63 ends
-Main Process: End food Unit: 2.697408636956482E9
-Main Process: End Ocean Temperature: 124
-====================================================================================================
-Main Process ThreadSeason: 64 begins
-Main Process: Start food Unit: 2220396.0
-Main Process: Start Ocean Temperature: 124
-Main Process Thread: Food grow at 5760.0
-Main Process Thread: Human hunt event at 5760.0
-Main Process Thread: Human fish event at 5760.0
-Main Process ThreadSeason: 64 ends
-Main Process: End food Unit: 3.470148027463647E9
-Main Process: End Ocean Temperature: 128
-====================================================================================================
-Main Process ThreadSeason: 65 begins
-Main Process: Start food Unit: 2396340.0
-Main Process: Start Ocean Temperature: 128
-Main Process Thread: Food grow at 5850.0
-Main Process ThreadSeason: 65 ends
-Main Process: End food Unit: 4.082635541584899E9
-Main Process: End Ocean Temperature: 132
-====================================================================================================
-Main Process ThreadSeason: 66 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 132
-Main Process Thread: Food grow at 5940.0
-Main Process Thread: Human fish event at 5940.0
-Main Process ThreadSeason: 66 ends
-Main Process: End food Unit: 5.272220543616051E9
-Main Process: End Ocean Temperature: 129
-====================================================================================================
-Main Process ThreadSeason: 67 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 129
-Main Process Thread: Food grow at 6030.0
-Main Process Thread: Human fish event at 6030.0
-Main Process ThreadSeason: 67 ends
-Main Process: End food Unit: 5.498021905542976E9
-Main Process: End Ocean Temperature: 127
-====================================================================================================
-Main Process ThreadSeason: 68 begins
-Main Process: Start food Unit: 2674871.0
-Main Process: Start Ocean Temperature: 127
-Main Process Thread: Food grow at 6120.0
-Main Process Thread: Human hunt event at 6120.0
-Main Process Thread: Human fish event at 6120.0
-Main Process ThreadSeason: 68 ends
-Main Process: End food Unit: 6.389929970402071E9
-Main Process: End Ocean Temperature: 129
-====================================================================================================
-Main Process ThreadSeason: 69 begins
-Main Process: Start food Unit: 2515782.0
-Main Process: Start Ocean Temperature: 129
-Main Process Thread: Food grow at 6210.0
-Main Process ThreadSeason: 69 ends
-Main Process: End food Unit: 7.548066197409958E9
-Main Process: End Ocean Temperature: 133
-====================================================================================================
-Main Process ThreadSeason: 70 begins
-Main Process: Start food Unit: 1286324.0
-Main Process: Start Ocean Temperature: 133
-Main Process Thread: Food grow at 6300.0
-Main Process Thread: Human fish event at 6300.0
-Main Process ThreadSeason: 70 ends
-Main Process: End food Unit: 8.784075191568878E9
-Main Process: End Ocean Temperature: 128
-====================================================================================================
-Main Process ThreadSeason: 71 begins
-Main Process: Start food Unit: 2514747.0
-Main Process: Start Ocean Temperature: 128
-Main Process Thread: Food grow at 6390.0
-Main Process Thread: Human fish event at 6390.0
-Main Process ThreadSeason: 71 ends
-Main Process: End food Unit: 9.083307111116306E9
-Main Process: End Ocean Temperature: 125
-====================================================================================================
-Main Process ThreadSeason: 72 begins
-Main Process: Start food Unit: 1726392.0
-Main Process: Start Ocean Temperature: 125
-Main Process Thread: Food grow at 6480.0
-Main Process Thread: Human hunt event at 6480.0
-Main Process Thread: Human fish event at 6480.0
-Main Process ThreadSeason: 72 ends
-Main Process: End food Unit: 1.0023615891731768E10
-Main Process: End Ocean Temperature: 127
-====================================================================================================
-Main Process ThreadSeason: 73 begins
-Main Process: Start food Unit: 2674592.0
-Main Process: Start Ocean Temperature: 127
-Main Process Thread: Food grow at 6570.0
-Main Process Thread: Human fish event at 6570.0
-Main Process ThreadSeason: 73 ends
-Main Process: End food Unit: 1.1743676154571447E10
-Main Process: End Ocean Temperature: 131
-====================================================================================================
-Main Process ThreadSeason: 74 begins
-Main Process: Start food Unit: 2654973.0
-Main Process: Start Ocean Temperature: 131
-Main Process Thread: Food grow at 6660.0
-Main Process Thread: Natural disaster at 6660.0
-Main Process ThreadSeason: 74 ends
-Main Process: End food Unit: 1.2347895041193539E10
-Main Process: End Ocean Temperature: 129
-====================================================================================================
-Main Process ThreadSeason: 75 begins
-Main Process: Start food Unit: 1511258.0
-Main Process: Start Ocean Temperature: 129
-Main Process Thread: Food grow at 6750.0
-Main Process ThreadSeason: 75 ends
-Main Process: End food Unit: 1.4782207538494669E10
-Main Process: End Ocean Temperature: 135
-====================================================================================================
-Main Process ThreadSeason: 76 begins
-Main Process: Start food Unit: 2547220.0
-Main Process: Start Ocean Temperature: 135
-Main Process Thread: Food grow at 6840.0
-Main Process Thread: Human hunt event at 6840.0
-Main Process ThreadSeason: 76 ends
-Main Process: End food Unit: 1.971271070258789E10
-Main Process: End Ocean Temperature: 137
-====================================================================================================
-Main Process ThreadSeason: 77 begins
-Main Process: Start food Unit: 2470563.0
-Main Process: Start Ocean Temperature: 137
-Main Process Thread: Food grow at 6930.0
-Main Process ThreadSeason: 77 ends
-Main Process: End food Unit: 2.6811318185591957E10
-Main Process: End Ocean Temperature: 142
-====================================================================================================
-Main Process ThreadSeason: 78 begins
-Main Process: Start food Unit: 2600976.0
-Main Process: Start Ocean Temperature: 142
-Main Process Thread: Food grow at 7020.0
-Main Process Thread: Human fish event at 7020.0
-Main Process ThreadSeason: 78 ends
-Main Process: End food Unit: 3.273558909588798E10
-Main Process: End Ocean Temperature: 140
-====================================================================================================
-Main Process ThreadSeason: 79 begins
-Main Process: Start food Unit: 2700000.0
-Main Process: Start Ocean Temperature: 140
-Main Process Thread: Food grow at 7110.0
-Main Process ThreadSeason: 79 ends
-Main Process: End food Unit: 3.568935580671919E10
-Main Process: End Ocean Temperature: 138
+Main Process: End food Unit: 785220.5275547928
+Main Process: End Total food Unit: 1.4065582747993134E7
+Main Process: End Ocean Temperature: 90
 ====================================================================================================
