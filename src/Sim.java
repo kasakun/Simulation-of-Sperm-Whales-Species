@@ -48,8 +48,8 @@ public class Sim {
 
         MainProc mp = new MainProc(0, 85, 27000000);
         KillerWhales kw = new KillerWhales(3000, 350, 0.03, 0.01);
-        SpermWhales sw = new SpermWhales(10000, 10000, 0.03, 0.002);
-        MarineMammals mm = new MarineMammals(20000, 20000, 0.04, 0.018);
+        SpermWhales sw = new SpermWhales(10000, 10000, 0.08, 0.002);
+        MarineMammals mm = new MarineMammals(20000, 20000, 0.09, 0.018);
 
         FileOutputStream fileLog = null;
         try {
@@ -309,10 +309,12 @@ public class Sim {
 
                         if (kw.food < kw.demand) {
 //                            kw.reprorate = 0.02*((kw.demand - kw.food)/kw.demand);
-                            kw.number -= (int)((kw.demand - kw.food)*0.1);
-                            System.out.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
+                            int kwDie = (int)((kw.demand - kw.food)/kw.demand*kw.number);
+                            kw.number -= kwDie;
+                            kw.number -= kwDie;
+                            System.out.println(kw.name + ": " + kwDie + " dies for hunger.");
 
-                            killerWhalePrint.println(kw.name + ": " + (int)((kw.demand - kw.food)*0.1) + " dies for hunger.");
+                            killerWhalePrint.println(kw.name + ": " + kwDie + " dies for hunger.");
                         }
 //                        else {
 //                            kw.reprorate = 0.025*(1 + (kw.food - kw.demand)/kw.demand);
@@ -343,7 +345,7 @@ public class Sim {
                 double timeHelper = 0.0;
                 double reprorate;
 
-                int K = 15000;
+                int K = 10000;
 
                 FileOutputStream spermWhaleLog = null;
                 try {
@@ -416,14 +418,13 @@ public class Sim {
 
                         // Calculate death for hunger
                         if (sw.food < sw.demand ) {
-                            if (sw.food != sw.demand)
 //                                sw.reprorate = 0.02*((sw.demand - sw.food)/sw.demand);
-                                sw.number -= (int)((sw.demand - sw.food)*0.01);
-
+                            int swDie = (int)((sw.demand - sw.food)/sw.demand*sw.number);
+                            mm.number -= swDie;
                             if (mm.number <= 0)
                                 mm.number = 0;
-                            System.out.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
-                            spermWhalePrint.println(sw.name + ": " + (int)((sw.demand - sw.food)*0.01) + " dies for hunger.");
+                            System.out.println(sw.name + ": " + swDie + " dies for hunger.");
+                            spermWhalePrint.println(sw.name + ": " + swDie + " dies for hunger.");
                         }
 //                        else {
 //                            if (sw.food != sw.demand)
@@ -453,7 +454,7 @@ public class Sim {
                 double timeHelper = 0.0;
                 double reprorate;
 
-                int K = 25000;
+                int K = 20000;
 
                 FileOutputStream marineMammalLog = null;
                 try {
@@ -528,10 +529,11 @@ public class Sim {
                         if (mm.food < mm.demand) {
 //                            if (mm.food != mm.demand)
 //                                mm.reprorate = 0.03*((mm.demand - mm.food)/sw.demand);
-                            mm.number -= (int) ((mm.demand - mm.food) * 0.01);
+                            int mmDie= (int) ((mm.demand - mm.food)/mm.food*mm.number);
+                            mm.number -= mmDie;
                             if (mm.number <= 0) mm.number = 0;
-                            System.out.println(mm.name + ": " + (int)((mm.demand - mm.food) * 0.01) + " dies for hunger.");
-                            marineMammalPrint.println(mm.name + ": " + (int) ((mm.demand - mm.food) * 0.01) + " dies for hunger.");
+                            System.out.println(mm.name + ": " + mmDie + " dies for hunger.");
+                            marineMammalPrint.println(mm.name + ": " + mmDie + " dies for hunger.");
                         }
 //                        else {
 //                            if (mm.food != mm.demand)
