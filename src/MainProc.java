@@ -106,7 +106,8 @@ public class MainProc {
     }
 
     public void foodGrow() {
-        this.totalFood = this.totalFood * 1.059 * (((double)this.oceanTemp-85)/300 + 1) * curType.getRate(oceanCur);
+        this.totalFood = Math.min(35000000, this.totalFood * 1.15 * (((double)this.oceanTemp-85)/300 + 1) * curType.getRate(oceanCur));
+
         System.out.println("Main Proc: Food resource grow, current total food resource:" + this.totalFood);
         this.updateFood();
     }

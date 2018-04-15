@@ -28,10 +28,13 @@ public class Sim {
 
 
     public static double timeLimit = 36000;  // The unit is day. 360 is onw year, 90 is one season, change it to control the time limit.
-    public static int fisheryLevel = 0;
+    public static int fisheryLevel = 0; // 0 for no fishing, 5 for fishing every season
     public static String fileName;
+    public static boolean dataFlag = false;
 
     public static void main(String[] args) {
+        Map<Integer, Integer> allData = new HashMap<>();
+
         if (args.length  == 0) {
             System.out.println("Running by default 3600 days, 40 seasons.");
         }
@@ -40,7 +43,7 @@ public class Sim {
             // timeLimit = Integer.parseInt(args[0]);
             fileName = args[0];
             fisheryLevel = Integer.parseInt(args[1]);
-
+            dataFlag = true;
             FileOutputStream fileLog = null;
             try {
                 fileLog = new FileOutputStream("fileLog.txt");
@@ -60,16 +63,15 @@ public class Sim {
             }
             String line = "";
             try {
-                Map<Integer, Integer> allData = new HashMap<>();
                 while ((line = br.readLine()) != null)
                 {
                     countYear++;
                     String[] linedata = line.split(",");
 
-                    int thisYear = Integer.parseInt(linedata[0]);
-                    int huntNum = Integer.parseInt(linedata[1]);
-                    allData.put(thisYear, huntNum);
-                    filePrint.println("At year: " + thisYear + " hunt " + huntNum + " sperm whales");
+                    int dataYear = Integer.parseInt(linedata[0]);
+                    int dataNum = Integer.parseInt(linedata[1]);
+                    allData.put(dataYear, dataNum);
+                    filePrint.println("At year: " + dataYear + " hunt " + dataNum + " sperm whales");
                 }
             } catch (IOException e)
             {
@@ -164,16 +166,25 @@ public class Sim {
 
                         }
                         if (temp % 360 == 0) {
-                            Event humanHunt = new humanHunt(temp + 90);
-                            mpengine.eventList.add(humanHunt);
-                            mainProcPrint.println(threadName + ": Human hunt event at " + now);
+                            if (dataFlag) {
+                                sw.numberl.lock();
+                                try {
+                                    int thisyear = ((int)(temp/360)) + 1910;
+                                    int huntNumByYear = allData.get(thisyear)/50;
+                                    sw.number -= huntNumByYear;
+                                    System.out.println(threadName + ": at Year" + thisyear +", hunt " + huntNumByYear + " Sperm whales.");
+                                    mainProcPrint.println(threadName + ": at Year" + thisyear +", hunt " + huntNumByYear + " Sperm whales.");
+                                } finally {
+                                    sw.numberl.unlock();
+                                }
+                            } else {
+                                Event humanHunt = new humanHunt(temp + 90);
+                                mpengine.eventList.add(humanHunt);
+                                mainProcPrint.println(threadName + ": Human hunt event at " + now);
+                            }
                         }
-                        if (temp % 360 == 90 && fisheryLevel > 1) {
-                            Event humanHunt = new humanHunt(temp + 90);
-                            mpengine.eventList.add(humanHunt);
-                            mainProcPrint.println(threadName + ": Human hunt event at " + now);
-                        }
-                        if (Math.random() > 0.8) {
+
+                        if (Math.random() < 0.2 * fisheryLevel) {
                             Event humanFish = new humanFish(temp + 90);
                             mpengine.eventList.add(humanFish);
                             mainProcPrint.println(threadName + ": Human fish event at " + now);
