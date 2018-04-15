@@ -119,7 +119,7 @@ public class MainProc {
     }
 
     public void springToSummer() {
-        this.oceanTemp += (int) (3 * Math.random() + 3);
+        this.oceanTemp += (int) (3 * Math.random() + 2);
         this.oceanCur = 0;
         System.out.println("Main Proc: Season Change, current temperature:" + this.oceanTemp
                 + ", current ocean currents:" + this.oceanCur);

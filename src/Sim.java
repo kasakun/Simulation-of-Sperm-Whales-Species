@@ -173,7 +173,7 @@ public class Sim {
                             mpengine.eventList.add(humanHunt);
                             mainProcPrint.println(threadName + ": Human hunt event at " + now);
                         }
-                        if (Math.random() > 0.1) {
+                        if (Math.random() > 0.8) {
                             Event humanFish = new humanFish(temp + 90);
                             mpengine.eventList.add(humanFish);
                             mainProcPrint.println(threadName + ": Human fish event at " + now);
