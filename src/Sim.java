@@ -81,7 +81,11 @@ public class Sim {
             timeLimit = countYear * 360;
         }
         else {
+            System.out.println("---------Invalid Input-------------");
             System.out.println("Please input the correct number of days.");
+            System.out.println("To use default parameter, run: java Sim");
+            System.out.println("To use yearly data, run: java Sim + Filename + fisheryLevel");
+
             return;
         }
 
